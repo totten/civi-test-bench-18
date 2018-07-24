@@ -1,5 +1,13 @@
 #!/bin/bash
 
+if [ -z "$TRIAL" ]; then
+  echo "usage: TRIAL=n ./report.sh"
+  exit 1
+fi
+set -ex
+cd "trial-$TRIAL"
+################################################################################
+
 for d in dc* ; do
   echo
   pushd "$d" >> /dev/null
