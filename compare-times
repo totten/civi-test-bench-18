@@ -3,43 +3,74 @@
 
 // Read two JUnit XML files. Prepare a table comparing the runtimes.
 
-function gettimes($file) {
+function getstats($file) {
   printf("Loading %s\n", $file);
   $x = simplexml_load_file($file);
-  
+
   $times = [];
   foreach ($x->testsuite as $ts) {
     foreach ($ts->testsuite as $t) {
       $name = (string)$t['name'];
       $time = (string) $t['time'];
-      $times[$name] = $time;
+      $times[$name] = [
+        'time' => $time,
+        'count' => (string)$t['tests'],// count_cases($t),
+      ];
     }
   }
-  
+
   ksort($times);
   return $times;
 }
 
+function mergestats($t1, $t2) {
+  $tests = array_unique(array_merge(
+    array_keys($t1),
+    array_keys($t2)
+  ));
+  sort($tests);
+
+  $m = [];
+  foreach ($tests as $test) {
+    $m[$test] = [
+      'name' => $test,
+      'time_1' => isset($t1[$test]) ? $t1[$test]['time'] : '',
+      'time_2' => isset($t2[$test]) ? $t2[$test]['time'] : '',
+      'time_diff' =>
+        (isset($t2[$test]['time']) ? $t2[$test]['time'] : 0)
+        -
+        (isset($t1[$test]['time']) ? $t1[$test]['time'] : 0),
+
+      'count_1' => isset($t1[$test]) ? $t1[$test]['count'] : '',
+      'count_2' => isset($t2[$test]) ? $t2[$test]['count'] : '',
+      'count_diff' =>
+        (isset($t2[$test]['count']) ? $t2[$test]['count'] : 0)
+        -
+        (isset($t1[$test]['count']) ? $t1[$test]['count'] : 0),
+    ];
+  }
+  return $m;
+}
 
 list ($prog, $file1, $file2) = $argv;
-$t1 = gettimes($file1);
-$t2 = gettimes($file2);
-$tests = array_unique(array_merge(
-  array_keys($t1),
-  array_keys($t2)
-));
+$t1 = getstats($file1);
+$t2 = getstats($file2);
+$m = mergestats($t1, $t2);
 
-printf("%-50s %7s %7s %7s\n", 'TEST', 'TIME-1', 'TIME-2', 'CHANGE');
-foreach ($tests as $test) {
-  $change = 
-    (isset($t2[$test]) ? $t2[$test] : 0)
-    -
-    (isset($t1[$test]) ? $t1[$test] : 0);
-  printf("%-50s %7.2f %7.2f %7.2f (%s%%)\n", 
-    $test, 
-    isset($t1[$test]) ? $t1[$test] : '',
-    isset($t2[$test]) ? $t2[$test] : '',
-    $change,
-    isset($t1[$test]) ? floor(100*$change / $t1[$test]) : 'NA'
-  );
+//printf("%-40s %7s %7s %7s (%s)   %7s %7s %7s (CHG%%)\n", 'TEST', 'TIME-1', 'TIME-2', 'CHANGE', '(%)', 'COUNT-1', 'COUNT-2', 'CHANGE', '(%)');
+fputcsv(STDOUT, ['TEST', 'TIME-1', 'TIME-2', 'CHANGE (#)', 'CHANGE (%)', 'COUNT-1', 'COUNT-2', 'CHANGE (#)', 'CHANGE (%)']);
+foreach ($m as $test => $stat) {
+  //printf("%-40s %7.2f %7.2f %7.2f (%3s%%) %7.2f %7.2f %7.2f (%3s%%)\n",
+  fputcsv(STDOUT, [
+    $test,
+    $stat['time_1'],
+    $stat['time_2'],
+    $stat['time_diff'],
+    ($stat['time_1'] && $stat['time_2']) ? floor(100 * $stat['time_diff'] / $stat['time_1']) : 'NA',
+    $stat['count_1'],
+    $stat['count_2'],
+    $stat['count_diff'],
+    ($stat['count_1'] && $stat['count_2']) ? floor(100 * $stat['count_diff'] / $stat['count_1']) : 'NA'
+  ]);
+  //);
 }
