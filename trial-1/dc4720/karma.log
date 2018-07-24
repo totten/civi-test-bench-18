@@ -1,0 +1,118 @@
+~/bknix/build/dcbench ~/bknix
+~/bknix
+~/bknix/build/dcbench/sites/all/modules/civicrm ~/bknix
+Array
+(
+    [is_error] => 0
+    [version] => 3
+    [count] => 1
+    [id] => 202
+    [values] => Array
+        (
+            [202] => Array
+                (
+                    [contact_id] => 202
+                    [contact_type] => Individual
+                    [contact_sub_type] => 
+                    [sort_name] => admin@example.com
+                    [display_name] => admin@example.com
+                    [do_not_email] => 0
+                    [do_not_phone] => 0
+                    [do_not_mail] => 0
+                    [do_not_sms] => 0
+                    [do_not_trade] => 0
+                    [is_opt_out] => 0
+                    [legal_identifier] => 
+                    [external_identifier] => 
+                    [nick_name] => 
+                    [legal_name] => 
+                    [image_URL] => 
+                    [preferred_communication_method] => 
+                    [preferred_language] => en_US
+                    [preferred_mail_format] => Both
+                    [first_name] => 
+                    [middle_name] => 
+                    [last_name] => 
+                    [prefix_id] => 
+                    [suffix_id] => 
+                    [formal_title] => 
+                    [communication_style_id] => 
+                    [job_title] => 
+                    [gender_id] => 
+                    [birth_date] => 
+                    [is_deceased] => 0
+                    [deceased_date] => 
+                    [household_name] => 
+                    [organization_name] => 
+                    [sic_code] => 
+                    [contact_is_deleted] => 0
+                    [current_employer] => 
+                    [address_id] => 
+                    [street_address] => 
+                    [supplemental_address_1] => 
+                    [supplemental_address_2] => 
+                    [supplemental_address_3] => 
+                    [city] => 
+                    [postal_code_suffix] => 
+                    [postal_code] => 
+                    [geo_code_1] => 
+                    [geo_code_2] => 
+                    [state_province_id] => 
+                    [country_id] => 
+                    [phone_id] => 
+                    [phone_type_id] => 
+                    [phone] => 
+                    [email_id] => 189
+                    [email] => admin@example.com
+                    [on_hold] => 0
+                    [im_id] => 
+                    [provider_id] => 
+                    [im] => 
+                    [worldregion_id] => 
+                    [world_region] => 
+                    [languages] => English (United States)
+                    [individual_prefix] => 
+                    [individual_suffix] => 
+                    [communication_style] => 
+                    [gender] => 
+                    [state_province_name] => 
+                    [state_province] => 
+                    [country] => 
+                    [id] => 202
+                )
+
+        )
+
+)
+
+[32mINFO [karma]: [39mKarma v0.12.37 server started at http://localhost:9876/
+[32mINFO [launcher]: [39mStarting browser PhantomJS
+[32mINFO [PhantomJS 2.1.1 (Linux 0.0.0)]: [39mConnected on socket Qce9AZArpP99u0JCffXx with id 96746800
+...................
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+[31mPhantomJS 2.1.1 (Linux 0.0.0) crmMailingRadioDate crmMailingRadioDate directive should update the UI after changing the model FAILED[39m
+	Expected 'Wed Jul 24 2019' to equal 'Tue Jul 23 2019'.
+	/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/karma/unit/crmMailingRadioDateSpec.js:117:90
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+ALERT: [36m'Error
+The scheduled date and time is in the past'[39m
+............
+PhantomJS 2.1.1 (Linux 0.0.0): Executed 32 of 32[31m (1 FAILED)[39m (0.18 secs / 0.222 secs)
+Found EXITCODES=" karma"
+~/bknix
+Check test results and set exit code
+Found <failure> in XML

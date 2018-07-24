@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+<testsuite tests="10">
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_2_0-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_2_9-multilingual_af_bg_en_mysql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_3_0-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_4_5-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_5_0-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_5_5-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_6_0-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_6_11-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_6_36-setupsh_sql_bz2" />
+  <testcase class="CivicrmUpgradeTest" name="CivicrmUpgradeTest.4_7_31-setupsh_sql_bz2" />
+</testsuite>
+</testsuites>

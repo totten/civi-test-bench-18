@@ -1,0 +1,137 @@
+~/bknix/build/dcbench ~/bknix
+~/bknix
+RUN:[[./scripts/phpunit --tap --log-junit '/home/totten/testbench-result/dc53/junit/Civi\AllTests.xml'  'Civi\AllTests']]
+TAP version 13
+ok 1 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #0 ('Widget', 'create', array(20))
+# Installing dcbenchtes_ua368 database
+ok 2 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #1 ('Widget', 'get', array(20))
+ok 3 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #2 ('FakeFile', 'create', array(10))
+ok 4 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #3 ('FakeFile', 'get', array(10))
+ok 5 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #4 ('FakeFile', 'create', array('fake_widget', 20))
+ok 6 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #0 ('Forbidden', 'create', array(30), '/Authorization failed/')
+ok 7 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #1 ('Forbidden', 'get', array(30), '/Authorization failed/')
+ok 8 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #2 ('FakeFile', 'create', array(11), '/Authorization failed/')
+ok 9 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #3 ('FakeFile', 'get', array(11), '/Authorization failed/')
+ok 10 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #4 ('FakeFile', 'create', array('fake_forbidden'), '/Authorization failed/')
+ok 11 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #5 ('FakeFile', 'get', array('fake_forbidden'), '/Authorization failed/')
+ok 12 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #6 ('FakeFile', 'create', array('fake_forbidden', 30), '/Authorization failed/')
+ok 13 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #7 ('FakeFile', 'get', array('fake_forbidden', 30), '/Authorization failed/')
+ok 14 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #8 ('FakeFile', 'create', array(), '/Mandatory key\(s\) missing f...table/')
+ok 15 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #9 ('FakeFile', 'get', array(), '/Mandatory key\(s\) missing f...table/')
+ok 16 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #10 ('FakeFile', 'create', array('unknown'), '/Unrecognized target entity/')
+ok 17 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #11 ('FakeFile', 'get', array('unknown'), '/Unrecognized target entity/')
+ok 18 - Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #12 ('FakeFile', 'get', array('fake_widget'), '/Missing entity_id/')
+ok 19 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #0 (3, 'Widget', 'get', array(), false, false, false)
+ok 20 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #1 (3, 'Widget', 'create', array(), true, false, false)
+ok 21 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #2 (3, 'Widget', 'delete', array(), true, false, false)
+ok 22 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #3 (3, 'Widget', 'submit', array(), true, false, false)
+ok 23 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #4 (3, 'Widget', 'get', array(true), true, false, false)
+ok 24 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #5 (3, 'Widget', 'get', array(false), false, false, false)
+ok 25 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #6 (3, 'Widget', 'get', array('nest'), true, false, true)
+ok 26 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #7 (3, 'Widget', 'create', array(true), true, false, false)
+ok 27 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #8 (3, 'Widget', 'create', array(false), false, false, false)
+ok 28 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #9 (3, 'Widget', 'create', array('nest'), true, false, true)
+ok 29 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #10 (3, 'Widget', 'create', array(array(true)), true, true, true)
+ok 30 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #11 (3, 'Widget', 'create', array(array(false)), true, false, false)
+ok 31 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #12 (3, 'Widget', 'create', array(true, array(true)), true, true, true)
+ok 32 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #13 (3, 'Widget', 'create', array(true, array(false)), true, false, false)
+ok 33 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #14 (3, 'Widget', 'create', array(false, array(true)), true, true, true)
+ok 34 - Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #15 (3, 'Widget', 'create', array(false, array(false)), false, false, false)
+ok 35 - Civi\API\Subscriber\TransactionSubscriberTest::testForceRollback
+ok 36 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #0 (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, '*', '*', array(), '*')), true)
+ok 37 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #1 (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ok 38 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #2 (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array(), '*')), true)
+ok 39 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #3 (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'create', array(), '*')), false)
+ok 40 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #4 (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', array('get', 'create'), array(), '*')), true)
+ok 41 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #5 (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Sprocket', '*', array(), '*')), false)
+ok 42 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #6 (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, '*', '*', array(), '*')), true)
+ok 43 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #7 (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, 'Sprocket', '*', array(), '*')), true)
+ok 44 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #8 (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, 'Widget', '*', array(), '*')), false)
+ok 45 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #9 (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, 'Widget', 'get', array(), '*')), false)
+ok 46 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #10 (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ok 47 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #11 (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), '*')), true)
+ok 48 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #12 (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array('foo'), '*')), false)
+ok 49 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #13 (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array('foo'), '*'), array(3, 'Sprocket', '*', array(), '*')), false)
+ok 50 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #14 (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title'))), true)
+ok 51 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #15 (array('Widget', 'get', array(3, 'foo'), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ok 52 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #16 (array('Widget', 'get', array(3, 'foo'), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'))), array(array(3, 'Widget', 'get', array('foo'), '*')), true)
+ok 53 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #17 (array('Widget', 'get', array(3, 'foo'), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), '*')), false)
+ok 54 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #18 (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, '*', '*', array(), '*')), true)
+ok 55 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #19 (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ok 56 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #20 (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), '*')), true)
+ok 57 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #21 (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title'))), true)
+ok 58 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #22 (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'widget_type'))), false)
+ok 59 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #23 (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'widget_type')), array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title'))), true)
+ok 60 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #24 (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title')), array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'widget_type'))), true)
+ok 61 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #25 (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, '*', '*', array(), '*')), true)
+ok 62 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #26 (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array('bar'), array('id', 'title')), array(3, 'Sprocket', 'get', array(), '*')), true)
+ok 63 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #27 (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array(), '*'), array(3, 'Sprocket', 'get', array(), array('id', 'title', 'widget_id', 'entity_id', 'entity_table'))), false)
+ok 64 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #28 (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array(), '*'), array(3, 'Sprocket', 'get', array(), array('id', 'provider', 'widget_id', 'entity_id', 'entity_table'))), true)
+ok 65 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #29 (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array('foo'), '*'), array(3, 'Sprocket', 'get', array(), '*')), false)
+ok 66 - Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #30 (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array(), '*')), false)
+ok 67 - Civi\API\KernelTest::testNormalEvents
+ok 68 - Civi\API\KernelTest::testResolveException
+ok 69 - Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #0 (array('MyEntity', 'MyAction', 3), array('MyEntity', 'myaction', 3))
+ok 70 - Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #1 (array('my+entity', 'MyAction', 3), array('MyEntity', 'myaction', 3))
+ok 71 - Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #2 (array('my entity with under_scores', 'My_Action', 3), array('MyEntityWithUnderScores', 'my_action', 3))
+ok 72 - Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #3 (array('u_f_match', 'get Something', 3), array('UFMatch', 'get_something', 3))
+ok 73 - Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #0 ('Not!Valid', 'create', 4)
+ok 74 - Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #1 ('My+Entity', 'MyAction', 4)
+ok 75 - Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #2 ('My Entity', 'MyAction', 4)
+ok 76 - Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #3 ('2MyEntity', 'MyAction', 4)
+ok 77 - Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #4 ('MyEntity', 'My+Action', 4)
+ok 78 - Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #5 ('MyEntity', 'My Action', 4)
+ok 79 - Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #6 ('MyEntity', '2Action', 4)
+ok 80 - Civi\Angular\ChangeSetTest::testInsertAfter
+ok 81 - Civi\Angular\ChangeSetTest::testAppendPrepend
+ok 82 - Civi\Angular\ManagerTest::testGetModules
+ok 83 - Civi\Angular\ManagerTest::testGetPartials
+ok 84 - Civi\Angular\ManagerTest::testGetPartials_Hooked
+ok 85 - Civi\Angular\ManagerTest::testGetJs_Asset
+ok 86 - Civi\Angular\ManagerTest::testGetStrings
+ok 87 - Civi\Angular\ManagerTest::testGetStrings_Hooked
+ok 88 - Civi\Angular\ManagerTest::testGetRequires
+ok 89 - Civi\Angular\ManagerTest::testGetRequires_Hooked
+ok 90 - Civi\Angular\ManagerTest::testResolveDeps
+ok 91 - Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #0 ('<div foo="bar"></div>', '<div foo="bar"></div>')
+ok 92 - Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #1 ('<div foo="bar"/>', '<div foo="bar"></div>')
+ok 93 - Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #2 ('<div foo='bar'></div>', '<div foo="bar"></div>')
+ok 94 - Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #3 ('<div foo='ts("Hello world")'></div>', '<div foo='ts("Hello world")'></div>')
+ok 95 - Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #4 ('<div foo="ts('Hello world')\"></div>', '<div foo="ts('Hello world')\"></div>')
+ok 96 - Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #5 ('<a href="{{foo}}" title="{{bar}}"></a>', '<a href="{{foo}}" title="{{bar}}"></a>')
+ok 97 - Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #6 ('<div ng-if="a && b"></div>', '<div ng-if="a && b"></div>')
+ok 98 - Civi\Angular\PartialSyntaxTest::testAllPartials
+ok 99 - Civi\CCase\SequenceListenerTest::testSequence
+ok 100 - Civi\Core\Event\GenericHookEventTest::testConstructParams
+ok 101 - Civi\Core\Event\GenericHookEventTest::testConstructOrdered
+ok 102 - Civi\Core\Event\GenericHookEventTest::testDispatch
+ok 103 - Civi\Core\CiviEventInspectorTest::testGet
+ok 104 - Civi\Core\CiviEventInspectorTest::testGetAll
+ok 105 - Civi\Core\CiviEventInspectorTest::testFind
+ok 106 - Civi\Core\ResolverTest::testConstant
+ok 107 - Civi\Core\ResolverTest::testGlobalFunc
+ok 108 - Civi\Core\ResolverTest::testStatic
+ok 109 - Civi\Core\ResolverTest::testApi3
+ok 110 - Civi\Core\ResolverTest::testCall
+ok 111 - Civi\Core\ResolverTest::testCallWithInvalidService
+ok 112 - Civi\Core\ResolverTest::testGlobalGetter
+ok 113 - Civi\Core\ResolverTest::testGlobalSetter
+ok 114 - Civi\Core\ResolverTest::testObj
+ok 115 - Civi\Core\ResolverTest::testObjWithInvalidService
+ok 116 - Civi\Core\ResolverTest::testClass
+ok 117 - Civi\Core\SettingsBagTest::testInnoDbFTS
+ok 118 - Civi\Core\SettingsManagerTest::testTwoDomains
+ok 119 - Civi\Core\SettingsManagerTest::testTwoContacts
+ok 120 - Civi\Core\SettingsManagerTest::testCrossOver
+ok 121 - Civi\Core\SettingsStackTest::testStack
+ok 122 - Civi\Test\ExampleHookTest::testPageOutput
+ok 123 - Civi\Test\ExampleTransactionalTest::testDummy1
+ok 124 - Civi\Test\ExampleTransactionalTest::testDummy2
+ok 125 - Civi\Token\TokenProcessorTest::testRowContext
+ok 126 - Civi\Token\TokenProcessorTest::testRowTokens
+ok 127 - Civi\Token\TokenProcessorTest::testGetMessageTokens
+ok 128 - Civi\Token\TokenProcessorTest::testFull
+1..128
+Found EXITCODES=""
+Check test results and set exit code
+Exit normally

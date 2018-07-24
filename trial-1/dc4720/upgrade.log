@@ -1,0 +1,208 @@
+~/bknix/build/dcbench ~/bknix
+~/bknix
+[[Load saved options from /home/totten/bknix/build/dcbench.sh]]
+Identify files: [ "4.2.9-multilingual_af_bg_en*" "@4.2..4.7.20:10"]
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.2.0-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.2.9-multilingual_af_bg_en.mysql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.2.16-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.3.0-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.4.0-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.4.5-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.5.5-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.6.0-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.6.11-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.6.36-setupsh.sql.bz2
+/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.7.0-setupsh.sql.bz2
+Web Dir: [/home/totten/bknix/build/dcbench]
+Output Dir: [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench]
+Database Name: [dcbenchciv_y4e0y]
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.2.0-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.2.0-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.2.0-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.2.9-multilingual_af_bg_en.mysql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.2.9-multilingual_af_bg_en.mysql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.2.9-multilingual_af_bg_en.mysql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.2.16-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.2.16-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.2.16-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.3.0-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.3.0-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.3.0-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.4.0-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.4.0-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.4.0-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.4.5-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.4.5-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.4.5-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.5.5-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.5.5-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.5.5-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.6.0-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.6.0-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.6.0-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.6.11-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.6.11-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.6.11-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.6.36-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.6.36-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.6.36-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+
+------------------------------------------------------
+Input [/home/totten/bknix/civicrm-buildkit/vendor/civicrm/upgrade-test/databases/4.7.0-setupsh.sql.bz2]
+Output [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.7.0-setupsh.sql.bz2.out] [/home/totten/bknix/civicrm-buildkit/app/debug/dcbench/4.7.0-setupsh.sql.bz2.log]
+
+Dropping civicrm_* views from database dcbenchciv_y4e0y
+
+Dropping civicrm_* tables from database dcbenchciv_y4e0y
+
+Dropping civicrm_* functions from database dcbenchciv_y4e0y
+
+Loading database dcbenchciv_y4e0y
+
+Upgrading database dcbenchciv_y4e0y
+
+------------------------------------------------------
+Summary
+4.2.0-setupsh.sql.bz2	OK
+4.2.9-multilingual_af_bg_en.mysql.bz2	OK
+4.2.16-setupsh.sql.bz2	OK
+4.3.0-setupsh.sql.bz2	OK
+4.4.0-setupsh.sql.bz2	OK
+4.4.5-setupsh.sql.bz2	OK
+4.5.5-setupsh.sql.bz2	OK
+4.6.0-setupsh.sql.bz2	OK
+4.6.11-setupsh.sql.bz2	OK
+4.6.36-setupsh.sql.bz2	OK
+4.7.0-setupsh.sql.bz2	OK
+------------------------------------------------------
+Generate JUnit XML
+Found EXITCODES=""
+[[Load saved options from /home/totten/bknix/build/dcbench.sh]]
+[[Setup MySQL and HTTP for CMS]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (cms) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/cms.sql.gz)]]
+[[Setup MySQL for Civi]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (civi) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+[[Setup MySQL for Test]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (test) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+Check test results and set exit code
+Exit normally

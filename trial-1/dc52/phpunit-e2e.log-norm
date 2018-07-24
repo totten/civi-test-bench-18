@@ -1,0 +1,24 @@
+ E2E\Core\AssetBuilderTest::testRender with data set #X ('square.txt', array(11), 'text/plain', 'Square: 121')
+ E2E\Core\AssetBuilderTest::testRender with data set #X ('square.txt', array(12), 'text/plain', 'Square: 144')
+ E2E\Core\AssetBuilderTest::testRender with data set #X ('square.js', array(12), 'application/javascript', 'var square=144;')
+ E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #X ('square.txt', array(11), 'text/plain', 'Square: 121')
+ E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #X ('square.txt', array(12), 'text/plain', 'Square: 144')
+ E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #X ('square.js', array(12), 'application/javascript', 'var square=144;')
+ E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #X ('square.txt', array(11), 'text/plain', 'Square: 121')
+ E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #X ('square.txt', array(12), 'text/plain', 'Square: 144')
+ E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #X ('square.js', array(12), 'application/javascript', 'var square=144;')
+ E2E\Core\AssetBuilderTest::testInvalid
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contact', 'get', 'ayni818meMVquuBH', '1'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contact', 'get', 'ayni818meMVquuBH', '1', '6775018641149697591'), 0)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contact', 'get', 'ayni818meMVquuBH', '1', 'garbage_6775018641149697591'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contactses', 'get', 'ayni818meMVquuBH', '1', '6775018641149697591'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contact/get', 'ayni818meMVquuBH', '1'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contact/get', 'ayni818meMVquuBH', '1', '6775018641149697591'), 0)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contact/get', 'ayni818meMVquuBH', '1', 'garbage_6775018641149697591'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contactses/get', 'ayni818meMVquuBH', '1', '6775018641149697591'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/ping', 'ayni818meMVquuBH', '1', '6775018641149697591'), 0)
+ E2E_Extern_RestTest::testNotCMSUser_entityAction
+ E2E_Extern_RestTest::testNotCMSUser_q
+ E2E_Extern_SoapTest::testAuthenticationBadPassword
+ E2E_Extern_SoapTest::testAuthenticationBadKey
+ E2E_Extern_SoapTest::testGetContact

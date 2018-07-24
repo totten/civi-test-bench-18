@@ -1,0 +1,39 @@
+~/bknix/build/dcbench ~/bknix
+~/bknix
+RUN:[[./scripts/phpunit --tap --log-junit '/home/totten/testbench-result/dc51/junit/E2E_AllTests.xml'  'E2E_AllTests']]
+TAP version 13
+ok 1 - E2E\Core\AssetBuilderTest::testRender with data set #0 ('square.txt', array(11), 'text/plain', 'Square: 121')
+ok 2 - E2E\Core\AssetBuilderTest::testRender with data set #1 ('square.txt', array(12), 'text/plain', 'Square: 144')
+ok 3 - E2E\Core\AssetBuilderTest::testRender with data set #2 ('square.js', array(12), 'application/javascript', 'var square=144;')
+ok 4 - E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #0 ('square.txt', array(11), 'text/plain', 'Square: 121')
+ok 5 - E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #1 ('square.txt', array(12), 'text/plain', 'Square: 144')
+ok 6 - E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #2 ('square.js', array(12), 'application/javascript', 'var square=144;')
+ok 7 - E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #0 ('square.txt', array(11), 'text/plain', 'Square: 121')
+ok 8 - E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #1 ('square.txt', array(12), 'text/plain', 'Square: 144')
+ok 9 - E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #2 ('square.js', array(12), 'application/javascript', 'var square=144;')
+ok 10 - E2E\Core\AssetBuilderTest::testInvalid
+ok 11 - E2E_Extern_RestTest::testAPICalls with data set #0 (array('Contact', 'get', 'JKQ2tYM0Z3bOKhW1', '1'), 1)
+ok 12 - E2E_Extern_RestTest::testAPICalls with data set #1 (array('Contact', 'get', 'JKQ2tYM0Z3bOKhW1', '1', '9466491671732106762'), 0)
+ok 13 - E2E_Extern_RestTest::testAPICalls with data set #2 (array('Contact', 'get', 'JKQ2tYM0Z3bOKhW1', '1', 'garbage_9466491671732106762'), 1)
+ok 14 - E2E_Extern_RestTest::testAPICalls with data set #3 (array('Contactses', 'get', 'JKQ2tYM0Z3bOKhW1', '1', '9466491671732106762'), 1)
+ok 15 - E2E_Extern_RestTest::testAPICalls with data set #4 (array('civicrm/contact/get', 'JKQ2tYM0Z3bOKhW1', '1'), 1)
+ok 16 - E2E_Extern_RestTest::testAPICalls with data set #5 (array('civicrm/contact/get', 'JKQ2tYM0Z3bOKhW1', '1', '9466491671732106762'), 0)
+ok 17 - E2E_Extern_RestTest::testAPICalls with data set #6 (array('civicrm/contact/get', 'JKQ2tYM0Z3bOKhW1', '1', 'garbage_9466491671732106762'), 1)
+ok 18 - E2E_Extern_RestTest::testAPICalls with data set #7 (array('civicrm/contactses/get', 'JKQ2tYM0Z3bOKhW1', '1', '9466491671732106762'), 1)
+ok 19 - E2E_Extern_RestTest::testAPICalls with data set #8 (array('civicrm/ping', 'JKQ2tYM0Z3bOKhW1', '1', '9466491671732106762'), 0)
+ok 20 - E2E_Extern_RestTest::testNotCMSUser_entityAction
+ok 21 - E2E_Extern_RestTest::testNotCMSUser_q
+ok 22 - E2E_Extern_SoapTest::testAuthenticationBadPassword
+ok 23 - E2E_Extern_SoapTest::testAuthenticationBadKey
+ok 24 - E2E_Extern_SoapTest::testGetContact
+1..24
+Found EXITCODES=""
+[[Load saved options from /home/totten/bknix/build/dcbench.sh]]
+[[Setup MySQL and HTTP for CMS]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (cms) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/cms.sql.gz)]]
+[[Setup MySQL for Civi]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (civi) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+[[Setup MySQL for Test]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (test) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+Check test results and set exit code
+Exit normally

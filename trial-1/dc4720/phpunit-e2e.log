@@ -1,0 +1,29 @@
+~/bknix/build/dcbench ~/bknix
+~/bknix
+RUN:[[./scripts/phpunit --tap --log-junit '/home/totten/testbench-result/dc4720/junit/E2E_AllTests.xml'  'E2E_AllTests']]
+TAP version 13
+ok 1 - E2E_Extern_RestTest::testAPICalls with data set #0 (array('Contact', 'get', 'bAkBP5gEW8oeCKic', '1'), 1)
+ok 2 - E2E_Extern_RestTest::testAPICalls with data set #1 (array('Contact', 'get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 0)
+ok 3 - E2E_Extern_RestTest::testAPICalls with data set #2 (array('Contact', 'get', 'bAkBP5gEW8oeCKic', '1', 'garbage_12885467131081191756'), 1)
+ok 4 - E2E_Extern_RestTest::testAPICalls with data set #3 (array('Contactses', 'get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 1)
+ok 5 - E2E_Extern_RestTest::testAPICalls with data set #4 (array('civicrm/contact/get', 'bAkBP5gEW8oeCKic', '1'), 1)
+ok 6 - E2E_Extern_RestTest::testAPICalls with data set #5 (array('civicrm/contact/get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 0)
+ok 7 - E2E_Extern_RestTest::testAPICalls with data set #6 (array('civicrm/contact/get', 'bAkBP5gEW8oeCKic', '1', 'garbage_12885467131081191756'), 1)
+ok 8 - E2E_Extern_RestTest::testAPICalls with data set #7 (array('civicrm/contactses/get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 1)
+ok 9 - E2E_Extern_RestTest::testAPICalls with data set #8 (array('civicrm/ping', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 0)
+ok 10 - E2E_Extern_RestTest::testNotCMSUser_entityAction
+ok 11 - E2E_Extern_RestTest::testNotCMSUser_q
+ok 12 - E2E_Extern_SoapTest::testAuthenticationBadPassword
+ok 13 - E2E_Extern_SoapTest::testAuthenticationBadKey
+ok 14 - E2E_Extern_SoapTest::testGetContact
+1..14
+Found EXITCODES=""
+[[Load saved options from /home/totten/bknix/build/dcbench.sh]]
+[[Setup MySQL and HTTP for CMS]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (cms) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/cms.sql.gz)]]
+[[Setup MySQL for Civi]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (civi) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+[[Setup MySQL for Test]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (test) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+Check test results and set exit code
+Exit normally

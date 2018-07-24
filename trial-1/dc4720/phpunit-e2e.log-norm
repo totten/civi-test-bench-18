@@ -1,0 +1,14 @@
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contact', 'get', 'bAkBP5gEW8oeCKic', '1'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contact', 'get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 0)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contact', 'get', 'bAkBP5gEW8oeCKic', '1', 'garbage_12885467131081191756'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('Contactses', 'get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contact/get', 'bAkBP5gEW8oeCKic', '1'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contact/get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 0)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contact/get', 'bAkBP5gEW8oeCKic', '1', 'garbage_12885467131081191756'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/contactses/get', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 1)
+ E2E_Extern_RestTest::testAPICalls with data set #X (array('civicrm/ping', 'bAkBP5gEW8oeCKic', '1', '12885467131081191756'), 0)
+ E2E_Extern_RestTest::testNotCMSUser_entityAction
+ E2E_Extern_RestTest::testNotCMSUser_q
+ E2E_Extern_SoapTest::testAuthenticationBadPassword
+ E2E_Extern_SoapTest::testAuthenticationBadKey
+ E2E_Extern_SoapTest::testGetContact

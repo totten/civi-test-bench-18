@@ -1,0 +1,227 @@
+ api_v3_ACLCachingTest::testActivityCreateCustomBefore
+ api_v3_ACLPermissionTest::testContactGetNoResultsHook
+ api_v3_ACLPermissionTest::testContactGetOneResultHookWithViewMyContact
+ api_v3_ACLPermissionTest::testContactEditHookWithEditMyContact
+ api_v3_ACLPermissionTest::testAddressWithoutContactIDAccess
+ api_v3_ACLPermissionTest::testRelatedEntityPermissions
+ api_v3_ACLPermissionTest::testContactGetAllResultsHook
+ api_v3_ACLPermissionTest::testContactGetPermissionHookNoDeleted
+ api_v3_ACLPermissionTest::testContactGetHookLimitingHook
+ api_v3_ACLPermissionTest::testContactGetHookLimitingHookDontCheck
+ api_v3_ACLPermissionTest::testContactGetIDFilter
+ api_v3_ACLPermissionTest::testContactGetAddressReturned
+ api_v3_ACLPermissionTest::testContactGetPledgeIDNotReturned
+ api_v3_ACLPermissionTest::testContactGetPledgeIDNotFiltered
+ api_v3_ACLPermissionTest::testContactGetPledgeNotChainable
+ api_v3_ACLPermissionTest::testEntitiesGetHookLimitingHookNoCheck with data set #X ('contribution')
+ api_v3_ACLPermissionTest::testEntitiesGetHookLimitingHookNoCheck with data set #X ('participant')
+ api_v3_ACLPermissionTest::testEntitiesGetCoreACLLimitingHookNoCheck with data set #X ('contribution')
+ api_v3_ACLPermissionTest::testEntitiesGetCoreACLLimitingHookNoCheck with data set #X ('participant')
+ api_v3_ACLPermissionTest::testEntitiesGetCoreACLLimitingCheck with data set #X ('contribution')
+ api_v3_ACLPermissionTest::testEntitiesGetCoreACLLimitingCheck with data set #X ('participant')
+ api_v3_ACLPermissionTest::testEntityGetNoResultsHook with data set #X ('contribution') # TODO Incomplete Test
+ api_v3_ACLPermissionTest::testEntityGetNoResultsHook with data set #X ('participant') # TODO Incomplete Test
+ api_v3_ACLPermissionTest::testGetActivityNoPermissions
+ api_v3_ACLPermissionTest::testGetActivityViewAllActivitiesEnoughWithOrWithoutID
+ api_v3_ACLPermissionTest::testGetActivityViewAllContactsEnoughWIthoutID
+ api_v3_ACLPermissionTest::testGetActivityViewAllContactsEnoughWIthID
+ api_v3_ACLPermissionTest::testGetActivityAccessCiviCRMNotEnough
+ api_v3_ACLPermissionTest::testGetActivityByACL
+ api_v3_ACLPermissionTest::testGetActivityByAclCannotViewAllContacts
+ api_v3_ACLPermissionTest::testGetActivityACLSourceContactDeleted
+ api_v3_ACLPermissionTest::testActivitiesGetMultipleIdsCheckPermissions
+ api_v3_ACLPermissionTest::testActivitiesGetMultipleIdsCheckPermissionsLimitedACL
+ api_v3_ACLPermissionTest::testActivitiesGetMultipleIdsCheckPermissionsNotIN
+ api_v3_APITest::testAPIReplaceVariables
+ api_v3_APITest::testAPIWrapperIncludeNoFile
+ api_v3_APITest::testAPIWrapperCamelCaseFunction
+ api_v3_APITest::testAPIWrapperLcaseFunction
+ api_v3_APITest::testAPIResolver
+ api_v3_APITest::testFromCamel
+ api_v3_APITest::testToCamel
+ api_v3_APITest::testv3Wrapper
+ api_v3_APITest::testV3WrapperException
+ api_v3_APITest::testCreateNoStringNullResult
+ api_v3_APIWrapperTest::testWrapperHook
+ api_v3_ActionScheduleTest::testSimpleActionScheduleCreate
+ api_v3_ActionScheduleTest::testActionScheduleCreateWithoutRequired
+ api_v3_ActionScheduleTest::testActionScheduleWithScheduledDatesCreate
+ api_v3_ActivityCaseTest::testActivityCreateOnCase
+ api_v3_ActivityCaseTest::testGet
+ api_v3_ActivityCaseTest::testActivityGetWithCaseInfo
+ api_v3_ActivityContactTest::testCreateActivityContact
+ api_v3_ActivityContactTest::testDeleteActivityContact
+ api_v3_ActivityContactTest::testGetActivitiesByContact
+ api_v3_ActivityContactTest::testGetActivitiesByActivity
+ api_v3_ActivityContactTest::testGetEmptyParams
+ api_v3_ActivityContactTest::testGetWrongParams
+ api_v3_ActivityTest::testActivityCreateEmpty
+ api_v3_ActivityTest::testActivityCreateWithoutRequired
+ api_v3_ActivityTest::testActivityCreateMismatchNameType
+ api_v3_ActivityTest::testActivityCreateWithMissingContactId
+ api_v3_ActivityTest::testActivityCreateWithMissingContactIdNoLoggedInUser
+ api_v3_ActivityTest::testActivityCreateWithNonNumericContactId
+ api_v3_ActivityTest::testActivityCreateWithNonNumericActivityTypeId
+ api_v3_ActivityTest::testActivityCreateWithUnknownActivityTypeId
+ api_v3_ActivityTest::testActivityCreateWithInvalidPriority
+ api_v3_ActivityTest::testActivityCreateWithValidStringPriority
+ api_v3_ActivityTest::testActivityCreateWithInValidStringPriority
+ api_v3_ActivityTest::testActivityCreate
+ api_v3_ActivityTest::testActivityCreateCampaignTypeID
+ api_v3_ActivityTest::testActivityReturnTargetAssignee
+ api_v3_ActivityTest::testActivityReturnTargetAssigneeName
+ api_v3_ActivityTest::testActivityCreateCustom
+ api_v3_ActivityTest::testActivityCreateExample
+ api_v3_ActivityTest::testActivityCreateCustomSubType
+ api_v3_ActivityTest::testActivityCreateCustomContactRefField
+ api_v3_ActivityTest::testActivityCreateBadTextStatus
+ api_v3_ActivityTest::testActivityCreateSupportActivityStatus
+ api_v3_ActivityTest::testActivityCreateTextStatus
+ api_v3_ActivityTest::testActivityGetEmpty
+ api_v3_ActivityTest::testActivityGetGoodID1
+ api_v3_ActivityTest::testGetFilter
+ api_v3_ActivityTest::testActivityGetTargetFilter
+ api_v3_ActivityTest::testActivityGetSubjectFilter
+ api_v3_ActivityTest::testActivityGetDetailsFilter
+ api_v3_ActivityTest::testActivityGetTagFilter
+ api_v3_ActivityTest::testJoinOnTags
+ api_v3_ActivityTest::testActivityGetFile
+ api_v3_ActivityTest::testGetStatusID
+ api_v3_ActivityTest::testGetFilterMaxDate
+ api_v3_ActivityTest::testActivityGetGoodIDCustom
+ api_v3_ActivityTest::testActivityGetContact_idCustom
+ api_v3_ActivityTest::testDeleteActivityForEmptyParams
+ api_v3_ActivityTest::testDeleteActivityWithoutId
+ api_v3_ActivityTest::testDeleteActivityWithoutActivityType
+ api_v3_ActivityTest::testDeleteActivityWithIncorrectActivityType
+ api_v3_ActivityTest::testDeleteActivity
+ api_v3_ActivityTest::testActivityUpdateWithoutRequired
+ api_v3_ActivityTest::testActivityUpdateWithNonNumericId
+ api_v3_ActivityTest::testActivityUpdateWithIncorrectContactActivityType
+ api_v3_ActivityTest::testActivityUpdate
+ api_v3_ActivityTest::testActivityUpdateCustom
+ api_v3_ActivityTest::testActivityUpdateCheckCoreFields
+ api_v3_ActivityTest::testActivityUpdateNotDate
+ api_v3_ActivityTest::testActivityUpdateWithStatus
+ api_v3_ActivityTest::testActivityUpdateKeepSource
+ api_v3_ActivityTest::testActivitiesContactGet
+ api_v3_ActivityTest::testChainedActivityGet
+ api_v3_ActivityTest::testActivitiesContactGetWithInvalidContactId
+ api_v3_ActivityTest::testActivitiesContactGetHavingNoActivity
+ api_v3_ActivityTest::testGetFields
+ api_v3_ActivityTest::testGetWithOr
+ api_v3_ActivityTest::testGetOverdue
+ api_v3_ActivityTypeTest::testActivityTypeGet
+ api_v3_ActivityTypeTest::testActivityTypeCreate
+ api_v3_ActivityTypeTest::testActivityTypecreatecheckId
+ api_v3_ActivityTypeTest::testActivityTypeDelete
+ api_v3_AddressTest::testCreateAddress
+ api_v3_AddressTest::testCreateAddressParsing
+ api_v3_AddressTest::testCreateAddressTestDefaults
+ api_v3_AddressTest::testCreateAddressTooLongSuffix
+ api_v3_AddressTest::testCreateAddressWithMasterRelationshipHousehold
+ api_v3_AddressTest::testCreateAddressWithMasterRelationshipOrganization
+ api_v3_AddressTest::testCreateAddressWithMasterRelationshipChangingOrganization # TODO Incomplete Test
+ api_v3_AddressTest::testCreateAddressTestDefaultWithID
+ api_v3_AddressTest::testDeleteAddress
+ api_v3_AddressTest::testGetAddress
+ api_v3_AddressTest::testGetSingleAddress
+ api_v3_AddressTest::testGetAddressSort
+ api_v3_AddressTest::testGetAddressLikeSuccess
+ api_v3_AddressTest::testGetAddressLikeFail
+ api_v3_AddressTest::testGetWithCustom
+ api_v3_AddressTest::testCreateAddressPrimaryHandlingChangeToPrimary
+ api_v3_AddressTest::testCreateAddressPrimaryHandlingChangeExisting
+ api_v3_AddressTest::testCreateDuplicateLocationTypes
+ api_v3_AddressTest::testGetWithJoin
+ api_v3_AttachmentTest::testCreate with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_exampleFromContent.txt', 'text/plain', 'My test description', 'My test content'), 'My test content')
+ api_v3_AttachmentTest::testCreate with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_exampleWithEmptyContent.txt', 'text/plain', 'My test description', ''), '')
+ api_v3_AttachmentTest::testCreate with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_exampleFromMove.txt', 'text/plain', 'My test description', array('/run/user/1000/test_V9VDD_mytest.txt')), 'This comes from a file')
+ api_v3_AttachmentTest::testCreateFailure with data set #X ('CRM_Activity_DAO_Activity', array(12345, 'test_V9VDD_exampleFromContent.txt', 'text/plain', 'My test description', 'My test content'), '/Invalid ID/')
+ api_v3_AttachmentTest::testCreateFailure with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_failedExample.txt', 'text/plain', 'My test description'), '/Mandatory key\(s\) missing f...file'/')
+ api_v3_AttachmentTest::testCreateFailure with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_failedExample.txt', 'text/plain', 'My test description', 'too much content', array('/run/user/1000/test_V9VDD_too-much.txt')), '/'content' and 'options.move-...usive/')
+ api_v3_AttachmentTest::testCreateFailure with data set #X ('CRM_Activity_DAO_Activity', array('inv/alid.txt', 'text/plain', 'My test description', 'My test content'), '/Malformed name/')
+ api_v3_AttachmentTest::testCreateFailure with data set #X ('CRM_Core_DAO_Domain', array('test_V9VDD_exampleFromContent.txt', 'text/plain', 'My test description', 'My test content'), '/Unrecognized target entity/')
+ api_v3_AttachmentTest::testCreateWithBadUpdate with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_exampleFromContent.txt', 'text/plain', 'My test description', 'My test content'), array(1, 'newname.txt'), '/Cannot modify name/')
+ api_v3_AttachmentTest::testCreateWithBadUpdate with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_exampleFromContent.txt', 'text/plain', 'My test description', 'My test content'), array(1, 'civicrm_domain'), '/Cannot modify entity_table/')
+ api_v3_AttachmentTest::testCreateWithBadUpdate with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_exampleFromContent.txt', 'text/plain', 'My test description', 'My test content'), array(1, 5), '/Cannot modify entity_id/')
+ api_v3_AttachmentTest::testCreateWithBadUpdate with data set #X ('CRM_Activity_DAO_Activity', array('test_V9VDD_exampleFromContent.txt', 'text/plain', 'My test description', 'My test content'), array(1, '2010-11-12 13:14:15'), '/Cannot modify upload_date/')
+ api_v3_AttachmentTest::testCreateWithWeirdName
+ api_v3_AttachmentTest::testGet with data set #X (array('civicrm_activity', '123'), array('test_V9VDD_example_123.txt', 'test_V9VDD_example_123.csv'))
+ api_v3_AttachmentTest::testGet with data set #X (array('civicrm_activity', '456'), array('test_V9VDD_example_456.txt', 'test_V9VDD_example_456.csv'))
+ api_v3_AttachmentTest::testGet with data set #X (array('civicrm_activity', '456', 'text/csv'), array('test_V9VDD_example_456.csv'))
+ api_v3_AttachmentTest::testGet with data set #X (array('civicrm_activity', '456', 'text/html'), array())
+ api_v3_AttachmentTest::testGet with data set #X (array('civicrm_activity', '999'), array())
+ api_v3_AttachmentTest::testGetError with data set #X (array(1, 'text/plain'), '/Mandatory key\(s\) missing f...able'/')
+ api_v3_AttachmentTest::testGetError with data set #X (array(1, '123'), '/Mandatory key\(s\) missing f...able'/')
+ api_v3_AttachmentTest::testGetError with data set #X (array(1), '/Mandatory key\(s\) missing f...able'/')
+ api_v3_AttachmentTest::testGetError with data set #X (array('civicrm_activity', '123', 'example_456.csv'), '/Get by name is not currently...orted/')
+ api_v3_AttachmentTest::testGetError with data set #X (array('civicrm_activity', '123', 'test'), '/Get by content is not curren...orted/')
+ api_v3_AttachmentTest::testGetError with data set #X (array('civicrm_activity', '123', '/home/foo'), '/Get by path is not currently...orted/')
+ api_v3_AttachmentTest::testGetError with data set #X (array('civicrm_activity', '123', '/index.php'), '/Get by url is not currently ...orted/')
+ api_v3_AttachmentTest::testGetThenUpdate
+ api_v3_AttachmentTest::testDeleteByID
+ api_v3_AttachmentTest::testDeleteByEntity
+ api_v3_AttachmentTest::testGetIcon
+ api_v3_BatchTest::testGet
+ api_v3_BatchTest::testCreate
+ api_v3_BatchTest::testUpdate
+ api_v3_BatchTest::testBatchDeleteOldSyntax
+ api_v3_BatchTest::testBatchDeleteCorrectSyntax
+ api_v3_CRM11793Test::testCRM11793Organization
+ api_v3_CRM11793Test::testCRM11793Household
+ api_v3_CRM11793Test::testCRM11793Individual
+ api_v3_CampaignTest::testCreateCampaign
+ api_v3_CampaignTest::testGetCampaign
+ api_v3_CampaignTest::testDeleteCampaign
+ api_v3_CaseContactTest::testCaseContactGet
+ api_v3_CaseContactTest::testCaseContactCreate
+ api_v3_CaseTest::testCaseCreateEmpty
+ api_v3_CaseTest::testCaseCreateWithoutRequired
+ api_v3_CaseTest::testCaseGetListById
+ api_v3_CaseTest::testCaseCreate
+ api_v3_CaseTest::testCaseCreateWithResolvedStatus
+ api_v3_CaseTest::testCaseCreateCustom
+ api_v3_CaseTest::testCaseUpdate
+ api_v3_CaseTest::testCaseUpdateWithExistingCaseContact
+ api_v3_CaseTest::testCaseUpdateCustom
+ api_v3_CaseTest::testCaseDelete
+ api_v3_CaseTest::testCaseGetByActivity
+ api_v3_CaseTest::testCaseGetByContact
+ api_v3_CaseTest::testCaseGetBySubject
+ api_v3_CaseTest::testCaseGetByWrongSubject
+ api_v3_CaseTest::testCaseGetNoCriteria
+ api_v3_CaseTest::testCaseActivityCreate
+ api_v3_CaseTest::testCaseActivityUpdate_Tracked
+ api_v3_CaseTest::testCaseActivityUpdate_Untracked
+ api_v3_CaseTest::testCaseActivityUpdateCustom
+ api_v3_CaseTest::testCaseGetByStatus
+ api_v3_CaseTest::testCaseGetWithRoles
+ api_v3_CaseTest::testCaseGetWithDefinition
+ api_v3_CaseTest::testCaseGetTags
+ api_v3_CaseTest::testCaseGetChainedOp
+ api_v3_CaseTest::testCaseGetOrderByClient
+ api_v3_CaseTest::testCaseAddtimeline with data set #X (false)
+ api_v3_CaseTest::testCaseAddtimeline with data set #X (true)
+ api_v3_CaseTest::testCaseMerge
+ api_v3_CaseTest::testTimestamps
+ api_v3_CaseTypeTest::testCaseTypeCreateEmpty
+ api_v3_CaseTypeTest::testCaseTypeCreateWithoutRequired
+ api_v3_CaseTypeTest::testCaseTypeCreate
+ api_v3_CaseTypeTest::testCaseTypeCreate_invalidName
+ api_v3_CaseTypeTest::testCaseTypeUpdate
+ api_v3_CaseTypeTest::testCaseTypeDelete_New
+ api_v3_CaseTypeTest::testCaseTypeCreateWithDefinition
+ api_v3_CaseTypeTest::testCaseTypeDelete_InUse
+ api_v3_CaseTypeTest::testCaseStatusByCaseType # TODO Incomplete Test
+ api_v3_ConstantTest::testUnknownConstant
+ api_v3_ConstantTest::testActivityStatus
+ api_v3_ConstantTest::testActivityType
+ api_v3_ConstantTest::testLocationTypeGet
+ api_v3_ConstantTest::testPhoneType
+ api_v3_ConstantTest::testmailProtocol
+ api_v3_ContactTest::testAddCreateIndividual
+ api_v3_ContactTest::testCreateIndividualNoCacheClear
+ api_v3_ContactTest::testInternationalStrings with data set #X ('Scarabée')
+ api_v3_ContactTest::testInternationalStrings with data set #X ('Iñtërnâtiônàlizætiøn')
+Binary file (standard input) matches

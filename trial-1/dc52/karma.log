@@ -1,0 +1,100 @@
+~/bknix/build/dcbench ~/bknix
+~/bknix
+~/bknix/build/dcbench/sites/all/modules/civicrm ~/bknix
+Array
+(
+    [is_error] => 0
+    [version] => 3
+    [count] => 1
+    [id] => 202
+    [values] => Array
+        (
+            [202] => Array
+                (
+                    [contact_id] => 202
+                    [contact_type] => Individual
+                    [contact_sub_type] => 
+                    [sort_name] => admin@example.com
+                    [display_name] => admin@example.com
+                    [do_not_email] => 0
+                    [do_not_phone] => 0
+                    [do_not_mail] => 0
+                    [do_not_sms] => 0
+                    [do_not_trade] => 0
+                    [is_opt_out] => 0
+                    [legal_identifier] => 
+                    [external_identifier] => 
+                    [nick_name] => 
+                    [legal_name] => 
+                    [image_URL] => 
+                    [preferred_communication_method] => 
+                    [preferred_language] => en_US
+                    [preferred_mail_format] => Both
+                    [first_name] => 
+                    [middle_name] => 
+                    [last_name] => 
+                    [prefix_id] => 
+                    [suffix_id] => 
+                    [formal_title] => 
+                    [communication_style_id] => 1
+                    [job_title] => 
+                    [gender_id] => 
+                    [birth_date] => 
+                    [is_deceased] => 0
+                    [deceased_date] => 
+                    [household_name] => 
+                    [organization_name] => 
+                    [sic_code] => 
+                    [contact_is_deleted] => 0
+                    [current_employer] => 
+                    [address_id] => 
+                    [street_address] => 
+                    [supplemental_address_1] => 
+                    [supplemental_address_2] => 
+                    [supplemental_address_3] => 
+                    [city] => 
+                    [postal_code_suffix] => 
+                    [postal_code] => 
+                    [geo_code_1] => 
+                    [geo_code_2] => 
+                    [state_province_id] => 
+                    [country_id] => 
+                    [phone_id] => 
+                    [phone_type_id] => 
+                    [phone] => 
+                    [email_id] => 195
+                    [email] => admin@example.com
+                    [on_hold] => 0
+                    [im_id] => 
+                    [provider_id] => 
+                    [im] => 
+                    [worldregion_id] => 
+                    [world_region] => 
+                    [languages] => English (United States)
+                    [individual_prefix] => 
+                    [individual_suffix] => 
+                    [communication_style] => Formal
+                    [gender] => 
+                    [state_province_name] => 
+                    [state_province] => 
+                    [country] => 
+                    [id] => 202
+                )
+
+        )
+
+)
+
+[31mERROR [config]: [39mInvalid config file!
+  Error: Cannot find module 'civicrm-cv'
+    at Function.Module._resolveFilename (module.js:476:15)
+    at Function.Module._load (module.js:424:25)
+    at Module.require (module.js:504:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/karma.conf.js:1:93)
+    at Module._compile (module.js:577:32)
+    at Object.Module._extensions..js (module.js:586:10)
+    at Module.load (module.js:494:32)
+    at tryModuleLoad (module.js:453:12)
+    at Function.Module._load (module.js:445:3)
+Found EXITCODES=" karma"
