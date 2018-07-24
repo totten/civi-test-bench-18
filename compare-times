@@ -1,0 +1,45 @@
+#!/usr/bin/env php
+<?php
+
+// Read two JUnit XML files. Prepare a table comparing the runtimes.
+
+function gettimes($file) {
+  printf("Loading %s\n", $file);
+  $x = simplexml_load_file($file);
+  
+  $times = [];
+  foreach ($x->testsuite as $ts) {
+    foreach ($ts->testsuite as $t) {
+      $name = (string)$t['name'];
+      $time = (string) $t['time'];
+      $times[$name] = $time;
+    }
+  }
+  
+  ksort($times);
+  return $times;
+}
+
+
+list ($prog, $file1, $file2) = $argv;
+$t1 = gettimes($file1);
+$t2 = gettimes($file2);
+$tests = array_unique(array_merge(
+  array_keys($t1),
+  array_keys($t2)
+));
+
+printf("%-50s %7s %7s %7s\n", 'TEST', 'TIME-1', 'TIME-2', 'CHANGE');
+foreach ($tests as $test) {
+  $change = 
+    (isset($t2[$test]) ? $t2[$test] : 0)
+    -
+    (isset($t1[$test]) ? $t1[$test] : 0);
+  printf("%-50s %7.2f %7.2f %7.2f (%s%%)\n", 
+    $test, 
+    isset($t1[$test]) ? $t1[$test] : '',
+    isset($t2[$test]) ? $t2[$test] : '',
+    $change,
+    isset($t1[$test]) ? floor(100*$change / $t1[$test]) : 'NA'
+  );
+}
