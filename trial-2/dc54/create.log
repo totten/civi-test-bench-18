@@ -1,0 +1,791 @@
+[[Download dcbench (type 'drupal-clean' in '/home/totten/bknix/build/dcbench')]]
+[[Execute /home/totten/bknix/civicrm-buildkit/app/config/drupal-clean/download.sh]]
+++ source /home/totten/bknix/civicrm-buildkit/app/config/drupal-clean/download.sh
++++ '[' -z '' ']'
++++ CMS_VERSION=7.x
++++ '[' -d /home/totten/bknix/build/dcbench.drushtmp ']'
++++ drush -y dl drupal-7.x --destination=/home/totten/bknix/build/dcbench.drushtmp --drupal-project-rename
+The directory /home/totten/bknix/build/dcbench.drushtmp does not exist.
+Would you like to create it? (y/n): y
+Project drupal (7.x-dev) downloaded to                               [1;32;40m[1m[success][0m
+/home/totten/bknix/build/dcbench.drushtmp/drupal.
+Project drupal contains:                                             [1;32;40m[1m[success][0m
+ - 3 profiles: standard, minimal, testing
+ - 4 themes: garland, bartik, seven, stark
+ - 47 modules: drupal_system_listing_incompatible_test,
+drupal_system_listing_compatible_test, aggregator, options, text,
+field_sql_storage, list, number, field, openid, book, system, syslog,
+overlay, user, blog, help, profile, simpletest, node, block,
+shortcut, dblog, path, statistics, tracker, image, file, update,
+comment, field_ui, color, toolbar, php, locale, search, translation,
+contextual, contact, forum, dashboard, taxonomy, rdf, menu, trigger,
+poll, filter
+
++++ mv /home/totten/bknix/build/dcbench.drushtmp/drupal /home/totten/bknix/build/dcbench
++++ '[' -d /home/totten/bknix/build/dcbench.drushtmp ']'
++++ rm -rf /home/totten/bknix/build/dcbench.drushtmp
++++ pushd /home/totten/bknix/build/dcbench
+~/bknix/build/dcbench ~/bknix/civicrm-buildkit ~/testbench-result/trial-2
++++ drush dl -y libraries-1.0 views-3.7 devel
+Project libraries (7.x-1.0) downloaded to                            [1;32;40m[1m[success][0m
+sites/all/modules/libraries.
+Project views (7.x-3.7) downloaded to sites/all/modules/views.       [1;32;40m[1m[success][0m
+Project views contains 2 modules: views, views_ui.
+Project devel (7.x-1.6) downloaded to sites/all/modules/devel.       [1;32;40m[1m[success][0m
+Project devel contains 3 modules: devel_generate, devel, devel_node_access.
++++ pushd sites/all/modules
+~/bknix/build/dcbench/sites/all/modules ~/bknix/build/dcbench ~/bknix/civicrm-buildkit ~/testbench-result/trial-2
++++ git clone /home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/civicrm/civicrm-core.git -b 5.4 civicrm
+Cloning into 'civicrm'...
+done.
++++ git clone /home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/civicrm/civicrm-drupal.git -b 7.x-5.4 civicrm/drupal
+Cloning into 'civicrm/drupal'...
+done.
++++ git clone /home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/civicrm/civicrm-packages.git -b 5.4 civicrm/packages
+Cloning into 'civicrm/packages'...
+done.
++++ git clone /home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/eileenmcnaughton/civicrm_developer.git -b master civicrm_developer
+Cloning into 'civicrm_developer'...
+done.
++++ popd
+~/bknix/build/dcbench ~/bknix/civicrm-buildkit ~/testbench-result/trial-2
++++ popd
+~/bknix/civicrm-buildkit ~/testbench-result/trial-2
+++ set +ex
+Change origin in [/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/packages/.git] from [/home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/civicrm/civicrm-packages.git] to [https://github.com/civicrm/civicrm-packages.git]
+Change origin in [/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/.git] from [/home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/civicrm/civicrm-core.git] to [https://github.com/civicrm/civicrm-core.git]
+Change origin in [/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/drupal/.git] from [/home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/civicrm/civicrm-drupal.git] to [https://github.com/civicrm/civicrm-drupal.git]
+Change origin in [/home/totten/bknix/build/dcbench/sites/all/modules/civicrm_developer/.git] from [/home/totten/bknix/civicrm-buildkit/app/tmp/git-cache/eileenmcnaughton/civicrm_developer.git] to [https://github.com/eileenmcnaughton/civicrm_developer.git]
+[[Install dcbench/default (type 'drupal-clean' in '/home/totten/bknix/build/dcbench')]]
+[[Execute /home/totten/bknix/civicrm-buildkit/app/config/drupal-clean/install.sh]]
+++ source /home/totten/bknix/civicrm-buildkit/app/config/drupal-clean/install.sh
++++ amp_install
++++ _amp_install_cms
++++ echo '[[Setup MySQL and HTTP for CMS]]'
+[[Setup MySQL and HTTP for CMS]]
++++ cvutil_assertvars _amp_install_cms CMS_ROOT SITE_NAME SITE_ID TMPDIR
++++ _cvutil_assertvars_back=ehxB
++++ set +x
+++++ mktemp.php ampvar
++++ local amp_vars_file_path=/home/totten/bknix/civicrm-buildkit/app/tmp/ampvarGZnJO5
++++ local amp_name=cmsdefault
++++ '[' default == default ']'
++++ amp_name=cms
++++ '[' -n http://dcbench.bknix:8001 ']'
++++ amp create -f --root=/home/totten/bknix/build/dcbench --name=cms --prefix=CMS_ --url=http://dcbench.bknix:8001 --output-file=/home/totten/bknix/civicrm-buildkit/app/tmp/ampvarGZnJO5 --perm=admin
++++ source /home/totten/bknix/civicrm-buildkit/app/tmp/ampvarGZnJO5
+++++ CMS_URL=http://dcbench.bknix:8001
+++++ CMS_ROOT=/home/totten/bknix/build/dcbench
+++++ CMS_DB_DSN='mysql://dcbenchcms_mypec:JjyAENrHrSEG0JvS@127.0.0.1:3307/dcbenchcms_mypec?new_link=true'
+++++ CMS_DB_USER=dcbenchcms_mypec
+++++ CMS_DB_PASS=JjyAENrHrSEG0JvS
+++++ CMS_DB_HOST=127.0.0.1
+++++ CMS_DB_PORT=3307
+++++ CMS_DB_NAME=dcbenchcms_mypec
+++++ CMS_DB_ARGS='--defaults-file='\''/home/totten/bknix/var/amp/my.cnf.d/my.cnf-08b882073761caa8bc6f0bb7bc68c04c'\'' dcbenchcms_mypec'
++++ rm -f /home/totten/bknix/civicrm-buildkit/app/tmp/ampvarGZnJO5
++++ _amp_install_civi
++++ echo '[[Setup MySQL for Civi]]'
+[[Setup MySQL for Civi]]
++++ cvutil_assertvars _amp_install_civi CMS_ROOT SITE_NAME SITE_ID TMPDIR
++++ _cvutil_assertvars_back=ehxB
++++ set +x
+++++ mktemp.php ampvar
++++ local amp_vars_file_path=/home/totten/bknix/civicrm-buildkit/app/tmp/ampvarbDtY0n
++++ local amp_name=cividefault
++++ '[' default == default ']'
++++ amp_name=civi
++++ amp create -f --root=/home/totten/bknix/build/dcbench --name=civi --prefix=CIVI_ --skip-url --output-file=/home/totten/bknix/civicrm-buildkit/app/tmp/ampvarbDtY0n --perm=super
++++ source /home/totten/bknix/civicrm-buildkit/app/tmp/ampvarbDtY0n
+++++ CIVI_URL=
+++++ CIVI_ROOT=/home/totten/bknix/build/dcbench
+++++ CIVI_DB_DSN='mysql://dcbenchciv_uekyr:3NhOhu8qbPL747Xt@127.0.0.1:3307/dcbenchciv_uekyr?new_link=true'
+++++ CIVI_DB_USER=dcbenchciv_uekyr
+++++ CIVI_DB_PASS=3NhOhu8qbPL747Xt
+++++ CIVI_DB_HOST=127.0.0.1
+++++ CIVI_DB_PORT=3307
+++++ CIVI_DB_NAME=dcbenchciv_uekyr
+++++ CIVI_DB_ARGS='--defaults-file='\''/home/totten/bknix/var/amp/my.cnf.d/my.cnf-8f5ea2dc83b849cbca4800bceb74cb78'\'' dcbenchciv_uekyr'
++++ rm -f /home/totten/bknix/civicrm-buildkit/app/tmp/ampvarbDtY0n
++++ _amp_install_test
++++ echo '[[Setup MySQL for Test]]'
+[[Setup MySQL for Test]]
++++ cvutil_assertvars _amp_install_test CMS_ROOT SITE_NAME SITE_ID TMPDIR
++++ _cvutil_assertvars_back=ehxB
++++ set +x
+++++ mktemp.php ampvar
++++ local amp_vars_file_path=/home/totten/bknix/civicrm-buildkit/app/tmp/ampvarrMAl6x
++++ local amp_name=testdefault
++++ '[' default == default ']'
++++ amp_name=test
++++ amp create -f --root=/home/totten/bknix/build/dcbench --name=test --prefix=TEST_ --skip-url --output-file=/home/totten/bknix/civicrm-buildkit/app/tmp/ampvarrMAl6x --perm=super
++++ source /home/totten/bknix/civicrm-buildkit/app/tmp/ampvarrMAl6x
+++++ TEST_URL=
+++++ TEST_ROOT=/home/totten/bknix/build/dcbench
+++++ TEST_DB_DSN='mysql://dcbenchtes_tl13x:JmBz2fE2X96cr5PS@127.0.0.1:3307/dcbenchtes_tl13x?new_link=true'
+++++ TEST_DB_USER=dcbenchtes_tl13x
+++++ TEST_DB_PASS=JmBz2fE2X96cr5PS
+++++ TEST_DB_HOST=127.0.0.1
+++++ TEST_DB_PORT=3307
+++++ TEST_DB_NAME=dcbenchtes_tl13x
+++++ TEST_DB_ARGS='--defaults-file='\''/home/totten/bknix/var/amp/my.cnf.d/my.cnf-23e7cb8d5761c3caee2fcdc2c626b61d'\'' dcbenchtes_tl13x'
++++ rm -f /home/totten/bknix/civicrm-buildkit/app/tmp/ampvarrMAl6x
++++ drupal_install
++++ drupal7_install
++++ cvutil_assertvars drupal7_install CMS_ROOT SITE_ID CMS_TITLE CMS_DB_USER CMS_DB_PASS CMS_DB_HOST CMS_DB_NAME ADMIN_USER ADMIN_PASS CMS_URL
++++ _cvutil_assertvars_back=ehxB
++++ set +x
+++++ _drupal_multisite_dir http://dcbench.bknix:8001 default
+++++ '[' default == default ']'
+++++ echo default
++++ DRUPAL_SITE_DIR=default
+++++ cvutil_build_hostport 127.0.0.1 3307
+++++ local host=127.0.0.1
+++++ local port=3307
+++++ '[' -z 3307 ']'
+++++ echo 127.0.0.1:3307
++++ CMS_DB_HOSTPORT=127.0.0.1:3307
++++ pushd /home/totten/bknix/build/dcbench
++++ '[' -f sites/default/settings.php ']'
++++ drush site-install -y --db-url=mysql://dcbenchcms_mypec:JjyAENrHrSEG0JvS@127.0.0.1:3307/dcbenchcms_mypec --account-name=admin --account-pass=F1pByjkJOb4D --account-mail=admin@example.com --site-name=dcbench --sites-subdir=default
+You are about to create a sites/default/settings.php file and DROP all tables in your 'dcbenchcms_mypec' database. Do you want to continue? (y/n): y
+No tables to drop.                                                   [1;32;40m[1m[ok][0m
+Starting Drupal installation. This takes a few seconds ...           [1;32;40m[1m[ok][0m
+Installation complete.  User name: admin  User password: F1pByjkJOb4D[1;32;40m[1m[ok][0m
++++ chmod u+w sites/default
++++ chmod u+w sites/default/settings.php
++++ cvutil_inject_settings /home/totten/bknix/build/dcbench/sites/default/settings.php drupal.settings.d
++++ local FILE=/home/totten/bknix/build/dcbench/sites/default/settings.php
++++ local NAME=drupal.settings.d
++++ cvutil_assertvars cvutil_inject_settings PRJDIR SITE_NAME SITE_TYPE SITE_CONFIG_DIR SITE_ID SITE_TOKEN PRIVATE_ROOT FILE NAME
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ local TMPFILE=/home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
++++ cvutil_makeparent /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
+++++ dirname /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
++++ parent=/home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench
++++ '[' '!' -d /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench ']'
++++ cat
++++ sed 's/^<?php//'
++++ cat
++++ cat
++++ chmod u-w sites/default/settings.php
++++ amp datadir sites/default/files /home/totten/bknix/civicrm-buildkit/app/private/dcbench/default
+Update data directory: sites/default/files
+Create data directory: /home/totten/bknix/civicrm-buildkit/app/private/dcbench/default
++++ cvutil_mkdir sites/default/modules
++++ for f in '"$@"'
++++ '[' '!' -d sites/default/modules ']'
++++ mkdir -p sites/default/modules
++++ drush vset --yes file_private_path /home/totten/bknix/civicrm-buildkit/app/private/dcbench/default
+file_private_path was set to                                         [1;32;40m[1m[success][0m
+"/home/totten/bknix/civicrm-buildkit/app/private/dcbench/default".
++++ '[' -n '' ']'
++++ popd
+++++ _drupal_multisite_dir http://dcbench.bknix:8001 default
+++++ '[' default == default ']'
+++++ echo default
++++ DRUPAL_SITE_DIR=default
++++ CIVI_DOMAIN_NAME='Demonstrators Anonymous'
++++ CIVI_DOMAIN_EMAIL='"Demonstrators Anonymous" <info@example.org>'
++++ CIVI_CORE=/home/totten/bknix/build/dcbench/sites/all/modules/civicrm
++++ CIVI_SETTINGS=/home/totten/bknix/build/dcbench/sites/default/civicrm.settings.php
++++ CIVI_FILES=/home/totten/bknix/build/dcbench/sites/default/files/civicrm
++++ CIVI_TEMPLATEC=/home/totten/bknix/build/dcbench/sites/default/files/civicrm/templates_c
++++ CIVI_UF=Drupal
++++ [[ 5.4 =~ ^4.[0123456](\.([0-9]|alpha|beta)+)?$ ]]
++++ civicrm_install
++++ cvutil_assertvars civicrm_install CIVI_CORE CIVI_FILES CIVI_TEMPLATEC CIVI_DOMAIN_NAME CIVI_DOMAIN_EMAIL
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ '[' '!' -d /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/bin -o '!' -d /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/CRM ']'
++++ amp datadir /home/totten/bknix/build/dcbench/sites/default/files/civicrm /home/totten/bknix/build/dcbench/sites/default/files/civicrm/templates_c
+Create data directory: /home/totten/bknix/build/dcbench/sites/default/files/civicrm
+Create data directory: /home/totten/bknix/build/dcbench/sites/default/files/civicrm/templates_c
++++ '[' -n '' ']'
++++ civicrm_make_settings_php
++++ cvutil_assertvars civicrm_make_settings_php CIVI_SETTINGS CIVI_CORE CIVI_UF CIVI_TEMPLATEC CMS_URL CIVI_SITE_KEY
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ cvutil_assertvars civicrm_make_settings_php CMS_DB_HOST CMS_DB_NAME CMS_DB_PASS CMS_DB_USER
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ cvutil_assertvars civicrm_make_settings_php CIVI_DB_HOST CIVI_DB_NAME CIVI_DB_PASS CIVI_DB_USER
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ cvutil_assertvars civicrm_make_settings_php SITE_CONFIG_DIR
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ local tpl
++++ for tpl in templates/CRM/common/civicrm.settings.php.template templates/CRM/common/civicrm.settings.php.tpl
++++ '[' -f /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/templates/CRM/common/civicrm.settings.php.template ']'
++++ break
++++ '[' '!' -f /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/templates/CRM/common/civicrm.settings.php.template ']'
+++++ cvutil_build_hostport 127.0.0.1 3307
+++++ local host=127.0.0.1
+++++ local port=3307
+++++ '[' -z 3307 ']'
+++++ echo 127.0.0.1:3307
++++ CMS_DB_HOSTPORT=127.0.0.1:3307
+++++ cvutil_build_hostport 127.0.0.1 3307
+++++ local host=127.0.0.1
+++++ local port=3307
+++++ '[' -z 3307 ']'
+++++ echo 127.0.0.1:3307
++++ CIVI_DB_HOSTPORT=127.0.0.1:3307
+++++ cvutil_build_hostport 127.0.0.1 3307
+++++ local host=127.0.0.1
+++++ local port=3307
+++++ '[' -z 3307 ']'
+++++ echo 127.0.0.1:3307
++++ TEST_DB_HOSTPORT=127.0.0.1:3307
++++ cat /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/templates/CRM/common/civicrm.settings.php.template
++++ sed 's;%%baseURL%%;http://dcbench.bknix:8001;'
++++ sed 's;%%cms%%;Drupal;'
++++ sed 's;%%CMSdbHost%%;127.0.0.1:3307;'
++++ sed 's;%%dbPass%%;3NhOhu8qbPL747Xt;'
++++ sed 's;%%testName%%;dcbenchtes_tl13x;'
++++ sed 's;%%siteKey%%;7hEa6ysiKWUaCb2W;'
++++ sed 's;%%CMSdbUser%%;dcbenchcms_mypec;'
++++ sed 's;%%crmRoot%%;/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/;'
++++ sed 's;%%dbHost%%;127.0.0.1:3307;'
++++ sed 's;%%dbName%%;dcbenchciv_uekyr;'
++++ sed 's;%%CMSdbPass%%;JjyAENrHrSEG0JvS;'
++++ sed 's;%%CMSdbName%%;dcbenchcms_mypec;'
++++ sed 's;%%dbUser%%;dcbenchciv_uekyr;'
++++ sed 's;%%testHost%%;127.0.0.1:3307;'
++++ sed 's;%%testPass%%;JmBz2fE2X96cr5PS;'
++++ sed 's;%%testUser%%;dcbenchtes_tl13x;'
++++ sed 's;%%templateCompileDir%%;/home/totten/bknix/build/dcbench/sites/default/files/civicrm/templates_c;'
++++ echo
++++ '[' -n '' ']'
++++ cvutil_inject_settings /home/totten/bknix/build/dcbench/sites/default/civicrm.settings.php civicrm.settings.d
++++ local FILE=/home/totten/bknix/build/dcbench/sites/default/civicrm.settings.php
++++ local NAME=civicrm.settings.d
++++ cvutil_assertvars cvutil_inject_settings PRJDIR SITE_NAME SITE_TYPE SITE_CONFIG_DIR SITE_ID SITE_TOKEN PRIVATE_ROOT FILE NAME
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ local TMPFILE=/home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
++++ cvutil_makeparent /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
+++++ dirname /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
++++ parent=/home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench
++++ '[' '!' -d /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench ']'
++++ cat
++++ sed 's/^<?php//'
++++ cat
++++ cat
++++ civicrm_make_setup_conf
++++ cvutil_assertvars civicrm_make_setup_conf PRJDIR CMS_ROOT CIVI_CORE CIVI_UF CIVI_DB_NAME CIVI_DB_USER CIVI_DB_PASS
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ cat
++++ civicrm_make_test_settings_php
++++ cvutil_assertvars civicrm_make_test_settings_php CIVI_CORE CIVI_DB_NAME CIVI_DB_USER CIVI_DB_PASS CIVI_DB_HOST CMS_URL CMS_DB_USER CMS_DB_PASS CMS_DB_HOST CMS_DB_NAME ADMIN_USER ADMIN_PASS DEMO_USER DEMO_PASS CIVI_SITE_KEY
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ '[' -d /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/CiviTest ']'
++++ cat
++++ cvutil_inject_settings /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/CiviTest/civicrm.settings.local.php civitest.settings.d
++++ local FILE=/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/CiviTest/civicrm.settings.local.php
++++ local NAME=civitest.settings.d
++++ cvutil_assertvars cvutil_inject_settings PRJDIR SITE_NAME SITE_TYPE SITE_CONFIG_DIR SITE_ID SITE_TOKEN PRIVATE_ROOT FILE NAME
++++ _cvutil_assertvars_back=ehxB
++++ set +x
++++ local TMPFILE=/home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
++++ cvutil_makeparent /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
+++++ dirname /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench/default.settings.tmp
++++ parent=/home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench
++++ '[' '!' -d /home/totten/bknix/civicrm-buildkit/app/tmp/drupal-clean/dcbench ']'
++++ cat
++++ sed 's/^<?php//'
++++ cat
++++ cat
++++ cat
++++ pushd /home/totten/bknix/build/dcbench/sites/all/modules/civicrm
++++ '[' -e xml -a -e bin/setup.sh -a -n '' ']'
++++ '[' -e xml -a -e bin/setup.sh -a -z '' ']'
++++ env SITE_ID=default bash ./bin/setup.sh
++ '[' -n 1 ']'
++ pushd /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/./bin/..
+~/bknix/build/dcbench/sites/all/modules/civicrm ~/bknix/build/dcbench/sites/all/modules/civicrm
+++ pickcmd composer composer.phar
+++ for name in "$@"
+++ which composer
+++ echo composer
+++ return
++ COMPOSER=composer
++ composer install
+Loading composer repositories with package information
+Installing dependencies (including require-dev) from lock file
+Package operations: 36 installs, 0 updates, 0 removals
+  - Installing psr/log (1.0.0): Loading from cache
+  - Installing phpseclib/phpseclib (1.0.7): Loading from cache
+  - Installing civicrm/civicrm-cxn-rpc (v0.17.07.01): Loading from cache
+  - Installing symfony/event-dispatcher (v2.6.13): Loading from cache
+  - Installing civicrm/civicrm-setup (v0.2.0): Loading from cache
+  - Installing sabberworm/php-css-parser (6.0.1): Loading from cache
+  - Installing phenx/php-svg-lib (v0.2): Loading from cache
+  - Installing phenx/php-font-lib (0.5): Loading from cache
+  - Installing dompdf/dompdf (v0.8.0): Loading from cache
+  - Installing electrolinux/phpquery (0.9.6): Loading from cache
+  - Installing psr/http-message (1.0.1): Loading from cache
+  - Installing guzzlehttp/psr7 (1.4.2): Loading from cache
+  - Installing guzzlehttp/promises (v1.3.1): Loading from cache
+  - Installing guzzlehttp/guzzle (6.3.0): Loading from cache
+  - Installing marcj/topsort (1.1.0): Loading from cache
+  - Installing pclzip/pclzip (2.8.2): Loading from cache
+  - Installing pear/pear_exception (v1.0.0): Loading from cache
+  - Installing pear/auth_sasl (v1.1.0): Loading from cache
+  - Installing pear/net_socket (1.0.14): Loading from cache
+  - Installing pear/net_smtp (1.6.3): Loading from cache
+  - Installing pear/validate_finance_creditcard (dev-master a74da65): Cloning a74da657d7 from cache
+  - Installing zendframework/zend-stdlib (2.4.13): Loading from cache
+  - Installing zendframework/zend-escaper (2.4.13): Loading from cache
+  - Installing phpoffice/common (v0.2.6): Loading from cache
+  - Installing phpoffice/phpword (v0.14.0): Loading from cache
+  - Installing psr/simple-cache (1.0.1): Loading from cache
+  - Installing symfony/filesystem (v2.6.13): Loading from cache
+  - Installing symfony/config (v2.6.13): Loading from cache
+  - Installing symfony/dependency-injection (v2.6.13): Loading from cache
+  - Installing symfony/finder (v2.6.13): Loading from cache
+  - Installing symfony/process (v2.6.13): Loading from cache
+  - Installing tecnickcom/tcpdf (6.2.13): Loading from cache
+  - Installing totten/ca-config (v17.05.0): Loading from cache
+  - Installing zendframework/zend-validator (2.4.13): Loading from cache
+  - Installing zetacomponents/base (1.7): Loading from cache
+  - Installing zetacomponents/mail (dev-1.7-civi e0feff0): Cloning e0feff0e18 from cache
+phpseclib/phpseclib suggests installing pear-pear/PHP_Compat (Install PHP_Compat to get phpseclib working on PHP < 5.0.0.)
+symfony/event-dispatcher suggests installing symfony/http-kernel ()
+zendframework/zend-stdlib suggests installing zendframework/zend-eventmanager (To support aggregate hydrator usage)
+zendframework/zend-stdlib suggests installing zendframework/zend-filter (To support naming strategy hydrator usage)
+zendframework/zend-stdlib suggests installing zendframework/zend-serializer (Zend\Serializer component)
+zendframework/zend-stdlib suggests installing zendframework/zend-servicemanager (To support hydrator plugin manager usage)
+phpoffice/phpword suggests installing ext-gd2 (Allows adding images)
+phpoffice/phpword suggests installing ext-xsl (Allows applying XSL style sheet to headers, to main document part, and to footers of an OOXML template)
+symfony/dependency-injection suggests installing symfony/proxy-manager-bridge (Generate service proxies to lazy load them)
+symfony/dependency-injection suggests installing symfony/yaml ()
+zendframework/zend-validator suggests installing zendframework/zend-db (Zend\Db component)
+zendframework/zend-validator suggests installing zendframework/zend-filter (Zend\Filter component, required by the Digits validator)
+zendframework/zend-validator suggests installing zendframework/zend-i18n (Zend\I18n component to allow translation of validation error messages as well as to use the various Date validators)
+zendframework/zend-validator suggests installing zendframework/zend-math (Zend\Math component)
+zendframework/zend-validator suggests installing zendframework/zend-resources (Translations of validator messages)
+zendframework/zend-validator suggests installing zendframework/zend-servicemanager (Zend\ServiceManager component to allow using the ValidatorPluginManager and validator chains)
+zendframework/zend-validator suggests installing zendframework/zend-session (Zend\Session component)
+zendframework/zend-validator suggests installing zendframework/zend-uri (Zend\Uri component, required by the Uri and Sitemap\Loc validators)
+Generating autoload files
+> bash tools/scripts/composer/dompdf-cleanup.sh
+patching file vendor/dompdf/dompdf/src/Dompdf.php
+> bash tools/scripts/composer/tcpdf-cleanup.sh
+> bash tools/scripts/composer/pear-exception-fix.sh
+> bash tools/scripts/composer/net-smtp-fix.sh
+patching file vendor/pear/net_smtp/Net/SMTP.php
+patching file vendor/pear/net_smtp/Net/SMTP.php
+patching file vendor/pear/net_smtp/Net/SMTP.php
+patching file vendor/pear/net_smtp/Net/SMTP.php
+> bash tools/scripts/composer/phpword-jquery.sh
++ has_commands bower karma
++ for cmd in "$@"
++ which bower
++ for cmd in "$@"
++ which karma
++ return 0
++ npm install --production
+
+> civicrm@4.6.0 postinstall /home/totten/bknix/build/dcbench/sites/all/modules/civicrm
+> bash tools/scripts/npm/postinstall.sh
+
+++ pickcmd node_modules/bower/bin/bower bower
+++ for name in "$@"
+++ which node_modules/bower/bin/bower
+++ for name in "$@"
+++ which bower
+++ echo bower
+++ return
++ BOWER=bower
++ '[' -f bower ']'
++ '[' -n 1 ']'
++ BOWER_OPT=
++ '[' -f bower_components/.setupsh.ts ']'
++ bower install
+bower angular-jquery-dialog-service#civicrm       not-cached https://github.com/totten/angular-jquery-dialog-service.git#civicrm
+bower angular-jquery-dialog-service#civicrm          resolve https://github.com/totten/angular-jquery-dialog-service.git#civicrm
+bower select2#stable/3.5                          not-cached https://github.com/colemanw/select2.git#stable/3.5
+bower select2#stable/3.5                             resolve https://github.com/colemanw/select2.git#stable/3.5
+bower angular-route#~1.5.0                            cached https://github.com/angular/bower-angular-route.git#1.5.11
+bower angular-route#~1.5.0                          validate 1.5.11 against https://github.com/angular/bower-angular-route.git#~1.5.0
+bower angular#~1.5.0                                  cached https://github.com/angular/bower-angular.git#1.5.11
+bower angular#~1.5.0                                validate 1.5.11 against https://github.com/angular/bower-angular.git#~1.5.0
+bower angular-mocks#~1.5.0                            cached https://github.com/angular/bower-angular-mocks.git#1.5.11
+bower angular-mocks#~1.5.0                          validate 1.5.11 against https://github.com/angular/bower-angular-mocks.git#~1.5.0
+bower angular-file-upload#>=1.1.5 <=1.1.6             cached https://github.com/nervgh/angular-file-upload.git#1.1.6
+bower angular-file-upload#>=1.1.5 <=1.1.6           validate 1.1.6 against https://github.com/nervgh/angular-file-upload.git#>=1.1.5 <=1.1.6
+bower angular-ui-sortable#0.12.x                      cached https://github.com/angular-ui/ui-sortable.git#0.12.11
+bower angular-ui-sortable#0.12.x                    validate 0.12.11 against https://github.com/angular-ui/ui-sortable.git#0.12.x
+bower d3#3.4.11                                       cached https://github.com/mbostock-bower/d3-bower.git#3.4.11
+bower d3#3.4.11                                     validate 3.4.11 against https://github.com/mbostock-bower/d3-bower.git#3.4.11
+bower angular-ui-utils#0.1.x                          cached https://github.com/angular-ui/ui-utils.git#0.1.1
+bower angular-ui-utils#0.1.x                        validate 0.1.1 against https://github.com/angular-ui/ui-utils.git#0.1.x
+bower d3-3.5.x#~3.5.17                                cached https://github.com/mbostock-bower/d3-bower.git#3.5.17
+bower d3-3.5.x#~3.5.17                              validate 3.5.17 against https://github.com/mbostock-bower/d3-bower.git#~3.5.17
+bower crossfilter-1.3.x#~1.3.11                       cached https://github.com/crossfilter/crossfilter.git#1.3.14
+bower crossfilter-1.3.x#~1.3.11                     validate 1.3.14 against https://github.com/crossfilter/crossfilter.git#~1.3.11
+bower dc-2.1.x#~2.1.8                                 cached https://github.com/NickQiZhu/dc.js.git#2.1.10
+bower dc-2.1.x#~2.1.8                               validate 2.1.10 against https://github.com/NickQiZhu/dc.js.git#~2.1.8
+bower angular-unsavedChanges#~0.1.1                   cached https://github.com/facultymatt/angular-unsavedChanges.git#0.1.1
+bower angular-unsavedChanges#~0.1.1                 validate 0.1.1 against https://github.com/facultymatt/angular-unsavedChanges.git#~0.1.1
+bower jquery#~1.12                                    cached https://github.com/jquery/jquery-dist.git#1.12.4
+bower jquery#~1.12                                  validate 1.12.4 against https://github.com/jquery/jquery-dist.git#~1.12
+bower qunit#~1.10                                     cached https://github.com/jquery/qunit.git#1.10.0
+bower qunit#~1.10                                   validate 1.10.0 against https://github.com/jquery/qunit.git#~1.10
+bower jquery-ui#~1.12                                 cached https://github.com/components/jqueryui.git#1.12.1
+bower jquery-ui#~1.12                               validate 1.12.1 against https://github.com/components/jqueryui.git#~1.12
+bower ckeditor#~4.9                                   cached https://github.com/ckeditor/ckeditor-releases.git#4.9.2
+bower ckeditor#~4.9                                 validate 4.9.2 against https://github.com/ckeditor/ckeditor-releases.git#~4.9
+bower datatables#~1.10                                cached https://github.com/DataTables/DataTables.git#1.10.19
+bower datatables#~1.10                              validate 1.10.19 against https://github.com/DataTables/DataTables.git#~1.10
+bower lodash-compat#~3.0                              cached https://github.com/lodash/lodash-compat.git#3.0.1
+bower lodash-compat#~3.0                            validate 3.0.1 against https://github.com/lodash/lodash-compat.git#~3.0
+bower font-awesome#~4                                 cached https://github.com/FortAwesome/Font-Awesome.git#4.7.0
+bower font-awesome#~4                               validate 4.7.0 against https://github.com/FortAwesome/Font-Awesome.git#~4
+bower google-code-prettify#~1.0                       cached https://github.com/tcollard/google-code-prettify.git#1.0.5
+bower google-code-prettify#~1.0                     validate 1.0.5 against https://github.com/tcollard/google-code-prettify.git#~1.0
+bower jquery-validation#~1.13                         cached https://github.com/jzaefferer/jquery-validation.git#1.13.1
+bower jquery-validation#~1.13                       validate 1.13.1 against https://github.com/jzaefferer/jquery-validation.git#~1.13
+bower jstree#~3                                       cached https://github.com/vakata/jstree.git#3.3.5
+bower jstree#~3                                     validate 3.3.5 against https://github.com/vakata/jstree.git#~3
+bower angular-bootstrap#^2.5.0                        cached https://github.com/angular-ui/bootstrap-bower.git#2.5.0
+bower angular-bootstrap#^2.5.0                      validate 2.5.0 against https://github.com/angular-ui/bootstrap-bower.git#^2.5.0
+bower angular-sanitize#~1.5.0                         cached https://github.com/angular/bower-angular-sanitize.git#1.5.11
+bower angular-sanitize#~1.5.0                       validate 1.5.11 against https://github.com/angular/bower-angular-sanitize.git#~1.5.0
+bower phantomjs-polyfill#^0.0.2                       cached https://github.com/conversocial/phantomjs-polyfill.git#0.0.2
+bower phantomjs-polyfill#^0.0.2                     validate 0.0.2 against https://github.com/conversocial/phantomjs-polyfill.git#^0.0.2
+bower angular-jquery-dialog-service#civicrm         download https://github.com/totten/angular-jquery-dialog-service/archive/civicrm.tar.gz
+bower select2#stable/3.5                            download https://github.com/colemanw/select2/archive/stable/3.5.tar.gz
+bower angular#~1.2.x                                  cached https://github.com/angular/bower-angular.git#1.2.32
+bower angular#~1.2.x                                validate 1.2.32 against https://github.com/angular/bower-angular.git#~1.2.x
+bower jquery-ui#>=1.9                                 cached https://github.com/components/jqueryui.git#1.12.1
+bower jquery-ui#>=1.9                               validate 1.12.1 against https://github.com/components/jqueryui.git#>=1.9
+bower crossfilter2#~1.4                               cached https://github.com/crossfilter/crossfilter.git#1.4.6
+bower crossfilter2#~1.4                             validate 1.4.6 against https://github.com/crossfilter/crossfilter.git#~1.4
+bower angular-jquery-dialog-service#civicrm          extract archive.tar.gz
+bower angular-jquery-dialog-service#civicrm         resolved https://github.com/totten/angular-jquery-dialog-service.git#8c5d302ce9
+bower select2#stable/3.5                             extract archive.tar.gz
+bower select2#stable/3.5                        invalid-meta for:/home/totten/bknix/civicrm-buildkit/app/tmp/totten/bower/35368a19f307e4af02d0df055846840d-22733-43s4V6/bower.json
+bower select2#stable/3.5                        invalid-meta The "main" field cannot contain font, image, audio, or video files
+bower select2#stable/3.5                        invalid-meta The "main" field cannot contain font, image, audio, or video files
+bower select2#stable/3.5                        invalid-meta The "main" field cannot contain font, image, audio, or video files
+bower select2#stable/3.5                        invalid-meta The "main" field has to contain only 1 file per filetype; found multiple .png files: ["select2.png","select2x2.png"]
+bower select2#stable/3.5                            resolved https://github.com/colemanw/select2.git#90d4b9ee38
+
+Please note that,
+    angular-ui-sortable#0.12.11 depends on angular#~1.2.x which resolved to angular#1.2.32
+    angular-file-upload#1.1.6 depends on angular#~1.2.11 which resolved to angular#1.2.32
+    angular-unsavedChanges#0.1.1 depends on angular#~1.2.5 which resolved to angular#1.2.32
+    angular-mocks#1.5.11, angular-route#1.5.11, angular-sanitize#1.5.11 depends on angular#1.5.11 which resolved to angular#1.5.11
+    civicrm depends on angular#~1.5.0 which resolved to angular#1.5.11
+    angular-ui-utils#0.1.1 depends on angular#>= 1.0.2 which resolved to angular#1.5.11
+    angular-bootstrap#2.5.0 depends on angular#>=1.4.0 which resolved to angular#1.5.11
+Resort to using angular#~1.5.11 which resolved to angular#1.5.11
+Code incompatibilities may occur.
+
+bower angular-mocks#~1.5.0                           install angular-mocks#1.5.11
+bower angular-route#~1.5.0                           install angular-route#1.5.11
+bower d3-3.5.x#~3.5.17                               install d3-3.5.x#3.5.17
+bower d3#3.4.11                                      install d3#3.4.11
+bower angular-ui-sortable#0.12.x                     install angular-ui-sortable#0.12.11
+bower angular-file-upload#>=1.1.5 <=1.1.6            install angular-file-upload#1.1.6
+bower angular#1.5.11                                 install angular#1.5.11
+bower angular-unsavedChanges#~0.1.1                  install angular-unsavedChanges#0.1.1
+bower crossfilter-1.3.x#~1.3.11                      install crossfilter-1.3.x#1.3.14
+bower angular-ui-utils#0.1.x                         install angular-ui-utils#0.1.1
+bower jquery#~1.12                                   install jquery#1.12.4
+bower dc-2.1.x#~2.1.8                                install dc-2.1.x#2.1.10
+bower crossfilter2#~1.4                              install crossfilter2#1.4.6
+bower angular-jquery-dialog-service#civicrm          install angular-jquery-dialog-service#8c5d302ce9
+bower jquery-ui#>=1.9                                install jquery-ui#1.12.1
+bower ckeditor#~4.9                                  install ckeditor#4.9.2
+bower datatables#~1.10                               install datatables#1.10.19
+bower qunit#~1.10                                    install qunit#1.10.0
+bower select2#stable/3.5                             install select2#90d4b9ee38
+bower lodash-compat#~3.0                             install lodash-compat#3.0.1
+bower google-code-prettify#~1.0                      install google-code-prettify#1.0.5
+bower font-awesome#~4                                install font-awesome#4.7.0
+bower jstree#~3                                      install jstree#3.3.5
+bower jquery-validation#~1.13                        install jquery-validation#1.13.1
+bower angular-bootstrap#^2.5.0                       install angular-bootstrap#2.5.0
+bower phantomjs-polyfill#^0.0.2                      install phantomjs-polyfill#0.0.2
+bower angular-sanitize#~1.5.0                        install angular-sanitize#1.5.11
+
+angular-mocks#1.5.11 bower_components/angular-mocks
+└── angular#1.5.11
+
+angular-route#1.5.11 bower_components/angular-route
+└── angular#1.5.11
+
+d3-3.5.x#3.5.17 bower_components/d3-3.5.x
+
+d3#3.4.11 bower_components/d3
+
+angular-ui-sortable#0.12.11 bower_components/angular-ui-sortable
+├── angular#1.5.11
+└── jquery-ui#1.12.1
+
+angular-file-upload#1.1.6 bower_components/angular-file-upload
+└── angular#1.5.11
+
+angular#1.5.11 bower_components/angular
+
+angular-unsavedChanges#0.1.1 bower_components/angular-unsavedChanges
+└── angular#1.5.11
+
+crossfilter-1.3.x#1.3.14 bower_components/crossfilter-1.3.x
+
+angular-ui-utils#0.1.1 bower_components/angular-ui-utils
+└── angular#1.5.11
+
+jquery#1.12.4 bower_components/jquery
+
+dc-2.1.x#2.1.10 bower_components/dc-2.1.x
+├── crossfilter2#1.4.6
+└── d3#3.4.11
+
+crossfilter2#1.4.6 bower_components/crossfilter2
+
+angular-jquery-dialog-service#8c5d302ce9 bower_components/angular-jquery-dialog-service
+
+jquery-ui#1.12.1 bower_components/jquery-ui
+└── jquery#1.12.4
+
+ckeditor#4.9.2 bower_components/ckeditor
+
+datatables#1.10.19 bower_components/datatables
+└── jquery#1.12.4
+
+qunit#1.10.0 bower_components/qunit
+
+select2#90d4b9ee38 bower_components/select2
+└── jquery#1.12.4
+
+lodash-compat#3.0.1 bower_components/lodash-compat
+
+google-code-prettify#1.0.5 bower_components/google-code-prettify
+
+font-awesome#4.7.0 bower_components/font-awesome
+
+jstree#3.3.5 bower_components/jstree
+└── jquery#1.12.4
+
+jquery-validation#1.13.1 bower_components/jquery-validation
+└── jquery#1.12.4
+
+angular-bootstrap#2.5.0 bower_components/angular-bootstrap
+└── angular#1.5.11
+
+phantomjs-polyfill#0.0.2 bower_components/phantomjs-polyfill
+
+angular-sanitize#1.5.11 bower_components/angular-sanitize
+└── angular#1.5.11
++ touch bower_components/.setupsh.ts
++ popd
+~/bknix/build/dcbench/sites/all/modules/civicrm
++ '[' -n 1 -a -d /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/./bin/../xml ']'
++ pushd /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/./bin/../xml
+~/bknix/build/dcbench/sites/all/modules/civicrm/xml ~/bknix/build/dcbench/sites/all/modules/civicrm
++ '[' -z 3307 ']'
++ PHP_MYSQL_HOSTPORT=127.0.0.1:3307
++ php -d mysql.default_host=127.0.0.1:3307 -d mysql.default_user=dcbenchciv_uekyr -d mysql.default_password=3NhOhu8qbPL747Xt GenCode.php schema/Schema.xml '' Drupal
+
+civicrm_domain.version := 5.4.beta1
+
+Parsing schema description schema/Schema.xml
+Extracting database information
+Extracting table information
+Generating civicrm.config.php
+Generating table list
+Generating sql file
+Generating sql drop tables file
+Generating data files for en_US
+Generating navigation file
+Generating CRM_Core_I18n_SchemaStructure...
++ popd
+~/bknix/build/dcbench/sites/all/modules/civicrm
++ '[' -n 1 ']'
++ pushd /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/./bin/../sql
+~/bknix/build/dcbench/sites/all/modules/civicrm/sql ~/bknix/build/dcbench/sites/all/modules/civicrm
++ echo
+
++ echo 'Dropping civicrm_* tables from database dcbenchciv_uekyr'
+Dropping civicrm_* tables from database dcbenchciv_uekyr
++ echo 'SELECT table_name FROM information_schema.TABLES  WHERE TABLE_SCHEMA='\''dcbenchciv_uekyr'\'' AND TABLE_TYPE = '\''VIEW'\'''
++ mysql -udcbenchciv_uekyr -p3NhOhu8qbPL747Xt -h 127.0.0.1 -P 3307 dcbenchciv_uekyr
++ mysql -udcbenchciv_uekyr -p3NhOhu8qbPL747Xt -h 127.0.0.1 -P 3307 dcbenchciv_uekyr
++ grep '^\(civicrm_\|log_civicrm_\)'
++ awk -v 'NOFOREIGNCHECK=SET FOREIGN_KEY_CHECKS=0;' 'BEGIN {print NOFOREIGNCHECK}{print "drop view " $1 ";"}'
+mysql: [Warning] Using a password on the command line interface can be insecure.
+mysql: [Warning] Using a password on the command line interface can be insecure.
++ echo 'SELECT table_name FROM information_schema.TABLES  WHERE TABLE_SCHEMA='\''dcbenchciv_uekyr'\'' AND TABLE_TYPE = '\''BASE TABLE'\'''
++ grep '^\(civicrm_\|log_civicrm_\)'
++ mysql -udcbenchciv_uekyr -p3NhOhu8qbPL747Xt -h 127.0.0.1 -P 3307 dcbenchciv_uekyr
++ mysql -udcbenchciv_uekyr -p3NhOhu8qbPL747Xt -h 127.0.0.1 -P 3307 dcbenchciv_uekyr
++ awk -v 'NOFOREIGNCHECK=SET FOREIGN_KEY_CHECKS=0;' 'BEGIN {print NOFOREIGNCHECK}{print "drop table " $1 ";"}'
+mysql: mysql: [Warning] Using a password on the command line interface can be insecure.[Warning] Using a password on the command line interface can be insecure.
+
++ echo
+
++ echo Creating database structure
+Creating database structure
++ mysql -udcbenchciv_uekyr -p3NhOhu8qbPL747Xt -h 127.0.0.1 -P 3307 dcbenchciv_uekyr
+mysql: [Warning] Using a password on the command line interface can be insecure.
++ popd
+~/bknix/build/dcbench/sites/all/modules/civicrm
++ '[' -n 1 ']'
++ pushd /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/./bin/../sql
+~/bknix/build/dcbench/sites/all/modules/civicrm/sql ~/bknix/build/dcbench/sites/all/modules/civicrm
++ '[' -z ']'
++ echo
+
++ echo 'Populating database with dataset - civicrm_generated.mysql'
+Populating database with dataset - civicrm_generated.mysql
++ mysql -udcbenchciv_uekyr -p3NhOhu8qbPL747Xt -h 127.0.0.1 -P 3307 dcbenchciv_uekyr
+mysql: [Warning] Using a password on the command line interface can be insecure.
+@option_most_id    := max(id)
+94
+@option_marital_id := max(id)
+95
+@ogid := MAX(id)
+96
+@cgid := MAX(id)
+2
+@cgid_contribution := MAX(id)
+3
+@ogid_contribution := MAX(id)
+97
+@dp            := max(id)
+1
+@dpTest        := max(id)
+2
++ '[' '!' -z ']'
++ popd
+~/bknix/build/dcbench/sites/all/modules/civicrm
++ '[' -n 1 ']'
++ pushd /home/totten/bknix/build/dcbench/sites/all/modules/civicrm/./bin/..
+~/bknix/build/dcbench/sites/all/modules/civicrm ~/bknix/build/dcbench/sites/all/modules/civicrm
++ mysql -udcbenchciv_uekyr -p3NhOhu8qbPL747Xt -h 127.0.0.1 -P 3307 dcbenchciv_uekyr -e 'UPDATE civicrm_domain SET config_backend = NULL; UPDATE civicrm_setting SET value = NULL WHERE name = '\''userFrameworkResourceURL'\'';'
+mysql: [Warning] Using a password on the command line interface can be insecure.
++ popd
+~/bknix/build/dcbench/sites/all/modules/civicrm
++ echo
+
++ echo 'NOTE: Logout from your CMS to avoid session conflicts.'
+NOTE: Logout from your CMS to avoid session conflicts.
++++ popd
++++ amp sql -Ncivi --root=/home/totten/bknix/build/dcbench
+@option_group_id := id
+31
++++ pushd /home/totten/bknix/build/dcbench/sites/default
++++ drush -y updatedb
+4 byte UTF-8 for mysql is not activated, but it is supported on your [1;33;40m[1m[warning][0m
+system. It is recommended that you enable this to allow 4-byte UTF-8
+input such as emojis, Asian symbols and mathematical symbols to be
+stored correctly. See the documentation on adding 4 byte UTF-8
+support for more information. (Currently using Database 4 byte UTF-8
+support Not enabled)
+No database updates required                                         [1;32;40m[1m[success][0m
+'all' cache was cleared.                                             [1;32;40m[1m[success][0m
+Finished performing updates.                                         [1;32;40m[1m[ok][0m
++++ drush -y en civicrm toolbar locale garland
+toolbar is already enabled.                                          [1;32;40m[1m[ok][0m
+The following extensions will be enabled: civicrm, locale, garland
+Do you really want to continue? (y/n): y
+locale was enabled successfully.                                     [1;32;40m[1m[ok][0m
+locale defines the following permissions: administer languages, translate interface
+civicrm was enabled successfully.                                    [1;32;40m[1m[ok][0m
+civicrm defines the following permissions: add contacts, view all contacts, edit all contacts, view my contact, edit my contact, delete contacts, access deleted contacts, import contacts, import SQL datasource, edit groups, administer CiviCRM, skip IDS check, access uploaded files, profile listings and forms, profile listings, profile create, profile edit, profile view, access all custom data, view all activities, delete activities, access CiviCRM, access Contact Dashboard, translate CiviCRM, manage tags, administer reserved groups, administer Tagsets, administer reserved tags, administer dedupe rules, merge duplicate contacts, force merge duplicate contacts, view debug output, view all notes, add contact notes, access AJAX API, access contact reference fields, create manual batch, edit own manual batches, edit all manual batches, close own manual batches, close all manual batches, reopen own manual batches, reopen all manual batches, view own manual batches, view all manual batches, delete own manual batches, delete all manual batches, export own manual batches, export all manual batches, administer payment processors, edit message templates, edit system workflow message templates, edit user-driven message templates, view my invoices, edit api keys, edit own api keys, send SMS, access CiviEvent, edit event participants, edit all events, register for events, view event info, view event participants, delete in CiviEvent, manage event profiles, access CiviContribute, edit contributions, make online contributions, delete in CiviContribute, access CiviMember, edit memberships, delete in CiviMember, access CiviMail, access CiviMail subscribe/unsubscribe pages, delete in CiviMail, view public CiviMail content, access CiviPledge, edit pledges, delete in CiviPledge, access CiviReport, access Report Criteria, save Report Criteria, administer private reports, administer reserved reports, administer Reports, view report sql
+garland was enabled successfully.                                    [1;32;40m[1m[ok][0m
++++ drush -y dis overlay
+The following extensions will be disabled: overlay
+Do you really want to continue? (y/n): y
+overlay was disabled successfully.                                   [1;32;40m[1m[ok][0m
++++ cv ev 'if(is_callable(array("CRM_Core_BAO_CMSUser","synchronize"))){CRM_Core_BAO_CMSUser::synchronize(FALSE);}else{CRM_Utils_System::synchronizeUsers();}'
+
++++ export SITE_CONFIG_DIR
++++ drush -y -u admin scr /home/totten/bknix/civicrm-buildkit/app/config/drupal-clean/install-theme.php
++++ drush php-eval -u admin 'module_load_include("inc","block","block.admin"); block_admin_display();'
++++ drush -y en civicrm_webtest
+The following extensions will be enabled: civicrm_webtest
+Do you really want to continue? (y/n): y
+civicrm_webtest was enabled successfully.                            [1;32;40m[1m[ok][0m
++++ drush -y user-create --password=demo --mail=demo@example.com demo
+ uid   :  2 
+
+ name   :  demo 
+
+ pass   :  $S$DE98UX9WgQUzIgd6HcdK8NlTfNrJLlBZRgeL7KENBDBGh8ZcQx2h 
+
+ mail   :  demo@example.com 
+
+ theme   :   
+
+ signature   :   
+
+ signature_format:     
+
+ created   :  1532460767 
+
+ access   :  0 
+
+ login   :  0 
+
+ status   :  1 
+
+ timezone:     
+
+ language   :   
+
+ picture:     
+
+ init   :   
+
+ 2   :  authenticated user 
+
+ rdftype    :  sioc:UserAccount 
+ name       :  foaf:name        
+ homepage   :  foaf:page        
+               rel              
+
+ user_created   :  Tue, 07/24/2018 - 12:32 
+
+ user_access   :  Wed, 12/31/1969 - 16:00 
+
+ user_login   :  Wed, 12/31/1969 - 16:00 
+
+ user_status   :  active 
+
+
++++ drush -y user-add-role civicrm_webtest_user demo
+Added the civicrm_webtest_user role to uid 2                         [1;32;40m[1m[success][0m
++++ for perm in ''\''access toolbar'\'''
++++ drush -y role-add-perm civicrm_webtest_user 'access toolbar'
+Added "access toolbar" to "civicrm_webtest_user"                     [1;32;40m[1m[success][0m
+'all' cache was cleared.                                             [1;32;40m[1m[success][0m
++++ popd
+++ set +ex
+[[Save CMS DB (dcbenchcms_mypec) to file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/cms.sql.gz)]]
+[[Save Civi DB (dcbenchciv_uekyr) to file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+[[Setup MySQL for Test]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (test) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+[[Show site summary (dcbench/default)]]
+ - CMS_ROOT: /home/totten/bknix/build/dcbench
+ - CMS_URL: http://dcbench.bknix:8001
+ - CMS_DB_DSN: mysql://dcbenchcms_mypec:JjyAENrHrSEG0JvS@127.0.0.1:3307/dcbenchcms_mypec?new_link=true
+ - CIVI_DB_DSN: mysql://dcbenchciv_uekyr:3NhOhu8qbPL747Xt@127.0.0.1:3307/dcbenchciv_uekyr?new_link=true
+ - TEST_DB_DSN: mysql://dcbenchtes_tl13x:JmBz2fE2X96cr5PS@127.0.0.1:3307/dcbenchtes_tl13x?new_link=true
+ - ADMIN_USER: admin
+ - ADMIN_PASS: F1pByjkJOb4D
+ - DEMO_USER: demo
+ - DEMO_PASS: demo
+[[General notes]]
+ - You may need to restart httpd.
+ - You may need to add the hostname and IP to /etc/hosts or DNS.
+42.87user 8.80system 1:02.83elapsed 82%CPU (0avgtext+0avgdata 165652maxresident)k
+4296inputs+504072outputs (38major+944337minor)pagefaults 0swaps

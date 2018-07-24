@@ -1,0 +1,828 @@
+~/bknix/build/dcbench ~/testbench-result/trial-2
+~/testbench-result/trial-2
+RUN:[[./scripts/phpunit --tap --log-junit '/home/totten/testbench-result/trial-2/dc54/phpunit-e2e.junit/E2E_AllTests.xml'  'E2E_AllTests']]
+TAP version 13
+ok 1 - # SKIP This environment does not have the APC extension.
+ok 2 - # SKIP This environment does not have the APC extension.
+ok 3 - # SKIP This environment does not have the APC extension.
+ok 4 - # SKIP This environment does not have the APC extension.
+ok 5 - # SKIP This environment does not have the APC extension.
+ok 6 - # SKIP This environment does not have the APC extension.
+ok 7 - # SKIP This environment does not have the APC extension.
+ok 8 - # SKIP This environment does not have the APC extension.
+ok 9 - # SKIP This environment does not have the APC extension.
+ok 10 - # SKIP This environment does not have the APC extension.
+ok 11 - # SKIP This environment does not have the APC extension.
+ok 12 - # SKIP This environment does not have the APC extension.
+ok 13 - # SKIP This environment does not have the APC extension.
+ok 14 - # SKIP This environment does not have the APC extension.
+ok 15 - # SKIP This environment does not have the APC extension.
+ok 16 - # SKIP This environment does not have the APC extension.
+ok 17 - # SKIP This environment does not have the APC extension.
+ok 18 - # SKIP This environment does not have the APC extension.
+ok 19 - # SKIP This environment does not have the APC extension.
+ok 20 - # SKIP This environment does not have the APC extension.
+ok 21 - # SKIP This environment does not have the APC extension.
+ok 22 - # SKIP This environment does not have the APC extension.
+ok 23 - # SKIP This environment does not have the APC extension.
+ok 24 - # SKIP This environment does not have the APC extension.
+ok 25 - # SKIP This environment does not have the APC extension.
+ok 26 - # SKIP This environment does not have the APC extension.
+ok 27 - # SKIP This environment does not have the APC extension.
+ok 28 - # SKIP This environment does not have the APC extension.
+ok 29 - # SKIP This environment does not have the APC extension.
+ok 30 - # SKIP This environment does not have the APC extension.
+ok 31 - # SKIP This environment does not have the APC extension.
+ok 32 - # SKIP This environment does not have the APC extension.
+ok 33 - # SKIP This environment does not have the APC extension.
+ok 34 - # SKIP This environment does not have the APC extension.
+ok 35 - # SKIP This environment does not have the APC extension.
+ok 36 - # SKIP This environment does not have the APC extension.
+ok 37 - # SKIP This environment does not have the APC extension.
+ok 38 - # SKIP This environment does not have the APC extension.
+ok 39 - # SKIP This environment does not have the APC extension.
+ok 40 - # SKIP This environment does not have the APC extension.
+ok 41 - # SKIP This environment does not have the APC extension.
+ok 42 - # SKIP This environment does not have the APC extension.
+ok 43 - # SKIP This environment does not have the APC extension.
+ok 44 - # SKIP This environment does not have the APC extension.
+ok 45 - # SKIP This environment does not have the APC extension.
+ok 46 - # SKIP This environment does not have the APC extension.
+ok 47 - # SKIP This environment does not have the APC extension.
+ok 48 - # SKIP This environment does not have the APC extension.
+ok 49 - # SKIP This environment does not have the APC extension.
+ok 50 - # SKIP This environment does not have the APC extension.
+ok 51 - # SKIP This environment does not have the APC extension.
+ok 52 - # SKIP This environment does not have the APC extension.
+ok 53 - # SKIP This environment does not have the APC extension.
+ok 54 - # SKIP This environment does not have the APC extension.
+ok 55 - # SKIP This environment does not have the APC extension.
+ok 56 - # SKIP This environment does not have the APC extension.
+ok 57 - # SKIP This environment does not have the APC extension.
+ok 58 - # SKIP This environment does not have the APC extension.
+ok 59 - # SKIP This environment does not have the APC extension.
+ok 60 - # SKIP This environment does not have the APC extension.
+ok 61 - # SKIP This environment does not have the APC extension.
+ok 62 - # SKIP This environment does not have the APC extension.
+ok 63 - # SKIP This environment does not have the APC extension.
+ok 64 - # SKIP This environment does not have the APC extension.
+ok 65 - # SKIP This environment does not have the APC extension.
+ok 66 - # SKIP This environment does not have the APC extension.
+ok 67 - # SKIP This environment does not have the APC extension.
+ok 68 - # SKIP This environment does not have the APC extension.
+ok 69 - # SKIP This environment does not have the APC extension.
+ok 70 - # SKIP This environment does not have the APC extension.
+ok 71 - # SKIP This environment does not have the APC extension.
+ok 72 - # SKIP This environment does not have the APC extension.
+ok 73 - # SKIP This environment does not have the APC extension.
+ok 74 - # SKIP This environment does not have the APC extension.
+ok 75 - # SKIP This environment does not have the APC extension.
+ok 76 - # SKIP This environment does not have the APC extension.
+ok 77 - # SKIP This environment does not have the APC extension.
+ok 78 - # SKIP This environment does not have the APC extension.
+ok 79 - # SKIP This environment does not have the APC extension.
+ok 80 - # SKIP This environment does not have the APC extension.
+ok 81 - # SKIP This environment does not have the APC extension.
+ok 82 - # SKIP This environment does not have the APC extension.
+ok 83 - # SKIP This environment does not have the APC extension.
+ok 84 - # SKIP This environment does not have the APC extension.
+ok 85 - # SKIP This environment does not have the APC extension.
+ok 86 - # SKIP This environment does not have the APC extension.
+ok 87 - # SKIP This environment does not have the APC extension.
+ok 88 - # SKIP This environment does not have the APC extension.
+ok 89 - # SKIP This environment does not have the APC extension.
+ok 90 - # SKIP This environment does not have the APC extension.
+ok 91 - # SKIP This environment does not have the APC extension.
+ok 92 - # SKIP This environment does not have the APC extension.
+ok 93 - # SKIP This environment does not have the APC extension.
+ok 94 - # SKIP This environment does not have the APC extension.
+ok 95 - # SKIP This environment does not have the APC extension.
+ok 96 - # SKIP This environment does not have the APC extension.
+ok 97 - # SKIP This environment does not have the APC extension.
+ok 98 - # SKIP This environment does not have the APC extension.
+ok 99 - # SKIP This environment does not have the APC extension.
+ok 100 - # SKIP This environment does not have the APC extension.
+ok 101 - # SKIP This environment does not have the APC extension.
+ok 102 - # SKIP This environment does not have the APC extension.
+ok 103 - # SKIP This environment does not have the APC extension.
+ok 104 - # SKIP This environment does not have the APC extension.
+ok 105 - # SKIP This environment does not have the APC extension.
+ok 106 - # SKIP This environment does not have the APC extension.
+ok 107 - # SKIP This environment does not have the APC extension.
+ok 108 - # SKIP This environment does not have the APC extension.
+ok 109 - # SKIP This environment does not have the APC extension.
+ok 110 - # SKIP This environment does not have the APC extension.
+ok 111 - # SKIP This environment does not have the APC extension.
+ok 112 - # SKIP This environment does not have the APC extension.
+ok 113 - # SKIP This environment does not have the APC extension.
+ok 114 - # SKIP This environment does not have the APC extension.
+ok 115 - # SKIP This environment does not have the APC extension.
+ok 116 - # SKIP This environment does not have the APC extension.
+ok 117 - # SKIP This environment does not have the APC extension.
+ok 118 - # SKIP This environment does not have the APC extension.
+ok 119 - # SKIP This environment does not have the APC extension.
+ok 120 - # SKIP This environment does not have the APC extension.
+ok 121 - # SKIP This environment does not have the APC extension.
+ok 122 - # SKIP This environment does not have the APC extension.
+ok 123 - # SKIP This environment does not have the APC extension.
+ok 124 - # SKIP This environment does not have the APC extension.
+ok 125 - # SKIP This environment does not have the APC extension.
+ok 126 - # SKIP This environment does not have the APC extension.
+ok 127 - # SKIP This environment does not have the APC extension.
+ok 128 - # SKIP This environment does not have the APC extension.
+ok 129 - # SKIP This environment does not have the APC extension.
+ok 130 - # SKIP This environment does not have the APC extension.
+ok 131 - # SKIP This environment does not have the APC extension.
+ok 132 - # SKIP This environment does not have the APC extension.
+ok 133 - # SKIP This environment does not have the APC extension.
+ok 134 - # SKIP This environment does not have the APC extension.
+ok 135 - # SKIP This environment does not have the APC extension.
+ok 136 - # SKIP This environment does not have the APC extension.
+ok 137 - # SKIP This environment does not have the APC extension.
+ok 138 - # SKIP This environment does not have the APC extension.
+ok 139 - # SKIP This environment does not have the APC extension.
+ok 140 - # SKIP This environment does not have the APC extension.
+ok 141 - # SKIP This environment does not have the APC extension.
+ok 142 - # SKIP This environment does not have the APC extension.
+ok 143 - # SKIP This environment does not have the APC extension.
+ok 144 - # SKIP This environment does not have the APC extension.
+ok 145 - # SKIP This environment does not have the APC extension.
+ok 146 - # SKIP This environment does not have the APC extension.
+ok 147 - # SKIP This environment does not have the APC extension.
+ok 148 - # SKIP This environment does not have the APC extension.
+ok 149 - # SKIP This environment does not have the APC extension.
+ok 150 - # SKIP This environment does not have the APC extension.
+ok 151 - # SKIP This environment does not have the APC extension.
+ok 152 - # SKIP This environment does not have the APC extension.
+ok 153 - # SKIP This environment does not have the APC extension.
+ok 154 - # SKIP This environment does not have the APC extension.
+ok 155 - # SKIP This environment does not have the APC extension.
+ok 156 - # SKIP This environment does not have the APC extension.
+ok 157 - # SKIP This environment does not have the APC extension.
+ok 158 - # SKIP This environment does not have the APC extension.
+ok 159 - # SKIP This environment does not have the APC extension.
+ok 160 - # SKIP This environment does not have the APC extension.
+ok 161 - # SKIP This environment does not have the APC extension.
+ok 162 - # SKIP This environment does not have the APC extension.
+ok 163 - # SKIP This environment does not have the APC extension.
+ok 164 - # SKIP This environment does not have the APC extension.
+ok 165 - # SKIP This environment does not have the APC extension.
+ok 166 - # SKIP This environment does not have the APC extension.
+ok 167 - # SKIP This environment does not have the APC extension.
+ok 168 - # SKIP This environment does not have the APC extension.
+ok 169 - # SKIP This environment does not have the APC extension.
+ok 170 - # SKIP This environment does not have the APC extension.
+ok 171 - # SKIP This environment does not have the APC extension.
+ok 172 - # SKIP This environment does not have the APC extension.
+ok 173 - # SKIP This environment does not have the APC extension.
+ok 174 - # SKIP This environment does not have the APC extension.
+ok 175 - # SKIP This environment does not have the APC extension.
+ok 176 - # SKIP This environment does not have the APC extension.
+ok 177 - # SKIP This environment does not have the APC extension.
+ok 178 - # SKIP This environment does not have the APC extension.
+ok 179 - # SKIP This environment does not have the APC extension.
+ok 180 - # SKIP This environment does not have the APC extension.
+ok 181 - # SKIP This environment does not have the APC extension.
+ok 182 - # SKIP This environment does not have the APC extension.
+ok 183 - # SKIP This environment does not have the APC extension.
+ok 184 - # SKIP This environment does not have the APC extension.
+ok 185 - # SKIP This environment does not have the APC extension.
+ok 186 - # SKIP This environment does not have the APC extension.
+ok 187 - # SKIP This environment does not have the APC extension.
+ok 188 - # SKIP This environment does not have the APC extension.
+ok 189 - # SKIP This environment does not have the APC extension.
+ok 190 - # SKIP This environment does not have the APC extension.
+ok 191 - # SKIP This environment does not have the APC extension.
+ok 192 - # SKIP This environment does not have the APC extension.
+ok 193 - # SKIP This environment does not have the APC extension.
+ok 194 - # SKIP This environment does not have the APC extension.
+ok 195 - E2E_Cache_ArrayCacheTest::testBasicUsageWithLongKey
+ok 196 - E2E_Cache_ArrayCacheTest::testSet
+ok 197 - E2E_Cache_ArrayCacheTest::testSetTtl
+ok 198 - E2E_Cache_ArrayCacheTest::testSetExpiredTtl
+ok 199 - E2E_Cache_ArrayCacheTest::testGet
+ok 200 - E2E_Cache_ArrayCacheTest::testDelete
+ok 201 - E2E_Cache_ArrayCacheTest::testClear
+ok 202 - E2E_Cache_ArrayCacheTest::testSetMultiple
+ok 203 - E2E_Cache_ArrayCacheTest::testSetMultipleWithIntegerArrayKey
+ok 204 - E2E_Cache_ArrayCacheTest::testSetMultipleTtl
+ok 205 - E2E_Cache_ArrayCacheTest::testSetMultipleExpiredTtl
+ok 206 - E2E_Cache_ArrayCacheTest::testSetMultipleWithGenerator
+ok 207 - E2E_Cache_ArrayCacheTest::testGetMultiple
+ok 208 - E2E_Cache_ArrayCacheTest::testGetMultipleWithGenerator
+ok 209 - E2E_Cache_ArrayCacheTest::testDeleteMultiple
+ok 210 - E2E_Cache_ArrayCacheTest::testDeleteMultipleGenerator
+ok 211 - E2E_Cache_ArrayCacheTest::testHas
+ok 212 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #0 ('')
+ok 213 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #1 (true)
+ok 214 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #2 (false)
+ok 215 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #3 (null)
+ok 216 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #4 (2)
+ok 217 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #5 (2.5)
+ok 218 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #6 ('{str')
+ok 219 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #7 ('rand{')
+ok 220 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #8 ('rand{str')
+ok 221 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #9 ('rand}str')
+ok 222 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #10 ('rand(str')
+ok 223 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #11 ('rand)str')
+ok 224 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #12 ('rand/str')
+ok 225 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #13 ('rand\str')
+ok 226 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #14 ('rand@str')
+ok 227 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #15 ('rand:str')
+ok 228 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #16 (stdClass Object ())
+ok 229 - E2E_Cache_ArrayCacheTest::testGetInvalidKeys with data set #17 (array('array'))
+ok 230 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #0 ('')
+ok 231 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #1 (true)
+ok 232 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #2 (false)
+ok 233 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #3 (null)
+ok 234 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #4 (2)
+ok 235 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #5 (2.5)
+ok 236 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #6 ('{str')
+ok 237 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #7 ('rand{')
+ok 238 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #8 ('rand{str')
+ok 239 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #9 ('rand}str')
+ok 240 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #10 ('rand(str')
+ok 241 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #11 ('rand)str')
+ok 242 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #12 ('rand/str')
+ok 243 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #13 ('rand\str')
+ok 244 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #14 ('rand@str')
+ok 245 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #15 ('rand:str')
+ok 246 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #16 (stdClass Object ())
+ok 247 - E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys with data set #17 (array('array'))
+ok 248 - E2E_Cache_ArrayCacheTest::testGetMultipleNoIterable
+ok 249 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #0 ('')
+ok 250 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #1 (true)
+ok 251 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #2 (false)
+ok 252 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #3 (null)
+ok 253 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #4 (2)
+ok 254 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #5 (2.5)
+ok 255 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #6 ('{str')
+ok 256 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #7 ('rand{')
+ok 257 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #8 ('rand{str')
+ok 258 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #9 ('rand}str')
+ok 259 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #10 ('rand(str')
+ok 260 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #11 ('rand)str')
+ok 261 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #12 ('rand/str')
+ok 262 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #13 ('rand\str')
+ok 263 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #14 ('rand@str')
+ok 264 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #15 ('rand:str')
+ok 265 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #16 (stdClass Object ())
+ok 266 - E2E_Cache_ArrayCacheTest::testSetInvalidKeys with data set #17 (array('array'))
+ok 267 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #0 ('')
+ok 268 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #1 (true)
+ok 269 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #2 (false)
+ok 270 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #3 (null)
+ok 271 - # SKIP As keys, strings are always casted to ints so they should be accepted
+ok 272 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #5 (2.5)
+ok 273 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #6 ('{str')
+ok 274 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #7 ('rand{')
+ok 275 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #8 ('rand{str')
+ok 276 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #9 ('rand}str')
+ok 277 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #10 ('rand(str')
+ok 278 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #11 ('rand)str')
+ok 279 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #12 ('rand/str')
+ok 280 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #13 ('rand\str')
+ok 281 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #14 ('rand@str')
+ok 282 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #15 ('rand:str')
+ok 283 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #16 (stdClass Object ())
+ok 284 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys with data set #17 (array('array'))
+ok 285 - E2E_Cache_ArrayCacheTest::testSetMultipleNoIterable
+ok 286 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #0 ('')
+ok 287 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #1 (true)
+ok 288 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #2 (false)
+ok 289 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #3 (null)
+ok 290 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #4 (2)
+ok 291 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #5 (2.5)
+ok 292 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #6 ('{str')
+ok 293 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #7 ('rand{')
+ok 294 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #8 ('rand{str')
+ok 295 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #9 ('rand}str')
+ok 296 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #10 ('rand(str')
+ok 297 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #11 ('rand)str')
+ok 298 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #12 ('rand/str')
+ok 299 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #13 ('rand\str')
+ok 300 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #14 ('rand@str')
+ok 301 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #15 ('rand:str')
+ok 302 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #16 (stdClass Object ())
+ok 303 - E2E_Cache_ArrayCacheTest::testHasInvalidKeys with data set #17 (array('array'))
+ok 304 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #0 ('')
+ok 305 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #1 (true)
+ok 306 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #2 (false)
+ok 307 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #3 (null)
+ok 308 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #4 (2)
+ok 309 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #5 (2.5)
+ok 310 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #6 ('{str')
+ok 311 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #7 ('rand{')
+ok 312 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #8 ('rand{str')
+ok 313 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #9 ('rand}str')
+ok 314 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #10 ('rand(str')
+ok 315 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #11 ('rand)str')
+ok 316 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #12 ('rand/str')
+ok 317 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #13 ('rand\str')
+ok 318 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #14 ('rand@str')
+ok 319 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #15 ('rand:str')
+ok 320 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #16 (stdClass Object ())
+ok 321 - E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys with data set #17 (array('array'))
+ok 322 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #0 ('')
+ok 323 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #1 (true)
+ok 324 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #2 (false)
+ok 325 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #3 (null)
+ok 326 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #4 (2)
+ok 327 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #5 (2.5)
+ok 328 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #6 ('{str')
+ok 329 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #7 ('rand{')
+ok 330 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #8 ('rand{str')
+ok 331 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #9 ('rand}str')
+ok 332 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #10 ('rand(str')
+ok 333 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #11 ('rand)str')
+ok 334 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #12 ('rand/str')
+ok 335 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #13 ('rand\str')
+ok 336 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #14 ('rand@str')
+ok 337 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #15 ('rand:str')
+ok 338 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #16 (stdClass Object ())
+ok 339 - E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys with data set #17 (array('array'))
+ok 340 - E2E_Cache_ArrayCacheTest::testDeleteMultipleNoIterable
+ok 341 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #0 ('')
+ok 342 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #1 (true)
+ok 343 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #2 (false)
+ok 344 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #3 ('abc')
+ok 345 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #4 (2.5)
+ok 346 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #5 (' 1')
+ok 347 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #6 ('12foo')
+ok 348 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #7 ('025')
+ok 349 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #8 (stdClass Object ())
+ok 350 - E2E_Cache_ArrayCacheTest::testSetInvalidTtl with data set #9 (array('array'))
+ok 351 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #0 ('')
+ok 352 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #1 (true)
+ok 353 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #2 (false)
+ok 354 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #3 ('abc')
+ok 355 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #4 (2.5)
+ok 356 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #5 (' 1')
+ok 357 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #6 ('12foo')
+ok 358 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #7 ('025')
+ok 359 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #8 (stdClass Object ())
+ok 360 - E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl with data set #9 (array('array'))
+ok 361 - E2E_Cache_ArrayCacheTest::testNullOverwrite
+ok 362 - E2E_Cache_ArrayCacheTest::testDataTypeString
+ok 363 - E2E_Cache_ArrayCacheTest::testDataTypeInteger
+ok 364 - E2E_Cache_ArrayCacheTest::testDataTypeFloat
+ok 365 - E2E_Cache_ArrayCacheTest::testDataTypeBoolean
+ok 366 - E2E_Cache_ArrayCacheTest::testDataTypeArray
+ok 367 - E2E_Cache_ArrayCacheTest::testDataTypeObject
+ok 368 - E2E_Cache_ArrayCacheTest::testBinaryData
+ok 369 - E2E_Cache_ArrayCacheTest::testSetValidKeys with data set #0 ('AbC19_.')
+ok 370 - E2E_Cache_ArrayCacheTest::testSetValidKeys with data set #1 ('12345678901234567890123456789...901234')
+ok 371 - E2E_Cache_ArrayCacheTest::testSetMultipleValidKeys with data set #0 ('AbC19_.')
+ok 372 - E2E_Cache_ArrayCacheTest::testSetMultipleValidKeys with data set #1 ('12345678901234567890123456789...901234')
+ok 373 - E2E_Cache_ArrayCacheTest::testSetValidData with data set #0 ('AbC19_.')
+ok 374 - E2E_Cache_ArrayCacheTest::testSetValidData with data set #1 (4711)
+ok 375 - E2E_Cache_ArrayCacheTest::testSetValidData with data set #2 (47.109999999999999)
+ok 376 - E2E_Cache_ArrayCacheTest::testSetValidData with data set #3 (true)
+ok 377 - E2E_Cache_ArrayCacheTest::testSetValidData with data set #4 (null)
+ok 378 - E2E_Cache_ArrayCacheTest::testSetValidData with data set #5 (array('value'))
+ok 379 - E2E_Cache_ArrayCacheTest::testSetValidData with data set #6 (stdClass Object ())
+ok 380 - E2E_Cache_ArrayCacheTest::testSetMultipleValidData with data set #0 ('AbC19_.')
+ok 381 - E2E_Cache_ArrayCacheTest::testSetMultipleValidData with data set #1 (4711)
+ok 382 - E2E_Cache_ArrayCacheTest::testSetMultipleValidData with data set #2 (47.109999999999999)
+ok 383 - E2E_Cache_ArrayCacheTest::testSetMultipleValidData with data set #3 (true)
+ok 384 - E2E_Cache_ArrayCacheTest::testSetMultipleValidData with data set #4 (null)
+ok 385 - E2E_Cache_ArrayCacheTest::testSetMultipleValidData with data set #5 (array('value'))
+ok 386 - E2E_Cache_ArrayCacheTest::testSetMultipleValidData with data set #6 (stdClass Object ())
+ok 387 - E2E_Cache_ArrayCacheTest::testObjectAsDefaultValue
+ok 388 - E2E_Cache_ArrayCacheTest::testObjectDoesNotChangeInCache
+ok 389 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 390 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 391 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 392 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 393 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 394 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 395 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 396 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 397 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 398 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 399 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 400 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 401 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 402 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 403 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 404 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 405 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 406 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 407 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 408 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 409 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 410 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 411 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 412 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 413 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 414 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 415 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 416 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 417 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 418 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 419 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 420 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 421 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 422 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 423 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 424 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 425 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 426 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 427 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 428 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 429 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 430 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 431 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 432 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 433 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 434 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 435 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 436 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 437 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 438 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 439 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 440 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 441 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 442 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 443 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 444 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 445 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 446 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 447 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 448 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 449 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 450 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 451 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 452 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 453 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 454 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 455 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 456 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 457 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 458 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 459 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 460 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 461 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 462 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 463 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 464 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 465 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 466 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 467 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 468 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 469 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 470 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 471 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 472 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 473 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 474 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 475 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 476 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 477 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 478 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 479 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 480 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 481 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 482 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 483 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 484 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 485 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 486 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 487 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 488 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 489 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 490 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 491 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 492 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 493 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 494 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 495 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 496 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 497 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 498 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 499 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 500 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 501 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 502 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 503 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 504 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 505 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 506 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 507 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 508 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 509 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 510 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 511 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 512 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 513 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 514 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 515 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 516 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 517 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 518 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 519 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 520 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 521 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 522 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 523 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 524 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 525 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 526 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 527 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 528 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 529 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 530 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 531 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 532 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 533 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 534 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 535 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 536 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 537 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 538 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 539 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 540 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 541 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 542 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 543 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 544 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 545 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 546 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 547 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 548 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 549 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 550 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 551 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 552 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 553 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 554 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 555 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 556 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 557 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 558 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 559 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 560 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 561 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 562 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 563 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 564 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 565 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 566 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 567 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 568 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 569 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 570 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 571 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 572 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 573 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 574 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 575 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 576 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 577 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 578 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 579 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 580 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 581 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 582 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 583 - E2E_Cache_SqlGroupTest::testBasicUsageWithLongKey
+ok 584 - E2E_Cache_SqlGroupTest::testSet
+ok 585 - E2E_Cache_SqlGroupTest::testSetTtl
+ok 586 - E2E_Cache_SqlGroupTest::testSetExpiredTtl
+ok 587 - E2E_Cache_SqlGroupTest::testGet
+ok 588 - E2E_Cache_SqlGroupTest::testDelete
+ok 589 - E2E_Cache_SqlGroupTest::testClear
+ok 590 - E2E_Cache_SqlGroupTest::testSetMultiple
+ok 591 - E2E_Cache_SqlGroupTest::testSetMultipleWithIntegerArrayKey
+ok 592 - E2E_Cache_SqlGroupTest::testSetMultipleTtl
+ok 593 - E2E_Cache_SqlGroupTest::testSetMultipleExpiredTtl
+ok 594 - E2E_Cache_SqlGroupTest::testSetMultipleWithGenerator
+ok 595 - E2E_Cache_SqlGroupTest::testGetMultiple
+ok 596 - E2E_Cache_SqlGroupTest::testGetMultipleWithGenerator
+ok 597 - E2E_Cache_SqlGroupTest::testDeleteMultiple
+ok 598 - E2E_Cache_SqlGroupTest::testDeleteMultipleGenerator
+ok 599 - E2E_Cache_SqlGroupTest::testHas
+ok 600 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #0 ('')
+ok 601 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #1 (true)
+ok 602 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #2 (false)
+ok 603 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #3 (null)
+ok 604 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #4 (2)
+ok 605 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #5 (2.5)
+ok 606 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #6 ('{str')
+ok 607 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #7 ('rand{')
+ok 608 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #8 ('rand{str')
+ok 609 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #9 ('rand}str')
+ok 610 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #10 ('rand(str')
+ok 611 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #11 ('rand)str')
+ok 612 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #12 ('rand/str')
+ok 613 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #13 ('rand\str')
+ok 614 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #14 ('rand@str')
+ok 615 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #15 ('rand:str')
+ok 616 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #16 (stdClass Object ())
+ok 617 - E2E_Cache_SqlGroupTest::testGetInvalidKeys with data set #17 (array('array'))
+ok 618 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #0 ('')
+ok 619 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #1 (true)
+ok 620 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #2 (false)
+ok 621 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #3 (null)
+ok 622 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #4 (2)
+ok 623 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #5 (2.5)
+ok 624 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #6 ('{str')
+ok 625 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #7 ('rand{')
+ok 626 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #8 ('rand{str')
+ok 627 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #9 ('rand}str')
+ok 628 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #10 ('rand(str')
+ok 629 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #11 ('rand)str')
+ok 630 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #12 ('rand/str')
+ok 631 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #13 ('rand\str')
+ok 632 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #14 ('rand@str')
+ok 633 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #15 ('rand:str')
+ok 634 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #16 (stdClass Object ())
+ok 635 - E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys with data set #17 (array('array'))
+ok 636 - E2E_Cache_SqlGroupTest::testGetMultipleNoIterable
+ok 637 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #0 ('')
+ok 638 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #1 (true)
+ok 639 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #2 (false)
+ok 640 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #3 (null)
+ok 641 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #4 (2)
+ok 642 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #5 (2.5)
+ok 643 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #6 ('{str')
+ok 644 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #7 ('rand{')
+ok 645 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #8 ('rand{str')
+ok 646 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #9 ('rand}str')
+ok 647 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #10 ('rand(str')
+ok 648 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #11 ('rand)str')
+ok 649 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #12 ('rand/str')
+ok 650 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #13 ('rand\str')
+ok 651 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #14 ('rand@str')
+ok 652 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #15 ('rand:str')
+ok 653 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #16 (stdClass Object ())
+ok 654 - E2E_Cache_SqlGroupTest::testSetInvalidKeys with data set #17 (array('array'))
+ok 655 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #0 ('')
+ok 656 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #1 (true)
+ok 657 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #2 (false)
+ok 658 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #3 (null)
+ok 659 - # SKIP As keys, strings are always casted to ints so they should be accepted
+ok 660 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #5 (2.5)
+ok 661 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #6 ('{str')
+ok 662 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #7 ('rand{')
+ok 663 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #8 ('rand{str')
+ok 664 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #9 ('rand}str')
+ok 665 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #10 ('rand(str')
+ok 666 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #11 ('rand)str')
+ok 667 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #12 ('rand/str')
+ok 668 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #13 ('rand\str')
+ok 669 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #14 ('rand@str')
+ok 670 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #15 ('rand:str')
+ok 671 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #16 (stdClass Object ())
+ok 672 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys with data set #17 (array('array'))
+ok 673 - E2E_Cache_SqlGroupTest::testSetMultipleNoIterable
+ok 674 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #0 ('')
+ok 675 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #1 (true)
+ok 676 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #2 (false)
+ok 677 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #3 (null)
+ok 678 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #4 (2)
+ok 679 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #5 (2.5)
+ok 680 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #6 ('{str')
+ok 681 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #7 ('rand{')
+ok 682 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #8 ('rand{str')
+ok 683 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #9 ('rand}str')
+ok 684 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #10 ('rand(str')
+ok 685 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #11 ('rand)str')
+ok 686 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #12 ('rand/str')
+ok 687 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #13 ('rand\str')
+ok 688 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #14 ('rand@str')
+ok 689 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #15 ('rand:str')
+ok 690 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #16 (stdClass Object ())
+ok 691 - E2E_Cache_SqlGroupTest::testHasInvalidKeys with data set #17 (array('array'))
+ok 692 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #0 ('')
+ok 693 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #1 (true)
+ok 694 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #2 (false)
+ok 695 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #3 (null)
+ok 696 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #4 (2)
+ok 697 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #5 (2.5)
+ok 698 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #6 ('{str')
+ok 699 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #7 ('rand{')
+ok 700 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #8 ('rand{str')
+ok 701 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #9 ('rand}str')
+ok 702 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #10 ('rand(str')
+ok 703 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #11 ('rand)str')
+ok 704 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #12 ('rand/str')
+ok 705 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #13 ('rand\str')
+ok 706 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #14 ('rand@str')
+ok 707 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #15 ('rand:str')
+ok 708 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #16 (stdClass Object ())
+ok 709 - E2E_Cache_SqlGroupTest::testDeleteInvalidKeys with data set #17 (array('array'))
+ok 710 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #0 ('')
+ok 711 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #1 (true)
+ok 712 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #2 (false)
+ok 713 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #3 (null)
+ok 714 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #4 (2)
+ok 715 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #5 (2.5)
+ok 716 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #6 ('{str')
+ok 717 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #7 ('rand{')
+ok 718 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #8 ('rand{str')
+ok 719 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #9 ('rand}str')
+ok 720 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #10 ('rand(str')
+ok 721 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #11 ('rand)str')
+ok 722 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #12 ('rand/str')
+ok 723 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #13 ('rand\str')
+ok 724 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #14 ('rand@str')
+ok 725 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #15 ('rand:str')
+ok 726 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #16 (stdClass Object ())
+ok 727 - E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys with data set #17 (array('array'))
+ok 728 - E2E_Cache_SqlGroupTest::testDeleteMultipleNoIterable
+ok 729 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #0 ('')
+ok 730 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #1 (true)
+ok 731 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #2 (false)
+ok 732 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #3 ('abc')
+ok 733 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #4 (2.5)
+ok 734 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #5 (' 1')
+ok 735 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #6 ('12foo')
+ok 736 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #7 ('025')
+ok 737 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #8 (stdClass Object ())
+ok 738 - E2E_Cache_SqlGroupTest::testSetInvalidTtl with data set #9 (array('array'))
+ok 739 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #0 ('')
+ok 740 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #1 (true)
+ok 741 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #2 (false)
+ok 742 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #3 ('abc')
+ok 743 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #4 (2.5)
+ok 744 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #5 (' 1')
+ok 745 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #6 ('12foo')
+ok 746 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #7 ('025')
+ok 747 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #8 (stdClass Object ())
+ok 748 - E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl with data set #9 (array('array'))
+ok 749 - E2E_Cache_SqlGroupTest::testNullOverwrite
+ok 750 - E2E_Cache_SqlGroupTest::testDataTypeString
+ok 751 - E2E_Cache_SqlGroupTest::testDataTypeInteger
+ok 752 - E2E_Cache_SqlGroupTest::testDataTypeFloat
+ok 753 - E2E_Cache_SqlGroupTest::testDataTypeBoolean
+ok 754 - E2E_Cache_SqlGroupTest::testDataTypeArray
+ok 755 - E2E_Cache_SqlGroupTest::testDataTypeObject
+ok 756 - E2E_Cache_SqlGroupTest::testBinaryData
+ok 757 - E2E_Cache_SqlGroupTest::testSetValidKeys with data set #0 ('AbC19_.')
+ok 758 - E2E_Cache_SqlGroupTest::testSetValidKeys with data set #1 ('12345678901234567890123456789...901234')
+ok 759 - E2E_Cache_SqlGroupTest::testSetMultipleValidKeys with data set #0 ('AbC19_.')
+ok 760 - E2E_Cache_SqlGroupTest::testSetMultipleValidKeys with data set #1 ('12345678901234567890123456789...901234')
+ok 761 - E2E_Cache_SqlGroupTest::testSetValidData with data set #0 ('AbC19_.')
+ok 762 - E2E_Cache_SqlGroupTest::testSetValidData with data set #1 (4711)
+ok 763 - E2E_Cache_SqlGroupTest::testSetValidData with data set #2 (47.109999999999999)
+ok 764 - E2E_Cache_SqlGroupTest::testSetValidData with data set #3 (true)
+ok 765 - E2E_Cache_SqlGroupTest::testSetValidData with data set #4 (null)
+ok 766 - E2E_Cache_SqlGroupTest::testSetValidData with data set #5 (array('value'))
+ok 767 - E2E_Cache_SqlGroupTest::testSetValidData with data set #6 (stdClass Object ())
+ok 768 - E2E_Cache_SqlGroupTest::testSetMultipleValidData with data set #0 ('AbC19_.')
+ok 769 - E2E_Cache_SqlGroupTest::testSetMultipleValidData with data set #1 (4711)
+ok 770 - E2E_Cache_SqlGroupTest::testSetMultipleValidData with data set #2 (47.109999999999999)
+ok 771 - E2E_Cache_SqlGroupTest::testSetMultipleValidData with data set #3 (true)
+ok 772 - E2E_Cache_SqlGroupTest::testSetMultipleValidData with data set #4 (null)
+ok 773 - E2E_Cache_SqlGroupTest::testSetMultipleValidData with data set #5 (array('value'))
+ok 774 - E2E_Cache_SqlGroupTest::testSetMultipleValidData with data set #6 (stdClass Object ())
+ok 775 - E2E_Cache_SqlGroupTest::testObjectAsDefaultValue
+ok 776 - E2E_Cache_SqlGroupTest::testObjectDoesNotChangeInCache
+ok 777 - E2E_Cache_TwoInstancesTest::testSingle_reload with data set #0 (array(array('SqlGroup'), 'TwoInstancesTest_SameSQL'))
+ok 778 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 779 - E2E_Cache_TwoInstancesTest::testDiff_clearA with data set #0 (array(array('SqlGroup'), 'testTwo_a'), array(array('SqlGroup'), 'testTwo_b'))
+ok 780 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 781 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 782 - E2E_Cache_TwoInstancesTest::testDiff_clearB with data set #0 (array(array('SqlGroup'), 'testTwo_a'), array(array('SqlGroup'), 'testTwo_b'))
+ok 783 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 784 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 785 - E2E_Cache_TwoInstancesTest::testDiff_reload with data set #0 (array(array('SqlGroup'), 'testTwo_a'), array(array('SqlGroup'), 'testTwo_b'))
+ok 786 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 787 - # SKIP This environment is not configured to use a memory-backed cache service.
+ok 788 - E2E\Core\AssetBuilderTest::testRender with data set #0 ('square.txt', array(11), 'text/plain', 'Square: 121')
+ok 789 - E2E\Core\AssetBuilderTest::testRender with data set #1 ('square.txt', array(12), 'text/plain', 'Square: 144')
+ok 790 - E2E\Core\AssetBuilderTest::testRender with data set #2 ('square.js', array(12), 'application/javascript', 'var square=144;')
+ok 791 - E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #0 ('square.txt', array(11), 'text/plain', 'Square: 121')
+ok 792 - E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #1 ('square.txt', array(12), 'text/plain', 'Square: 144')
+ok 793 - E2E\Core\AssetBuilderTest::testGetUrl_cached with data set #2 ('square.js', array(12), 'application/javascript', 'var square=144;')
+ok 794 - E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #0 ('square.txt', array(11), 'text/plain', 'Square: 121')
+ok 795 - E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #1 ('square.txt', array(12), 'text/plain', 'Square: 144')
+ok 796 - E2E\Core\AssetBuilderTest::testGetUrl_uncached with data set #2 ('square.js', array(12), 'application/javascript', 'var square=144;')
+ok 797 - E2E\Core\AssetBuilderTest::testInvalid
+ok 798 - E2E_Extern_RestTest::testAPICalls with data set #0 (array('Contact', 'get', '7hEa6ysiKWUaCb2W', '1'), 1)
+ok 799 - E2E_Extern_RestTest::testAPICalls with data set #1 (array('Contact', 'get', '7hEa6ysiKWUaCb2W', '1', '1454963974877963981'), 0)
+ok 800 - E2E_Extern_RestTest::testAPICalls with data set #2 (array('Contact', 'get', '7hEa6ysiKWUaCb2W', '1', 'garbage_1454963974877963981'), 1)
+ok 801 - E2E_Extern_RestTest::testAPICalls with data set #3 (array('Contactses', 'get', '7hEa6ysiKWUaCb2W', '1', '1454963974877963981'), 1)
+ok 802 - E2E_Extern_RestTest::testAPICalls with data set #4 (array('civicrm/contact/get', '7hEa6ysiKWUaCb2W', '1'), 1)
+ok 803 - E2E_Extern_RestTest::testAPICalls with data set #5 (array('civicrm/contact/get', '7hEa6ysiKWUaCb2W', '1', '1454963974877963981'), 0)
+ok 804 - E2E_Extern_RestTest::testAPICalls with data set #6 (array('civicrm/contact/get', '7hEa6ysiKWUaCb2W', '1', 'garbage_1454963974877963981'), 1)
+ok 805 - E2E_Extern_RestTest::testAPICalls with data set #7 (array('civicrm/contactses/get', '7hEa6ysiKWUaCb2W', '1', '1454963974877963981'), 1)
+ok 806 - E2E_Extern_RestTest::testAPICalls with data set #8 (array('civicrm/ping', '7hEa6ysiKWUaCb2W', '1', '1454963974877963981'), 0)
+ok 807 - E2E_Extern_RestTest::testNotCMSUser_entityAction
+ok 808 - E2E_Extern_RestTest::testNotCMSUser_q
+ok 809 - E2E_Extern_SoapTest::testAuthenticationBadPassword
+ok 810 - E2E_Extern_SoapTest::testAuthenticationBadKey
+ok 811 - E2E_Extern_SoapTest::testGetContact
+1..811
+Found EXITCODES=""
+[[Load saved options from /home/totten/bknix/build/dcbench.sh]]
+[[Setup MySQL and HTTP for CMS]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (cms) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/cms.sql.gz)]]
+[[Setup MySQL for Civi]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (civi) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+[[Setup MySQL for Test]]
+[[Restore "/home/totten/bknix/build/dcbench" DB (test) from file (/home/totten/bknix/civicrm-buildkit/app/snapshot/dcbench/civi.sql.gz)]]
+Check test results and set exit code
+Exit normally
+3.67user 0.83system 0:27.00elapsed 16%CPU (0avgtext+0avgdata 128016maxresident)k
+0inputs+920outputs (0major+225876minor)pagefaults 0swaps

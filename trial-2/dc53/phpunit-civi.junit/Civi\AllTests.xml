@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Civi All Tests" tests="128" assertions="1269" failures="0" errors="0" time="24.725012">
+    <testsuite name="Civi\API\Subscriber\DynamicFKAuthorizationTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/Subscriber/DynamicFKAuthorizationTest.php" tests="18" assertions="67" failures="0" errors="0" time="3.551215">
+      <testsuite name="Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk" tests="5" assertions="15" failures="0" errors="0" time="2.195872">
+        <testcase name="testOk with data set #0" assertions="3" time="1.817658">
+          <system-out>
+Installing dcbenchtes_u3g23 database
+</system-out>
+        </testcase>
+        <testcase name="testOk with data set #1" assertions="3" time="0.090844"/>
+        <testcase name="testOk with data set #2" assertions="3" time="0.087937"/>
+        <testcase name="testOk with data set #3" assertions="3" time="0.102544"/>
+        <testcase name="testOk with data set #4" assertions="3" time="0.096889"/>
+      </testsuite>
+      <testsuite name="Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad" tests="13" assertions="52" failures="0" errors="0" time="1.355343">
+        <testcase name="testBad with data set #0" assertions="4" time="0.106277"/>
+        <testcase name="testBad with data set #1" assertions="4" time="0.100520"/>
+        <testcase name="testBad with data set #2" assertions="4" time="0.105326"/>
+        <testcase name="testBad with data set #3" assertions="4" time="0.100945"/>
+        <testcase name="testBad with data set #4" assertions="4" time="0.110544"/>
+        <testcase name="testBad with data set #5" assertions="4" time="0.115501"/>
+        <testcase name="testBad with data set #6" assertions="4" time="0.097705"/>
+        <testcase name="testBad with data set #7" assertions="4" time="0.097575"/>
+        <testcase name="testBad with data set #8" assertions="4" time="0.103233"/>
+        <testcase name="testBad with data set #9" assertions="4" time="0.095393"/>
+        <testcase name="testBad with data set #10" assertions="4" time="0.099335"/>
+        <testcase name="testBad with data set #11" assertions="4" time="0.114691"/>
+        <testcase name="testBad with data set #12" assertions="4" time="0.108298"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Civi\API\Subscriber\TransactionSubscriberTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/Subscriber/TransactionSubscriberTest.php" tests="17" assertions="85" failures="0" errors="0" time="2.083771">
+      <testsuite name="Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions" tests="16" assertions="80" failures="0" errors="0" time="1.931197">
+        <testcase name="testTransactionOptions with data set #0" assertions="5" time="0.338628"/>
+        <testcase name="testTransactionOptions with data set #1" assertions="5" time="0.114197"/>
+        <testcase name="testTransactionOptions with data set #2" assertions="5" time="0.115001"/>
+        <testcase name="testTransactionOptions with data set #3" assertions="5" time="0.110577"/>
+        <testcase name="testTransactionOptions with data set #4" assertions="5" time="0.092166"/>
+        <testcase name="testTransactionOptions with data set #5" assertions="5" time="0.094328"/>
+        <testcase name="testTransactionOptions with data set #6" assertions="5" time="0.091668"/>
+        <testcase name="testTransactionOptions with data set #7" assertions="5" time="0.091783"/>
+        <testcase name="testTransactionOptions with data set #8" assertions="5" time="0.110078"/>
+        <testcase name="testTransactionOptions with data set #9" assertions="5" time="0.114065"/>
+        <testcase name="testTransactionOptions with data set #10" assertions="5" time="0.111588"/>
+        <testcase name="testTransactionOptions with data set #11" assertions="5" time="0.104087"/>
+        <testcase name="testTransactionOptions with data set #12" assertions="5" time="0.105795"/>
+        <testcase name="testTransactionOptions with data set #13" assertions="5" time="0.109271"/>
+        <testcase name="testTransactionOptions with data set #14" assertions="5" time="0.111764"/>
+        <testcase name="testTransactionOptions with data set #15" assertions="5" time="0.116201"/>
+      </testsuite>
+      <testcase name="testForceRollback" class="Civi\API\Subscriber\TransactionSubscriberTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/Subscriber/TransactionSubscriberTest.php" line="110" assertions="5" time="0.152574"/>
+    </testsuite>
+    <testsuite name="Civi\API\Subscriber\WhitelistSubscriberTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/Subscriber/WhitelistSubscriberTest.php" tests="31" assertions="155" failures="0" errors="0" time="3.471546">
+      <testsuite name="Civi\API\Subscriber\WhitelistSubscriberTest::testEach" tests="31" assertions="155" failures="0" errors="0" time="3.471546">
+        <testcase name="testEach with data set #0" assertions="5" time="0.344123"/>
+        <testcase name="testEach with data set #1" assertions="5" time="0.091436"/>
+        <testcase name="testEach with data set #2" assertions="5" time="0.092042"/>
+        <testcase name="testEach with data set #3" assertions="5" time="0.096756"/>
+        <testcase name="testEach with data set #4" assertions="5" time="0.096401"/>
+        <testcase name="testEach with data set #5" assertions="5" time="0.098034"/>
+        <testcase name="testEach with data set #6" assertions="5" time="0.142158"/>
+        <testcase name="testEach with data set #7" assertions="5" time="0.099972"/>
+        <testcase name="testEach with data set #8" assertions="5" time="0.099220"/>
+        <testcase name="testEach with data set #9" assertions="5" time="0.108615"/>
+        <testcase name="testEach with data set #10" assertions="5" time="0.099236"/>
+        <testcase name="testEach with data set #11" assertions="5" time="0.111332"/>
+        <testcase name="testEach with data set #12" assertions="5" time="0.106390"/>
+        <testcase name="testEach with data set #13" assertions="5" time="0.102466"/>
+        <testcase name="testEach with data set #14" assertions="5" time="0.116835"/>
+        <testcase name="testEach with data set #15" assertions="5" time="0.100206"/>
+        <testcase name="testEach with data set #16" assertions="5" time="0.107029"/>
+        <testcase name="testEach with data set #17" assertions="5" time="0.095188"/>
+        <testcase name="testEach with data set #18" assertions="5" time="0.105745"/>
+        <testcase name="testEach with data set #19" assertions="5" time="0.108089"/>
+        <testcase name="testEach with data set #20" assertions="5" time="0.114245"/>
+        <testcase name="testEach with data set #21" assertions="5" time="0.096599"/>
+        <testcase name="testEach with data set #22" assertions="5" time="0.099957"/>
+        <testcase name="testEach with data set #23" assertions="5" time="0.097172"/>
+        <testcase name="testEach with data set #24" assertions="5" time="0.113689"/>
+        <testcase name="testEach with data set #25" assertions="5" time="0.100682"/>
+        <testcase name="testEach with data set #26" assertions="5" time="0.114840"/>
+        <testcase name="testEach with data set #27" assertions="5" time="0.102092"/>
+        <testcase name="testEach with data set #28" assertions="5" time="0.103104"/>
+        <testcase name="testEach with data set #29" assertions="5" time="0.100218"/>
+        <testcase name="testEach with data set #30" assertions="5" time="0.107675"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Civi\API\KernelTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/KernelTest.php" tests="2" assertions="11" failures="0" errors="0" time="0.510678">
+      <testcase name="testNormalEvents" class="Civi\API\KernelTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/KernelTest.php" line="34" assertions="4" time="0.401046"/>
+      <testcase name="testResolveException" class="Civi\API\KernelTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/KernelTest.php" line="50" assertions="7" time="0.109632"/>
+    </testsuite>
+    <testsuite name="Civi\API\RequestTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/API/RequestTest.php" tests="11" assertions="33" failures="0" errors="0" time="1.416756">
+      <testsuite name="Civi\API\RequestTest::testCreateRequest_EntityActionMunging" tests="4" assertions="12" failures="0" errors="0" time="0.660312">
+        <testcase name="testCreateRequest_EntityActionMunging with data set #0" assertions="3" time="0.349320"/>
+        <testcase name="testCreateRequest_EntityActionMunging with data set #1" assertions="3" time="0.105107"/>
+        <testcase name="testCreateRequest_EntityActionMunging with data set #2" assertions="3" time="0.105344"/>
+        <testcase name="testCreateRequest_EntityActionMunging with data set #3" assertions="3" time="0.100541"/>
+      </testsuite>
+      <testsuite name="Civi\API\RequestTest::testCreateRequest_InvalidEntityAction" tests="7" assertions="21" failures="0" errors="0" time="0.756444">
+        <testcase name="testCreateRequest_InvalidEntityAction with data set #0" assertions="3" time="0.098528"/>
+        <testcase name="testCreateRequest_InvalidEntityAction with data set #1" assertions="3" time="0.095830"/>
+        <testcase name="testCreateRequest_InvalidEntityAction with data set #2" assertions="3" time="0.114626"/>
+        <testcase name="testCreateRequest_InvalidEntityAction with data set #3" assertions="3" time="0.117889"/>
+        <testcase name="testCreateRequest_InvalidEntityAction with data set #4" assertions="3" time="0.113868"/>
+        <testcase name="testCreateRequest_InvalidEntityAction with data set #5" assertions="3" time="0.111488"/>
+        <testcase name="testCreateRequest_InvalidEntityAction with data set #6" assertions="3" time="0.104215"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Civi\Angular\ChangeSetTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ChangeSetTest.php" tests="2" assertions="8" failures="0" errors="0" time="0.438262">
+      <testcase name="testInsertAfter" class="Civi\Angular\ChangeSetTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ChangeSetTest.php" line="38" assertions="4" time="0.342662"/>
+      <testcase name="testAppendPrepend" class="Civi\Angular\ChangeSetTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ChangeSetTest.php" line="68" assertions="4" time="0.095600"/>
+    </testsuite>
+    <testsuite name="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" tests="9" assertions="202" failures="0" errors="0" time="4.085222">
+      <testcase name="testGetModules" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="59" assertions="172" time="0.547843"/>
+      <testcase name="testGetPartials" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="110" assertions="3" time="0.414016"/>
+      <testcase name="testGetPartials_Hooked" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="119" assertions="3" time="0.442605"/>
+      <testcase name="testGetJs_Asset" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="127" assertions="6" time="0.424038"/>
+      <testcase name="testGetStrings" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="141" assertions="4" time="0.572100"/>
+      <testcase name="testGetStrings_Hooked" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="151" assertions="3" time="0.431037"/>
+      <testcase name="testGetRequires" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="162" assertions="4" time="0.419544"/>
+      <testcase name="testGetRequires_Hooked" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="172" assertions="4" time="0.418325"/>
+      <testcase name="testResolveDeps" class="Civi\Angular\ManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/ManagerTest.php" line="184" assertions="3" time="0.415714"/>
+    </testsuite>
+    <testsuite name="Civi\Angular\PartialSyntaxTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/PartialSyntaxTest.php" tests="8" assertions="24" failures="0" errors="0" time="2.663120">
+      <testsuite name="Civi\Angular\PartialSyntaxTest::testConsistencyExamples" tests="7" assertions="21" failures="0" errors="0" time="2.194930">
+        <testcase name="testConsistencyExamples with data set #0" assertions="3" time="0.343802"/>
+        <testcase name="testConsistencyExamples with data set #1" assertions="3" time="0.309212"/>
+        <testcase name="testConsistencyExamples with data set #2" assertions="3" time="0.307755"/>
+        <testcase name="testConsistencyExamples with data set #3" assertions="3" time="0.305580"/>
+        <testcase name="testConsistencyExamples with data set #4" assertions="3" time="0.309377"/>
+        <testcase name="testConsistencyExamples with data set #5" assertions="3" time="0.318283"/>
+        <testcase name="testConsistencyExamples with data set #6" assertions="3" time="0.300921"/>
+      </testsuite>
+      <testcase name="testAllPartials" class="Civi\Angular\PartialSyntaxTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Angular/PartialSyntaxTest.php" line="103" assertions="3" time="0.468190"/>
+    </testsuite>
+    <testsuite name="Civi\CCase\SequenceListenerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/CCase/SequenceListenerTest.php" tests="1" assertions="67" failures="0" errors="0" time="1.352825">
+      <testcase name="testSequence" class="Civi\CCase\SequenceListenerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/CCase/SequenceListenerTest.php" line="27" assertions="67" time="1.352825"/>
+    </testsuite>
+    <testsuite name="Civi\Core\Event\GenericHookEventTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/Event/GenericHookEventTest.php" tests="3" assertions="30" failures="0" errors="0" time="0.529984">
+      <testcase name="testConstructParams" class="Civi\Core\Event\GenericHookEventTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/Event/GenericHookEventTest.php" line="11" assertions="10" time="0.341246"/>
+      <testcase name="testConstructOrdered" class="Civi\Core\Event\GenericHookEventTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/Event/GenericHookEventTest.php" line="28" assertions="11" time="0.097492"/>
+      <testcase name="testDispatch" class="Civi\Core\Event\GenericHookEventTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/Event/GenericHookEventTest.php" line="44" assertions="9" time="0.091246"/>
+    </testsuite>
+    <testsuite name="Civi\Core\CiviEventInspectorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/CiviEventInspectorTest.php" tests="3" assertions="482" failures="0" errors="0" time="0.573616">
+      <testcase name="testGet" class="Civi\Core\CiviEventInspectorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/CiviEventInspectorTest.php" line="10" assertions="12" time="0.358167"/>
+      <testcase name="testGetAll" class="Civi\Core\CiviEventInspectorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/CiviEventInspectorTest.php" line="25" assertions="464" time="0.106718"/>
+      <testcase name="testFind" class="Civi\Core\CiviEventInspectorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/CiviEventInspectorTest.php" line="40" assertions="6" time="0.108731"/>
+    </testsuite>
+    <testsuite name="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" tests="11" assertions="37" failures="0" errors="0" time="1.414027">
+      <testcase name="testConstant" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="27" assertions="4" time="0.339817"/>
+      <testcase name="testGlobalFunc" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="40" assertions="4" time="0.106491"/>
+      <testcase name="testStatic" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="53" assertions="4" time="0.105286"/>
+      <testcase name="testApi3" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="65" assertions="3" time="0.095243"/>
+      <testcase name="testCall" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="76" assertions="3" time="0.099255"/>
+      <testcase name="testCallWithInvalidService" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="90" assertions="3" time="0.093472"/>
+      <testcase name="testGlobalGetter" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="97" assertions="4" time="0.148320"/>
+      <testcase name="testGlobalSetter" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="106" assertions="3" time="0.099717"/>
+      <testcase name="testObj" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="116" assertions="3" time="0.098691"/>
+      <testcase name="testObjWithInvalidService" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="128" assertions="3" time="0.121929"/>
+      <testcase name="testClass" class="Civi\Core\ResolverTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/ResolverTest.php" line="135" assertions="3" time="0.105806"/>
+    </testsuite>
+    <testsuite name="Civi\Core\SettingsBagTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsBagTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.282530">
+      <testcase name="testInnoDbFTS" class="Civi\Core\SettingsBagTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsBagTest.php" line="25" assertions="1" time="0.282530"/>
+    </testsuite>
+    <testsuite name="Civi\Core\SettingsManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsManagerTest.php" tests="3" assertions="22" failures="0" errors="0" time="0.422132">
+      <testcase name="testTwoDomains" class="Civi\Core\SettingsManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsManagerTest.php" line="49" assertions="9" time="0.310565"/>
+      <testcase name="testTwoContacts" class="Civi\Core\SettingsManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsManagerTest.php" line="77" assertions="9" time="0.059285"/>
+      <testcase name="testCrossOver" class="Civi\Core\SettingsManagerTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsManagerTest.php" line="104" assertions="4" time="0.052282"/>
+    </testsuite>
+    <testsuite name="Civi\Core\SettingsStackTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsStackTest.php" tests="1" assertions="3" failures="0" errors="0" time="0.261315">
+      <testcase name="testStack" class="Civi\Core\SettingsStackTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Core/SettingsStackTest.php" line="18" assertions="3" time="0.261315"/>
+    </testsuite>
+    <testsuite name="Civi\Test\ExampleHookTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Test/ExampleHookTest.php" tests="1" assertions="1" failures="0" errors="0" time="0.609555">
+      <testcase name="testPageOutput" class="Civi\Test\ExampleHookTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Test/ExampleHookTest.php" line="41" assertions="1" time="0.609555"/>
+    </testsuite>
+    <testsuite name="Civi\Test\ExampleTransactionalTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Test/ExampleTransactionalTest.php" tests="2" assertions="6" failures="0" errors="0" time="0.046479">
+      <testcase name="testDummy1" class="Civi\Test\ExampleTransactionalTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Test/ExampleTransactionalTest.php" line="35" assertions="2" time="0.022880"/>
+      <testcase name="testDummy2" class="Civi\Test\ExampleTransactionalTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Test/ExampleTransactionalTest.php" line="48" assertions="4" time="0.023599"/>
+    </testsuite>
+    <testsuite name="Civi\Token\TokenProcessorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Token/TokenProcessorTest.php" tests="4" assertions="35" failures="0" errors="0" time="1.011979">
+      <testcase name="testRowContext" class="Civi\Token\TokenProcessorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Token/TokenProcessorTest.php" line="37" assertions="12" time="0.270773"/>
+      <testcase name="testRowTokens" class="Civi\Token\TokenProcessorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Token/TokenProcessorTest.php" line="65" assertions="10" time="0.244020"/>
+      <testcase name="testGetMessageTokens" class="Civi\Token\TokenProcessorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Token/TokenProcessorTest.php" line="87" assertions="1" time="0.251779"/>
+      <testcase name="testFull" class="Civi\Token\TokenProcessorTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/Civi/Token/TokenProcessorTest.php" line="104" assertions="12" time="0.245407"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

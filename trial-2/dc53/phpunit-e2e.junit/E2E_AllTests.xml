@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="E2E All Tests" tests="24" assertions="112" failures="0" errors="0" time="4.101967">
+    <testsuite name="E2E\Core\AssetBuilderTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Core/AssetBuilderTest.php" tests="10" assertions="83" failures="0" errors="0" time="0.443174">
+      <testsuite name="E2E\Core\AssetBuilderTest::testRender" tests="3" assertions="15" failures="0" errors="0" time="0.022042">
+        <testcase name="testRender with data set #0" assertions="4" time="0.021414"/>
+        <testcase name="testRender with data set #1" assertions="5" time="0.000328"/>
+        <testcase name="testRender with data set #2" assertions="6" time="0.000300"/>
+      </testsuite>
+      <testsuite name="E2E\Core\AssetBuilderTest::testGetUrl_cached" tests="3" assertions="30" failures="0" errors="0" time="0.033179">
+        <testcase name="testGetUrl_cached with data set #0" assertions="9" time="0.002175"/>
+        <testcase name="testGetUrl_cached with data set #1" assertions="10" time="0.027933"/>
+        <testcase name="testGetUrl_cached with data set #2" assertions="11" time="0.003071"/>
+      </testsuite>
+      <testsuite name="E2E\Core\AssetBuilderTest::testGetUrl_uncached" tests="3" assertions="36" failures="0" errors="0" time="0.003264">
+        <testcase name="testGetUrl_uncached with data set #0" assertions="11" time="0.002145"/>
+        <testcase name="testGetUrl_uncached with data set #1" assertions="12" time="0.000591"/>
+        <testcase name="testGetUrl_uncached with data set #2" assertions="13" time="0.000528"/>
+      </testsuite>
+      <testcase name="testInvalid" class="E2E\Core\AssetBuilderTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Core/AssetBuilderTest.php" line="162" assertions="2" time="0.384689"/>
+    </testsuite>
+    <testsuite name="E2E_Extern_RestTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/RestTest.php" tests="11" assertions="24" failures="0" errors="0" time="3.034446">
+      <testsuite name="E2E_Extern_RestTest::testAPICalls" tests="9" assertions="18" failures="0" errors="0" time="2.638398">
+        <testcase name="testAPICalls with data set #0" assertions="2" time="0.395499"/>
+        <testcase name="testAPICalls with data set #1" assertions="2" time="0.479067"/>
+        <testcase name="testAPICalls with data set #2" assertions="2" time="0.216088"/>
+        <testcase name="testAPICalls with data set #3" assertions="2" time="0.229596"/>
+        <testcase name="testAPICalls with data set #4" assertions="2" time="0.205264"/>
+        <testcase name="testAPICalls with data set #5" assertions="2" time="0.445118"/>
+        <testcase name="testAPICalls with data set #6" assertions="2" time="0.218788"/>
+        <testcase name="testAPICalls with data set #7" assertions="2" time="0.233398"/>
+        <testcase name="testAPICalls with data set #8" assertions="2" time="0.215580"/>
+      </testsuite>
+      <testcase name="testNotCMSUser_entityAction" class="E2E_Extern_RestTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/RestTest.php" line="229" assertions="3" time="0.205521"/>
+      <testcase name="testNotCMSUser_q" class="E2E_Extern_RestTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/RestTest.php" line="261" assertions="3" time="0.190527"/>
+    </testsuite>
+    <testsuite name="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.624348">
+      <testcase name="testAuthenticationBadPassword" class="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" line="58" assertions="1" time="0.148716"/>
+      <testcase name="testAuthenticationBadKey" class="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" line="68" assertions="1" time="0.190728"/>
+      <testcase name="testGetContact" class="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" line="77" assertions="3" time="0.284904"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

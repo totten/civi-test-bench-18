@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="E2E All Tests" tests="414" assertions="641" failures="0" errors="0" time="20.590504">
+    <testsuite name="E2E_Cache_APCcacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/APCcacheTest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000">
+      <testsuite name="E2E_Cache_APCcacheTest::testGetInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testGetMultipleInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetMultipleInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testHasInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testDeleteInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testDeleteMultipleInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetInvalidTtl" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetMultipleInvalidTtl" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetValidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetMultipleValidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetValidData" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_APCcacheTest::testSetMultipleValidData" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    </testsuite>
+    <testsuite name="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" tests="193" assertions="257" failures="0" errors="0" time="8.033924">
+      <testcase name="testBasicUsageWithLongKey" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="49" assertions="6" time="0.000327"/>
+      <testcase name="testSet" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="125" assertions="2" time="0.000175"/>
+      <testcase name="testSetTtl" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="136" assertions="5" time="4.000848"/>
+      <testcase name="testSetExpiredTtl" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="154" assertions="4" time="0.000369"/>
+      <testcase name="testGet" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="170" assertions="3" time="0.000377"/>
+      <testcase name="testDelete" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="183" assertions="3" time="0.000252"/>
+      <testcase name="testClear" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="195" assertions="3" time="0.000227"/>
+      <testcase name="testSetMultiple" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="207" assertions="3" time="0.000274"/>
+      <testcase name="testSetMultipleWithIntegerArrayKey" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="219" assertions="2" time="0.000230"/>
+      <testcase name="testSetMultipleTtl" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="230" assertions="6" time="4.000765"/>
+      <testcase name="testSetMultipleExpiredTtl" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="249" assertions="2" time="0.000349"/>
+      <testcase name="testSetMultipleWithGenerator" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="260" assertions="2" time="0.000205"/>
+      <testcase name="testGetMultiple" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="276" assertions="7" time="0.000212"/>
+      <testcase name="testGetMultipleWithGenerator" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="306" assertions="5" time="0.000186"/>
+      <testcase name="testDeleteMultiple" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="336" assertions="5" time="0.000148"/>
+      <testcase name="testDeleteMultipleGenerator" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="352" assertions="3" time="0.000124"/>
+      <testcase name="testHas" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="369" assertions="2" time="0.000117"/>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testGetInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.002427">
+        <testcase name="testGetInvalidKeys with data set #0" assertions="1" time="0.000506"/>
+        <testcase name="testGetInvalidKeys with data set #1" assertions="1" time="0.000142"/>
+        <testcase name="testGetInvalidKeys with data set #2" assertions="1" time="0.000136"/>
+        <testcase name="testGetInvalidKeys with data set #3" assertions="1" time="0.000107"/>
+        <testcase name="testGetInvalidKeys with data set #4" assertions="1" time="0.000116"/>
+        <testcase name="testGetInvalidKeys with data set #5" assertions="1" time="0.000105"/>
+        <testcase name="testGetInvalidKeys with data set #6" assertions="1" time="0.000110"/>
+        <testcase name="testGetInvalidKeys with data set #7" assertions="1" time="0.000109"/>
+        <testcase name="testGetInvalidKeys with data set #8" assertions="1" time="0.000107"/>
+        <testcase name="testGetInvalidKeys with data set #9" assertions="1" time="0.000106"/>
+        <testcase name="testGetInvalidKeys with data set #10" assertions="1" time="0.000107"/>
+        <testcase name="testGetInvalidKeys with data set #11" assertions="1" time="0.000106"/>
+        <testcase name="testGetInvalidKeys with data set #12" assertions="1" time="0.000106"/>
+        <testcase name="testGetInvalidKeys with data set #13" assertions="1" time="0.000105"/>
+        <testcase name="testGetInvalidKeys with data set #14" assertions="1" time="0.000117"/>
+        <testcase name="testGetInvalidKeys with data set #15" assertions="1" time="0.000114"/>
+        <testcase name="testGetInvalidKeys with data set #16" assertions="1" time="0.000112"/>
+        <testcase name="testGetInvalidKeys with data set #17" assertions="1" time="0.000117"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testGetMultipleInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.010412">
+        <testcase name="testGetMultipleInvalidKeys with data set #0" assertions="1" time="0.000138"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #1" assertions="1" time="0.000124"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #2" assertions="1" time="0.000114"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #3" assertions="1" time="0.000114"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #4" assertions="1" time="0.000114"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #5" assertions="1" time="0.000125"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #6" assertions="1" time="0.000116"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #7" assertions="1" time="0.000117"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #8" assertions="1" time="0.000116"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #9" assertions="1" time="0.000116"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #10" assertions="1" time="0.000114"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #11" assertions="1" time="0.000122"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #12" assertions="1" time="0.000127"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #13" assertions="1" time="0.000123"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #14" assertions="1" time="0.008311"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #15" assertions="1" time="0.000173"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #16" assertions="1" time="0.000126"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #17" assertions="1" time="0.000122"/>
+      </testsuite>
+      <testcase name="testGetMultipleNoIterable" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="428" assertions="1" time="0.000113"/>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.002017">
+        <testcase name="testSetInvalidKeys with data set #0" assertions="1" time="0.000116"/>
+        <testcase name="testSetInvalidKeys with data set #1" assertions="1" time="0.000127"/>
+        <testcase name="testSetInvalidKeys with data set #2" assertions="1" time="0.000109"/>
+        <testcase name="testSetInvalidKeys with data set #3" assertions="1" time="0.000112"/>
+        <testcase name="testSetInvalidKeys with data set #4" assertions="1" time="0.000107"/>
+        <testcase name="testSetInvalidKeys with data set #5" assertions="1" time="0.000106"/>
+        <testcase name="testSetInvalidKeys with data set #6" assertions="1" time="0.000108"/>
+        <testcase name="testSetInvalidKeys with data set #7" assertions="1" time="0.000110"/>
+        <testcase name="testSetInvalidKeys with data set #8" assertions="1" time="0.000107"/>
+        <testcase name="testSetInvalidKeys with data set #9" assertions="1" time="0.000115"/>
+        <testcase name="testSetInvalidKeys with data set #10" assertions="1" time="0.000115"/>
+        <testcase name="testSetInvalidKeys with data set #11" assertions="1" time="0.000116"/>
+        <testcase name="testSetInvalidKeys with data set #12" assertions="1" time="0.000114"/>
+        <testcase name="testSetInvalidKeys with data set #13" assertions="1" time="0.000115"/>
+        <testcase name="testSetInvalidKeys with data set #14" assertions="1" time="0.000115"/>
+        <testcase name="testSetInvalidKeys with data set #15" assertions="1" time="0.000108"/>
+        <testcase name="testSetInvalidKeys with data set #16" assertions="1" time="0.000106"/>
+        <testcase name="testSetInvalidKeys with data set #17" assertions="1" time="0.000112"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetMultipleInvalidKeys" tests="17" assertions="17" failures="0" errors="0" time="0.002238">
+        <testcase name="testSetMultipleInvalidKeys with data set #0" assertions="1" time="0.000169"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #1" assertions="1" time="0.000127"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #2" assertions="1" time="0.000124"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #3" assertions="1" time="0.000122"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #5" assertions="1" time="0.000140"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #6" assertions="1" time="0.000134"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #7" assertions="1" time="0.000135"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #8" assertions="1" time="0.000131"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #9" assertions="1" time="0.000131"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #10" assertions="1" time="0.000130"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #11" assertions="1" time="0.000129"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #12" assertions="1" time="0.000129"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #13" assertions="1" time="0.000122"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #14" assertions="1" time="0.000120"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #15" assertions="1" time="0.000129"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #16" assertions="1" time="0.000129"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #17" assertions="1" time="0.000138"/>
+      </testsuite>
+      <testcase name="testSetMultipleNoIterable" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="475" assertions="1" time="0.000109"/>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testHasInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.002076">
+        <testcase name="testHasInvalidKeys with data set #0" assertions="1" time="0.000119"/>
+        <testcase name="testHasInvalidKeys with data set #1" assertions="1" time="0.000116"/>
+        <testcase name="testHasInvalidKeys with data set #2" assertions="1" time="0.000114"/>
+        <testcase name="testHasInvalidKeys with data set #3" assertions="1" time="0.000123"/>
+        <testcase name="testHasInvalidKeys with data set #4" assertions="1" time="0.000114"/>
+        <testcase name="testHasInvalidKeys with data set #5" assertions="1" time="0.000113"/>
+        <testcase name="testHasInvalidKeys with data set #6" assertions="1" time="0.000115"/>
+        <testcase name="testHasInvalidKeys with data set #7" assertions="1" time="0.000114"/>
+        <testcase name="testHasInvalidKeys with data set #8" assertions="1" time="0.000124"/>
+        <testcase name="testHasInvalidKeys with data set #9" assertions="1" time="0.000116"/>
+        <testcase name="testHasInvalidKeys with data set #10" assertions="1" time="0.000119"/>
+        <testcase name="testHasInvalidKeys with data set #11" assertions="1" time="0.000107"/>
+        <testcase name="testHasInvalidKeys with data set #12" assertions="1" time="0.000109"/>
+        <testcase name="testHasInvalidKeys with data set #13" assertions="1" time="0.000115"/>
+        <testcase name="testHasInvalidKeys with data set #14" assertions="1" time="0.000115"/>
+        <testcase name="testHasInvalidKeys with data set #15" assertions="1" time="0.000121"/>
+        <testcase name="testHasInvalidKeys with data set #16" assertions="1" time="0.000107"/>
+        <testcase name="testHasInvalidKeys with data set #17" assertions="1" time="0.000116"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testDeleteInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.002029">
+        <testcase name="testDeleteInvalidKeys with data set #0" assertions="1" time="0.000121"/>
+        <testcase name="testDeleteInvalidKeys with data set #1" assertions="1" time="0.000113"/>
+        <testcase name="testDeleteInvalidKeys with data set #2" assertions="1" time="0.000111"/>
+        <testcase name="testDeleteInvalidKeys with data set #3" assertions="1" time="0.000111"/>
+        <testcase name="testDeleteInvalidKeys with data set #4" assertions="1" time="0.000109"/>
+        <testcase name="testDeleteInvalidKeys with data set #5" assertions="1" time="0.000109"/>
+        <testcase name="testDeleteInvalidKeys with data set #6" assertions="1" time="0.000115"/>
+        <testcase name="testDeleteInvalidKeys with data set #7" assertions="1" time="0.000128"/>
+        <testcase name="testDeleteInvalidKeys with data set #8" assertions="1" time="0.000117"/>
+        <testcase name="testDeleteInvalidKeys with data set #9" assertions="1" time="0.000114"/>
+        <testcase name="testDeleteInvalidKeys with data set #10" assertions="1" time="0.000113"/>
+        <testcase name="testDeleteInvalidKeys with data set #11" assertions="1" time="0.000105"/>
+        <testcase name="testDeleteInvalidKeys with data set #12" assertions="1" time="0.000108"/>
+        <testcase name="testDeleteInvalidKeys with data set #13" assertions="1" time="0.000112"/>
+        <testcase name="testDeleteInvalidKeys with data set #14" assertions="1" time="0.000123"/>
+        <testcase name="testDeleteInvalidKeys with data set #15" assertions="1" time="0.000107"/>
+        <testcase name="testDeleteInvalidKeys with data set #16" assertions="1" time="0.000105"/>
+        <testcase name="testDeleteInvalidKeys with data set #17" assertions="1" time="0.000108"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testDeleteMultipleInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.002210">
+        <testcase name="testDeleteMultipleInvalidKeys with data set #0" assertions="1" time="0.000126"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #1" assertions="1" time="0.000118"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #2" assertions="1" time="0.000114"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #3" assertions="1" time="0.000122"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #4" assertions="1" time="0.000121"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #5" assertions="1" time="0.000120"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #6" assertions="1" time="0.000122"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #7" assertions="1" time="0.000123"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #8" assertions="1" time="0.000123"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #9" assertions="1" time="0.000121"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #10" assertions="1" time="0.000122"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #11" assertions="1" time="0.000117"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #12" assertions="1" time="0.000114"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #13" assertions="1" time="0.000133"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #14" assertions="1" time="0.000123"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #15" assertions="1" time="0.000144"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #16" assertions="1" time="0.000121"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #17" assertions="1" time="0.000125"/>
+      </testsuite>
+      <testcase name="testDeleteMultipleNoIterable" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="526" assertions="1" time="0.000107"/>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetInvalidTtl" tests="10" assertions="10" failures="0" errors="0" time="0.001160">
+        <testcase name="testSetInvalidTtl with data set #0" assertions="1" time="0.000117"/>
+        <testcase name="testSetInvalidTtl with data set #1" assertions="1" time="0.000112"/>
+        <testcase name="testSetInvalidTtl with data set #2" assertions="1" time="0.000108"/>
+        <testcase name="testSetInvalidTtl with data set #3" assertions="1" time="0.000116"/>
+        <testcase name="testSetInvalidTtl with data set #4" assertions="1" time="0.000118"/>
+        <testcase name="testSetInvalidTtl with data set #5" assertions="1" time="0.000117"/>
+        <testcase name="testSetInvalidTtl with data set #6" assertions="1" time="0.000116"/>
+        <testcase name="testSetInvalidTtl with data set #7" assertions="1" time="0.000117"/>
+        <testcase name="testSetInvalidTtl with data set #8" assertions="1" time="0.000118"/>
+        <testcase name="testSetInvalidTtl with data set #9" assertions="1" time="0.000121"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetMultipleInvalidTtl" tests="10" assertions="10" failures="0" errors="0" time="0.001227">
+        <testcase name="testSetMultipleInvalidTtl with data set #0" assertions="1" time="0.000135"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #1" assertions="1" time="0.000131"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #2" assertions="1" time="0.000123"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #3" assertions="1" time="0.000121"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #4" assertions="1" time="0.000123"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #5" assertions="1" time="0.000122"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #6" assertions="1" time="0.000121"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #7" assertions="1" time="0.000113"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #8" assertions="1" time="0.000113"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #9" assertions="1" time="0.000125"/>
+      </testsuite>
+      <testcase name="testNullOverwrite" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="561" assertions="1" time="0.000090"/>
+      <testcase name="testDataTypeString" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="573" assertions="2" time="0.000085"/>
+      <testcase name="testDataTypeInteger" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="585" assertions="2" time="0.000077"/>
+      <testcase name="testDataTypeFloat" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="597" assertions="2" time="0.000081"/>
+      <testcase name="testDataTypeBoolean" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="610" assertions="3" time="0.000090"/>
+      <testcase name="testDataTypeArray" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="623" assertions="2" time="0.000078"/>
+      <testcase name="testDataTypeObject" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="636" assertions="2" time="0.000243"/>
+      <testcase name="testBinaryData" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="650" assertions="1" time="0.000132"/>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetValidKeys" tests="2" assertions="2" failures="0" errors="0" time="0.000153">
+        <testcase name="testSetValidKeys with data set #0" assertions="1" time="0.000078"/>
+        <testcase name="testSetValidKeys with data set #1" assertions="1" time="0.000075"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetMultipleValidKeys" tests="2" assertions="6" failures="0" errors="0" time="0.000184">
+        <testcase name="testSetMultipleValidKeys with data set #0" assertions="3" time="0.000095"/>
+        <testcase name="testSetMultipleValidKeys with data set #1" assertions="3" time="0.000089"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetValidData" tests="7" assertions="7" failures="0" errors="0" time="0.000563">
+        <testcase name="testSetValidData with data set #0" assertions="1" time="0.000077"/>
+        <testcase name="testSetValidData with data set #1" assertions="1" time="0.000077"/>
+        <testcase name="testSetValidData with data set #2" assertions="1" time="0.000075"/>
+        <testcase name="testSetValidData with data set #3" assertions="1" time="0.000078"/>
+        <testcase name="testSetValidData with data set #4" assertions="1" time="0.000074"/>
+        <testcase name="testSetValidData with data set #5" assertions="1" time="0.000076"/>
+        <testcase name="testSetValidData with data set #6" assertions="1" time="0.000106"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_ArrayCacheTest::testSetMultipleValidData" tests="7" assertions="14" failures="0" errors="0" time="0.000673">
+        <testcase name="testSetMultipleValidData with data set #0" assertions="2" time="0.000093"/>
+        <testcase name="testSetMultipleValidData with data set #1" assertions="2" time="0.000119"/>
+        <testcase name="testSetMultipleValidData with data set #2" assertions="2" time="0.000089"/>
+        <testcase name="testSetMultipleValidData with data set #3" assertions="2" time="0.000086"/>
+        <testcase name="testSetMultipleValidData with data set #4" assertions="2" time="0.000084"/>
+        <testcase name="testSetMultipleValidData with data set #5" assertions="2" time="0.000088"/>
+        <testcase name="testSetMultipleValidData with data set #6" assertions="2" time="0.000114"/>
+      </testsuite>
+      <testcase name="testObjectAsDefaultValue" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="732" assertions="1" time="0.000075"/>
+      <testcase name="testObjectDoesNotChangeInCache" class="E2E_Cache_ArrayCacheTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ArrayCacheTest.php" line="743" assertions="1" time="0.000088"/>
+    </testsuite>
+    <testsuite name="E2E_Cache_ConfiguredMemoryTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/ConfiguredMemoryTest.php" tests="0" assertions="0" failures="0" errors="0" time="0.000000">
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testGetInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testGetMultipleInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetMultipleInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testHasInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testDeleteInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testDeleteMultipleInvalidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetInvalidTtl" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetMultipleInvalidTtl" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetValidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetMultipleValidKeys" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetValidData" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+      <testsuite name="E2E_Cache_ConfiguredMemoryTest::testSetMultipleValidData" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
+    </testsuite>
+    <testsuite name="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" tests="193" assertions="257" failures="0" errors="0" time="8.313759">
+      <testcase name="testBasicUsageWithLongKey" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="49" assertions="6" time="0.004220"/>
+      <testcase name="testSet" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="125" assertions="2" time="0.002371"/>
+      <testcase name="testSetTtl" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="136" assertions="5" time="4.010239"/>
+      <testcase name="testSetExpiredTtl" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="154" assertions="4" time="0.008106"/>
+      <testcase name="testGet" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="170" assertions="3" time="0.004348"/>
+      <testcase name="testDelete" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="183" assertions="3" time="0.004295"/>
+      <testcase name="testClear" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="195" assertions="3" time="0.003079"/>
+      <testcase name="testSetMultiple" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="207" assertions="3" time="0.004492"/>
+      <testcase name="testSetMultipleWithIntegerArrayKey" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="219" assertions="2" time="0.002965"/>
+      <testcase name="testSetMultipleTtl" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="230" assertions="6" time="4.012628"/>
+      <testcase name="testSetMultipleExpiredTtl" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="249" assertions="2" time="0.007523"/>
+      <testcase name="testSetMultipleWithGenerator" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="260" assertions="2" time="0.003387"/>
+      <testcase name="testGetMultiple" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="276" assertions="7" time="0.004919"/>
+      <testcase name="testGetMultipleWithGenerator" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="306" assertions="5" time="0.004205"/>
+      <testcase name="testDeleteMultiple" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="336" assertions="5" time="0.007369"/>
+      <testcase name="testDeleteMultipleGenerator" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="352" assertions="3" time="0.003275"/>
+      <testcase name="testHas" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="369" assertions="2" time="0.002340"/>
+      <testsuite name="E2E_Cache_SqlGroupTest::testGetInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.010725">
+        <testcase name="testGetInvalidKeys with data set #0" assertions="1" time="0.000550"/>
+        <testcase name="testGetInvalidKeys with data set #1" assertions="1" time="0.000505"/>
+        <testcase name="testGetInvalidKeys with data set #2" assertions="1" time="0.000551"/>
+        <testcase name="testGetInvalidKeys with data set #3" assertions="1" time="0.000642"/>
+        <testcase name="testGetInvalidKeys with data set #4" assertions="1" time="0.000578"/>
+        <testcase name="testGetInvalidKeys with data set #5" assertions="1" time="0.000551"/>
+        <testcase name="testGetInvalidKeys with data set #6" assertions="1" time="0.000533"/>
+        <testcase name="testGetInvalidKeys with data set #7" assertions="1" time="0.000556"/>
+        <testcase name="testGetInvalidKeys with data set #8" assertions="1" time="0.000570"/>
+        <testcase name="testGetInvalidKeys with data set #9" assertions="1" time="0.000617"/>
+        <testcase name="testGetInvalidKeys with data set #10" assertions="1" time="0.000603"/>
+        <testcase name="testGetInvalidKeys with data set #11" assertions="1" time="0.000723"/>
+        <testcase name="testGetInvalidKeys with data set #12" assertions="1" time="0.000743"/>
+        <testcase name="testGetInvalidKeys with data set #13" assertions="1" time="0.000679"/>
+        <testcase name="testGetInvalidKeys with data set #14" assertions="1" time="0.000622"/>
+        <testcase name="testGetInvalidKeys with data set #15" assertions="1" time="0.000604"/>
+        <testcase name="testGetInvalidKeys with data set #16" assertions="1" time="0.000568"/>
+        <testcase name="testGetInvalidKeys with data set #17" assertions="1" time="0.000530"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testGetMultipleInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.022242">
+        <testcase name="testGetMultipleInvalidKeys with data set #0" assertions="1" time="0.001271"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #1" assertions="1" time="0.001189"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #2" assertions="1" time="0.001148"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #3" assertions="1" time="0.001466"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #4" assertions="1" time="0.001256"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #5" assertions="1" time="0.001272"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #6" assertions="1" time="0.001192"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #7" assertions="1" time="0.001106"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #8" assertions="1" time="0.001322"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #9" assertions="1" time="0.001267"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #10" assertions="1" time="0.001182"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #11" assertions="1" time="0.001265"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #12" assertions="1" time="0.001169"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #13" assertions="1" time="0.001142"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #14" assertions="1" time="0.001312"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #15" assertions="1" time="0.001142"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #16" assertions="1" time="0.001292"/>
+        <testcase name="testGetMultipleInvalidKeys with data set #17" assertions="1" time="0.001249"/>
+      </testsuite>
+      <testcase name="testGetMultipleNoIterable" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="428" assertions="1" time="0.000679"/>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.011527">
+        <testcase name="testSetInvalidKeys with data set #0" assertions="1" time="0.000683"/>
+        <testcase name="testSetInvalidKeys with data set #1" assertions="1" time="0.000653"/>
+        <testcase name="testSetInvalidKeys with data set #2" assertions="1" time="0.000627"/>
+        <testcase name="testSetInvalidKeys with data set #3" assertions="1" time="0.000623"/>
+        <testcase name="testSetInvalidKeys with data set #4" assertions="1" time="0.000611"/>
+        <testcase name="testSetInvalidKeys with data set #5" assertions="1" time="0.000620"/>
+        <testcase name="testSetInvalidKeys with data set #6" assertions="1" time="0.000640"/>
+        <testcase name="testSetInvalidKeys with data set #7" assertions="1" time="0.000662"/>
+        <testcase name="testSetInvalidKeys with data set #8" assertions="1" time="0.000775"/>
+        <testcase name="testSetInvalidKeys with data set #9" assertions="1" time="0.000678"/>
+        <testcase name="testSetInvalidKeys with data set #10" assertions="1" time="0.000692"/>
+        <testcase name="testSetInvalidKeys with data set #11" assertions="1" time="0.000676"/>
+        <testcase name="testSetInvalidKeys with data set #12" assertions="1" time="0.000671"/>
+        <testcase name="testSetInvalidKeys with data set #13" assertions="1" time="0.000562"/>
+        <testcase name="testSetInvalidKeys with data set #14" assertions="1" time="0.000529"/>
+        <testcase name="testSetInvalidKeys with data set #15" assertions="1" time="0.000627"/>
+        <testcase name="testSetInvalidKeys with data set #16" assertions="1" time="0.000597"/>
+        <testcase name="testSetInvalidKeys with data set #17" assertions="1" time="0.000600"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetMultipleInvalidKeys" tests="17" assertions="17" failures="0" errors="0" time="0.047198">
+        <testcase name="testSetMultipleInvalidKeys with data set #0" assertions="1" time="0.002968"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #1" assertions="1" time="0.003151"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #2" assertions="1" time="0.003133"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #3" assertions="1" time="0.003020"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #5" assertions="1" time="0.002972"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #6" assertions="1" time="0.002930"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #7" assertions="1" time="0.002726"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #8" assertions="1" time="0.002478"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #9" assertions="1" time="0.003015"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #10" assertions="1" time="0.002143"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #11" assertions="1" time="0.002446"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #12" assertions="1" time="0.003020"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #13" assertions="1" time="0.003026"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #14" assertions="1" time="0.002774"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #15" assertions="1" time="0.002898"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #16" assertions="1" time="0.002410"/>
+        <testcase name="testSetMultipleInvalidKeys with data set #17" assertions="1" time="0.002088"/>
+      </testsuite>
+      <testcase name="testSetMultipleNoIterable" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="475" assertions="1" time="0.000560"/>
+      <testsuite name="E2E_Cache_SqlGroupTest::testHasInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.008772">
+        <testcase name="testHasInvalidKeys with data set #0" assertions="1" time="0.000499"/>
+        <testcase name="testHasInvalidKeys with data set #1" assertions="1" time="0.000501"/>
+        <testcase name="testHasInvalidKeys with data set #2" assertions="1" time="0.000491"/>
+        <testcase name="testHasInvalidKeys with data set #3" assertions="1" time="0.000466"/>
+        <testcase name="testHasInvalidKeys with data set #4" assertions="1" time="0.000501"/>
+        <testcase name="testHasInvalidKeys with data set #5" assertions="1" time="0.000471"/>
+        <testcase name="testHasInvalidKeys with data set #6" assertions="1" time="0.000475"/>
+        <testcase name="testHasInvalidKeys with data set #7" assertions="1" time="0.000523"/>
+        <testcase name="testHasInvalidKeys with data set #8" assertions="1" time="0.000467"/>
+        <testcase name="testHasInvalidKeys with data set #9" assertions="1" time="0.000460"/>
+        <testcase name="testHasInvalidKeys with data set #10" assertions="1" time="0.000561"/>
+        <testcase name="testHasInvalidKeys with data set #11" assertions="1" time="0.000519"/>
+        <testcase name="testHasInvalidKeys with data set #12" assertions="1" time="0.000473"/>
+        <testcase name="testHasInvalidKeys with data set #13" assertions="1" time="0.000465"/>
+        <testcase name="testHasInvalidKeys with data set #14" assertions="1" time="0.000464"/>
+        <testcase name="testHasInvalidKeys with data set #15" assertions="1" time="0.000461"/>
+        <testcase name="testHasInvalidKeys with data set #16" assertions="1" time="0.000515"/>
+        <testcase name="testHasInvalidKeys with data set #17" assertions="1" time="0.000461"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testDeleteInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.008423">
+        <testcase name="testDeleteInvalidKeys with data set #0" assertions="1" time="0.000470"/>
+        <testcase name="testDeleteInvalidKeys with data set #1" assertions="1" time="0.000447"/>
+        <testcase name="testDeleteInvalidKeys with data set #2" assertions="1" time="0.000446"/>
+        <testcase name="testDeleteInvalidKeys with data set #3" assertions="1" time="0.000445"/>
+        <testcase name="testDeleteInvalidKeys with data set #4" assertions="1" time="0.000499"/>
+        <testcase name="testDeleteInvalidKeys with data set #5" assertions="1" time="0.000466"/>
+        <testcase name="testDeleteInvalidKeys with data set #6" assertions="1" time="0.000510"/>
+        <testcase name="testDeleteInvalidKeys with data set #7" assertions="1" time="0.000469"/>
+        <testcase name="testDeleteInvalidKeys with data set #8" assertions="1" time="0.000492"/>
+        <testcase name="testDeleteInvalidKeys with data set #9" assertions="1" time="0.000461"/>
+        <testcase name="testDeleteInvalidKeys with data set #10" assertions="1" time="0.000473"/>
+        <testcase name="testDeleteInvalidKeys with data set #11" assertions="1" time="0.000468"/>
+        <testcase name="testDeleteInvalidKeys with data set #12" assertions="1" time="0.000466"/>
+        <testcase name="testDeleteInvalidKeys with data set #13" assertions="1" time="0.000458"/>
+        <testcase name="testDeleteInvalidKeys with data set #14" assertions="1" time="0.000455"/>
+        <testcase name="testDeleteInvalidKeys with data set #15" assertions="1" time="0.000457"/>
+        <testcase name="testDeleteInvalidKeys with data set #16" assertions="1" time="0.000467"/>
+        <testcase name="testDeleteInvalidKeys with data set #17" assertions="1" time="0.000474"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testDeleteMultipleInvalidKeys" tests="18" assertions="18" failures="0" errors="0" time="0.013684">
+        <testcase name="testDeleteMultipleInvalidKeys with data set #0" assertions="1" time="0.000848"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #1" assertions="1" time="0.000743"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #2" assertions="1" time="0.000818"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #3" assertions="1" time="0.000753"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #4" assertions="1" time="0.000727"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #5" assertions="1" time="0.000729"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #6" assertions="1" time="0.000779"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #7" assertions="1" time="0.000754"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #8" assertions="1" time="0.000726"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #9" assertions="1" time="0.000721"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #10" assertions="1" time="0.000726"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #11" assertions="1" time="0.000749"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #12" assertions="1" time="0.000738"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #13" assertions="1" time="0.000741"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #14" assertions="1" time="0.000770"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #15" assertions="1" time="0.000772"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #16" assertions="1" time="0.000797"/>
+        <testcase name="testDeleteMultipleInvalidKeys with data set #17" assertions="1" time="0.000793"/>
+      </testsuite>
+      <testcase name="testDeleteMultipleNoIterable" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="526" assertions="1" time="0.000463"/>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetInvalidTtl" tests="10" assertions="10" failures="0" errors="0" time="0.014574">
+        <testcase name="testSetInvalidTtl with data set #0" assertions="1" time="0.001508"/>
+        <testcase name="testSetInvalidTtl with data set #1" assertions="1" time="0.001397"/>
+        <testcase name="testSetInvalidTtl with data set #2" assertions="1" time="0.001496"/>
+        <testcase name="testSetInvalidTtl with data set #3" assertions="1" time="0.001406"/>
+        <testcase name="testSetInvalidTtl with data set #4" assertions="1" time="0.001406"/>
+        <testcase name="testSetInvalidTtl with data set #5" assertions="1" time="0.001414"/>
+        <testcase name="testSetInvalidTtl with data set #6" assertions="1" time="0.001399"/>
+        <testcase name="testSetInvalidTtl with data set #7" assertions="1" time="0.001458"/>
+        <testcase name="testSetInvalidTtl with data set #8" assertions="1" time="0.001486"/>
+        <testcase name="testSetInvalidTtl with data set #9" assertions="1" time="0.001604"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetMultipleInvalidTtl" tests="10" assertions="10" failures="0" errors="0" time="0.014627">
+        <testcase name="testSetMultipleInvalidTtl with data set #0" assertions="1" time="0.001443"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #1" assertions="1" time="0.001416"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #2" assertions="1" time="0.001444"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #3" assertions="1" time="0.001511"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #4" assertions="1" time="0.001556"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #5" assertions="1" time="0.001414"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #6" assertions="1" time="0.001472"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #7" assertions="1" time="0.001418"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #8" assertions="1" time="0.001477"/>
+        <testcase name="testSetMultipleInvalidTtl with data set #9" assertions="1" time="0.001475"/>
+      </testsuite>
+      <testcase name="testNullOverwrite" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="561" assertions="1" time="0.003370"/>
+      <testcase name="testDataTypeString" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="573" assertions="2" time="0.001857"/>
+      <testcase name="testDataTypeInteger" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="585" assertions="2" time="0.001919"/>
+      <testcase name="testDataTypeFloat" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="597" assertions="2" time="0.001870"/>
+      <testcase name="testDataTypeBoolean" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="610" assertions="3" time="0.001967"/>
+      <testcase name="testDataTypeArray" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="623" assertions="2" time="0.001923"/>
+      <testcase name="testDataTypeObject" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="636" assertions="2" time="0.002090"/>
+      <testcase name="testBinaryData" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="650" assertions="1" time="0.002380"/>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetValidKeys" tests="2" assertions="2" failures="0" errors="0" time="0.005951">
+        <testcase name="testSetValidKeys with data set #0" assertions="1" time="0.003212"/>
+        <testcase name="testSetValidKeys with data set #1" assertions="1" time="0.002739"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetMultipleValidKeys" tests="2" assertions="6" failures="0" errors="0" time="0.005974">
+        <testcase name="testSetMultipleValidKeys with data set #0" assertions="3" time="0.002706"/>
+        <testcase name="testSetMultipleValidKeys with data set #1" assertions="3" time="0.003268"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetValidData" tests="7" assertions="7" failures="0" errors="0" time="0.018906">
+        <testcase name="testSetValidData with data set #0" assertions="1" time="0.002999"/>
+        <testcase name="testSetValidData with data set #1" assertions="1" time="0.002807"/>
+        <testcase name="testSetValidData with data set #2" assertions="1" time="0.002687"/>
+        <testcase name="testSetValidData with data set #3" assertions="1" time="0.002466"/>
+        <testcase name="testSetValidData with data set #4" assertions="1" time="0.003002"/>
+        <testcase name="testSetValidData with data set #5" assertions="1" time="0.002305"/>
+        <testcase name="testSetValidData with data set #6" assertions="1" time="0.002640"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_SqlGroupTest::testSetMultipleValidData" tests="7" assertions="14" failures="0" errors="0" time="0.019404">
+        <testcase name="testSetMultipleValidData with data set #0" assertions="2" time="0.002873"/>
+        <testcase name="testSetMultipleValidData with data set #1" assertions="2" time="0.002902"/>
+        <testcase name="testSetMultipleValidData with data set #2" assertions="2" time="0.003032"/>
+        <testcase name="testSetMultipleValidData with data set #3" assertions="2" time="0.002318"/>
+        <testcase name="testSetMultipleValidData with data set #4" assertions="2" time="0.002758"/>
+        <testcase name="testSetMultipleValidData with data set #5" assertions="2" time="0.002533"/>
+        <testcase name="testSetMultipleValidData with data set #6" assertions="2" time="0.002988"/>
+      </testsuite>
+      <testcase name="testObjectAsDefaultValue" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="732" assertions="1" time="0.000982"/>
+      <testcase name="testObjectDoesNotChangeInCache" class="E2E_Cache_SqlGroupTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/SqlGroupTest.php" line="743" assertions="1" time="0.001932"/>
+    </testsuite>
+    <testsuite name="E2E_Cache_TwoInstancesTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Cache/TwoInstancesTest.php" tests="4" assertions="15" failures="0" errors="0" time="0.020421">
+      <testsuite name="E2E_Cache_TwoInstancesTest::testSingle_reload" tests="1" assertions="3" failures="0" errors="0" time="0.003302">
+        <testcase name="testSingle_reload with data set #0" assertions="3" time="0.003302"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_TwoInstancesTest::testDiff_clearA" tests="1" assertions="4" failures="0" errors="0" time="0.006096">
+        <testcase name="testDiff_clearA with data set #0" assertions="4" time="0.006096"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_TwoInstancesTest::testDiff_clearB" tests="1" assertions="4" failures="0" errors="0" time="0.006276">
+        <testcase name="testDiff_clearB with data set #0" assertions="4" time="0.006276"/>
+      </testsuite>
+      <testsuite name="E2E_Cache_TwoInstancesTest::testDiff_reload" tests="1" assertions="4" failures="0" errors="0" time="0.004747">
+        <testcase name="testDiff_reload with data set #0" assertions="4" time="0.004747"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="E2E\Core\AssetBuilderTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Core/AssetBuilderTest.php" tests="10" assertions="83" failures="0" errors="0" time="0.482699">
+      <testsuite name="E2E\Core\AssetBuilderTest::testRender" tests="3" assertions="15" failures="0" errors="0" time="0.019653">
+        <testcase name="testRender with data set #0" assertions="4" time="0.019122"/>
+        <testcase name="testRender with data set #1" assertions="5" time="0.000283"/>
+        <testcase name="testRender with data set #2" assertions="6" time="0.000248"/>
+      </testsuite>
+      <testsuite name="E2E\Core\AssetBuilderTest::testGetUrl_cached" tests="3" assertions="30" failures="0" errors="0" time="0.032496">
+        <testcase name="testGetUrl_cached with data set #0" assertions="9" time="0.002061"/>
+        <testcase name="testGetUrl_cached with data set #1" assertions="10" time="0.027746"/>
+        <testcase name="testGetUrl_cached with data set #2" assertions="11" time="0.002689"/>
+      </testsuite>
+      <testsuite name="E2E\Core\AssetBuilderTest::testGetUrl_uncached" tests="3" assertions="36" failures="0" errors="0" time="0.002774">
+        <testcase name="testGetUrl_uncached with data set #0" assertions="11" time="0.001823"/>
+        <testcase name="testGetUrl_uncached with data set #1" assertions="12" time="0.000508"/>
+        <testcase name="testGetUrl_uncached with data set #2" assertions="13" time="0.000443"/>
+      </testsuite>
+      <testcase name="testInvalid" class="E2E\Core\AssetBuilderTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Core/AssetBuilderTest.php" line="162" assertions="2" time="0.427776"/>
+    </testsuite>
+    <testsuite name="E2E_Extern_RestTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/RestTest.php" tests="11" assertions="24" failures="0" errors="0" time="3.085092">
+      <testsuite name="E2E_Extern_RestTest::testAPICalls" tests="9" assertions="18" failures="0" errors="0" time="2.673416">
+        <testcase name="testAPICalls with data set #0" assertions="2" time="0.396270"/>
+        <testcase name="testAPICalls with data set #1" assertions="2" time="0.472358"/>
+        <testcase name="testAPICalls with data set #2" assertions="2" time="0.219581"/>
+        <testcase name="testAPICalls with data set #3" assertions="2" time="0.239104"/>
+        <testcase name="testAPICalls with data set #4" assertions="2" time="0.212160"/>
+        <testcase name="testAPICalls with data set #5" assertions="2" time="0.453742"/>
+        <testcase name="testAPICalls with data set #6" assertions="2" time="0.220419"/>
+        <testcase name="testAPICalls with data set #7" assertions="2" time="0.244428"/>
+        <testcase name="testAPICalls with data set #8" assertions="2" time="0.215354"/>
+      </testsuite>
+      <testcase name="testNotCMSUser_entityAction" class="E2E_Extern_RestTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/RestTest.php" line="229" assertions="3" time="0.214145"/>
+      <testcase name="testNotCMSUser_q" class="E2E_Extern_RestTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/RestTest.php" line="261" assertions="3" time="0.197531"/>
+    </testsuite>
+    <testsuite name="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" tests="3" assertions="5" failures="0" errors="0" time="0.654610">
+      <testcase name="testAuthenticationBadPassword" class="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" line="58" assertions="1" time="0.158490"/>
+      <testcase name="testAuthenticationBadKey" class="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" line="68" assertions="1" time="0.199077"/>
+      <testcase name="testGetContact" class="E2E_Extern_SoapTest" file="/home/totten/bknix/build/dcbench/sites/all/modules/civicrm/tests/phpunit/E2E/Extern/SoapTest.php" line="77" assertions="3" time="0.297043"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

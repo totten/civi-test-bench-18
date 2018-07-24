@@ -1,0 +1,128 @@
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #X ('Widget', 'create', array(20))
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #X ('Widget', 'get', array(20))
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #X ('FakeFile', 'create', array(10))
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #X ('FakeFile', 'get', array(10))
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testOk with data set #X ('FakeFile', 'create', array('fake_widget', 20))
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('Forbidden', 'create', array(30), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('Forbidden', 'get', array(30), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'create', array(11), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'get', array(11), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'create', array('fake_forbidden'), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'get', array('fake_forbidden'), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'create', array('fake_forbidden', 30), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'get', array('fake_forbidden', 30), '/Authorization failed/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'create', array(), '/Mandatory key\(s\) missing f...table/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'get', array(), '/Mandatory key\(s\) missing f...table/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'create', array('unknown'), '/Unrecognized target entity/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'get', array('unknown'), '/Unrecognized target entity/')
+ Civi\API\Subscriber\DynamicFKAuthorizationTest::testBad with data set #X ('FakeFile', 'get', array('fake_widget'), '/Missing entity_id/')
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'get', array(), false, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(), true, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'delete', array(), true, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'submit', array(), true, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'get', array(true), true, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'get', array(false), false, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'get', array('nest'), true, false, true)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(true), true, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(false), false, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array('nest'), true, false, true)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(array(true)), true, true, true)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(array(false)), true, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(true, array(true)), true, true, true)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(true, array(false)), true, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(false, array(true)), true, true, true)
+ Civi\API\Subscriber\TransactionSubscriberTest::testTransactionOptions with data set #X (3, 'Widget', 'create', array(false, array(false)), false, false, false)
+ Civi\API\Subscriber\TransactionSubscriberTest::testForceRollback
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, '*', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'create', array(), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', array('get', 'create'), array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(2, 'bar', 'george jetson', 'second widget', 'this widget is a bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Sprocket', '*', array(), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, '*', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, 'Sprocket', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, 'Widget', '*', array(), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Sprocket', 'get', array(3), array(array(1, 'whiz', 'cosmo spacely', 'first sprocket', 'this sprocket is so good i co... it up', 2), array(5, 'bang', 'george jetson', 'second sprocket', 'this green sprocket was made ...oylent', 2), array(7, 'quux', 'cosmo spacely', 'third sprocket', 'sprocket green is people! spr...eople!', 3), array(8, 'baz', 'george jetson', 'fourth sprocket', 'see also: cooking.com/hanniba...t-fava', 3))), array(array(3, 'Widget', 'get', array(), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array('foo'), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'), array(8, 'bax', 'cosmo spacely', 'fourth widget', 'todo: rebuild garage'))), array(array(3, 'Widget', 'get', array('foo'), '*'), array(3, 'Sprocket', '*', array(), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely'), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title'))), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'foo'), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'foo'), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'))), array(array(3, 'Widget', 'get', array('foo'), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'foo'), array(array(1, 'foo', 'george jetson', 'first widget', 'this widget is the bomb'), array(3, 'foo', 'cosmo spacely', 'third widget', 'omg, that thing is a bomb! wi...t out!'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, '*', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title'))), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'widget_type'))), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'widget_type')), array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title'))), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'cosmo spacely', array('title')), array(array(3, 'third widget'), array(8, 'fourth widget'))), array(array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'title')), array(3, 'Widget', 'get', array('cosmo spacely'), array('id', 'widget_type'))), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, '*', '*', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array('bar'), array('id', 'title')), array(3, 'Sprocket', 'get', array(), '*')), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array(), '*'), array(3, 'Sprocket', 'get', array(), array('id', 'title', 'widget_id', 'entity_id', 'entity_table'))), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array(), '*'), array(3, 'Sprocket', 'get', array(), array('id', 'provider', 'widget_id', 'entity_id', 'entity_table'))), true)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array('foo'), '*'), array(3, 'Sprocket', 'get', array(), '*')), false)
+ Civi\API\Subscriber\WhitelistSubscriberTest::testEach with data set #X (array('Widget', 'get', array(3, 'bar', array('title'), array('$value.id', array('provider'))), array(array(2, 'second widget', array(2, 3, array(array(1, 'cosmo spacely'), array(5, 'george jetson')), array('entity_id', 'entity_table', 'widget_id', 'api.has_parent'))))), array(array(3, 'Widget', 'get', array(), '*')), false)
+ Civi\API\KernelTest::testNormalEvents
+ Civi\API\KernelTest::testResolveException
+ Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #X (array('MyEntity', 'MyAction', 3), array('MyEntity', 'myaction', 3))
+ Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #X (array('my+entity', 'MyAction', 3), array('MyEntity', 'myaction', 3))
+ Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #X (array('my entity with under_scores', 'My_Action', 3), array('MyEntityWithUnderScores', 'my_action', 3))
+ Civi\API\RequestTest::testCreateRequest_EntityActionMunging with data set #X (array('u_f_match', 'get Something', 3), array('UFMatch', 'get_something', 3))
+ Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #X ('Not!Valid', 'create', 4)
+ Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #X ('My+Entity', 'MyAction', 4)
+ Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #X ('My Entity', 'MyAction', 4)
+ Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #X ('2MyEntity', 'MyAction', 4)
+ Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #X ('MyEntity', 'My+Action', 4)
+ Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #X ('MyEntity', 'My Action', 4)
+ Civi\API\RequestTest::testCreateRequest_InvalidEntityAction with data set #X ('MyEntity', '2Action', 4)
+ Civi\Angular\ChangeSetTest::testInsertAfter
+ Civi\Angular\ChangeSetTest::testAppendPrepend
+ Civi\Angular\ManagerTest::testGetModules
+ Civi\Angular\ManagerTest::testGetPartials
+ Civi\Angular\ManagerTest::testGetPartials_Hooked
+ Civi\Angular\ManagerTest::testGetJs_Asset
+ Civi\Angular\ManagerTest::testGetStrings
+ Civi\Angular\ManagerTest::testGetStrings_Hooked
+ Civi\Angular\ManagerTest::testGetRequires
+ Civi\Angular\ManagerTest::testGetRequires_Hooked
+ Civi\Angular\ManagerTest::testResolveDeps
+ Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #X ('<div foo="bar"></div>', '<div foo="bar"></div>')
+ Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #X ('<div foo="bar"/>', '<div foo="bar"></div>')
+ Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #X ('<div foo='bar'></div>', '<div foo="bar"></div>')
+ Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #X ('<div foo='ts("Hello world")'></div>', '<div foo='ts("Hello world")'></div>')
+ Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #X ('<div foo="ts('Hello world')\"></div>', '<div foo="ts('Hello world')\"></div>')
+ Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #X ('<a href="{{foo}}" title="{{bar}}"></a>', '<a href="{{foo}}" title="{{bar}}"></a>')
+ Civi\Angular\PartialSyntaxTest::testConsistencyExamples with data set #X ('<div ng-if="a && b"></div>', '<div ng-if="a && b"></div>')
+ Civi\Angular\PartialSyntaxTest::testAllPartials
+ Civi\CCase\SequenceListenerTest::testSequence
+ Civi\Core\Event\GenericHookEventTest::testConstructParams
+ Civi\Core\Event\GenericHookEventTest::testConstructOrdered
+ Civi\Core\Event\GenericHookEventTest::testDispatch
+ Civi\Core\CiviEventInspectorTest::testGet
+ Civi\Core\CiviEventInspectorTest::testGetAll
+ Civi\Core\CiviEventInspectorTest::testFind
+ Civi\Core\ResolverTest::testConstant
+ Civi\Core\ResolverTest::testGlobalFunc
+ Civi\Core\ResolverTest::testStatic
+ Civi\Core\ResolverTest::testApi3
+ Civi\Core\ResolverTest::testCall
+ Civi\Core\ResolverTest::testCallWithInvalidService
+ Civi\Core\ResolverTest::testGlobalGetter
+ Civi\Core\ResolverTest::testGlobalSetter
+ Civi\Core\ResolverTest::testObj
+ Civi\Core\ResolverTest::testObjWithInvalidService
+ Civi\Core\ResolverTest::testClass
+ Civi\Core\SettingsBagTest::testInnoDbFTS
+ Civi\Core\SettingsManagerTest::testTwoDomains
+ Civi\Core\SettingsManagerTest::testTwoContacts
+ Civi\Core\SettingsManagerTest::testCrossOver
+ Civi\Core\SettingsStackTest::testStack
+ Civi\Test\ExampleHookTest::testPageOutput
+ Civi\Test\ExampleTransactionalTest::testDummy1
+ Civi\Test\ExampleTransactionalTest::testDummy2
+ Civi\Token\TokenProcessorTest::testRowContext
+ Civi\Token\TokenProcessorTest::testRowTokens
+ Civi\Token\TokenProcessorTest::testGetMessageTokens
+ Civi\Token\TokenProcessorTest::testFull
